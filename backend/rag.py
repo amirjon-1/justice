@@ -1,17 +1,20 @@
 """
-rag.py — ChromaDB-based RAG pipeline for JusticeMap.
+rag.py — TF-IDF RAG pipeline for JusticeMap.
 
-Uses ONNXMiniLM_L6_V2 embeddings (no PyTorch required).
-ChromaDB handles embedding + retrieval; no custom vector store needed.
+Replaced ChromaDB (broken on Python 3.14 due to pydantic v1) with a simple
+TF-IDF cosine similarity retriever over the pre-built data.json store.
+No external embedding model required.
 """
 
+import json
 import logging
 import os
+
+import numpy as np
 
 logger = logging.getLogger(__name__)
 
 VECTOR_STORE_PATH = os.getenv("VECTOR_STORE_PATH", "./vector_db")
-COLLECTION_NAME = "legal_docs"
 
 CITY_TAG_MAP = {
     "New York City": "nyc",
@@ -20,24 +23,30 @@ CITY_TAG_MAP = {
     "General": None,  # No city filter — search all documents
 }
 
-# Lazy singletons
-_client = None
-_collection = None
+# Lazy-loaded store
+_documents: list[str] = []
+_metadatas: list[dict] = []
+_loaded = False
 
 
-def _get_collection():
-    global _client, _collection
-    if _collection is None:
-        import chromadb
-        from chromadb.utils.embedding_functions import ONNXMiniLM_L6_V2
-        ef = ONNXMiniLM_L6_V2()
-        _client = chromadb.PersistentClient(path=VECTOR_STORE_PATH)
-        _collection = _client.get_collection(
-            name=COLLECTION_NAME,
-            embedding_function=ef,
-        )
-        logger.info(f"ChromaDB collection loaded: {_collection.count()} chunks")
-    return _collection
+def _load_store() -> None:
+    global _documents, _metadatas, _loaded
+    if _loaded:
+        return
+    data_path = os.path.join(VECTOR_STORE_PATH, "data.json")
+    if not os.path.exists(data_path):
+        logger.error(f"RAG data file not found: {data_path}")
+        _loaded = True
+        return
+    try:
+        with open(data_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        _documents = data.get("documents", [])
+        _metadatas = data.get("metadatas", [])
+        logger.info(f"RAG store loaded: {len(_documents)} chunks from {data_path}")
+    except Exception as e:
+        logger.error(f"Failed to load RAG store: {e}")
+    _loaded = True
 
 
 def retrieve_relevant_laws(
@@ -46,57 +55,52 @@ def retrieve_relevant_laws(
     n_results: int = 5,
 ) -> tuple[list[str], list[dict]]:
     """
-    Retrieve top n_results law chunks relevant to the query.
-    Uses ChromaDB with ONNX embeddings — no PyTorch required.
+    Retrieve top n_results law chunks relevant to the query using TF-IDF cosine similarity.
     """
-    try:
-        collection = _get_collection()
-    except Exception as e:
-        logger.error(f"Failed to load ChromaDB collection: {e}")
+    _load_store()
+    if not _documents:
+        logger.warning("RAG store is empty — no documents loaded")
         return [], []
 
     city_tag = CITY_TAG_MAP.get(city)
-    logger.info(f"[RAG] city={city!r} → city_tag={city_tag!r}")
+
+    # Build candidate list (city-filtered if applicable)
+    if city_tag is not None:
+        indices = [i for i, m in enumerate(_metadatas) if m.get("city") == city_tag]
+        if not indices:
+            logger.info(f"No docs for city_tag={city_tag!r}; falling back to all docs")
+            indices = list(range(len(_documents)))
+    else:
+        indices = list(range(len(_documents)))
+
+    candidate_docs = [_documents[i] for i in indices]
+    candidate_metas = [_metadatas[i] for i in indices]
 
     try:
-        if city_tag is None:
-            logger.info("[RAG] global search — no city filter")
-            results = collection.query(
-                query_texts=[query],
-                n_results=n_results,
-            )
-        else:
-            results = collection.query(
-                query_texts=[query],
-                n_results=n_results,
-                where={"city": city_tag},
-            )
-            if not results["documents"][0]:
-                logger.info(f"No city results for '{city_tag}'; falling back to global")
-                results = collection.query(
-                    query_texts=[query],
-                    n_results=n_results,
-                )
+        from sklearn.feature_extraction.text import TfidfVectorizer
+        from sklearn.metrics.pairwise import cosine_similarity
+
+        corpus = [query] + candidate_docs
+        vectorizer = TfidfVectorizer(stop_words="english", ngram_range=(1, 2))
+        tfidf_matrix = vectorizer.fit_transform(corpus)
+
+        query_vec = tfidf_matrix[0]
+        doc_vecs = tfidf_matrix[1:]
+        scores = cosine_similarity(query_vec, doc_vecs)[0]
+
+        top_k = min(n_results, len(candidate_docs))
+        top_indices = np.argsort(scores)[::-1][:top_k]
+
+        results = [(candidate_docs[i], candidate_metas[i]) for i in top_indices]
+        docs = [r[0] for r in results]
+        metas = [r[1] for r in results]
+
+        logger.info(f"RAG: city={city!r} query={query[:60]!r} → {len(docs)} results")
+        return docs, metas
+
     except Exception as e:
-        logger.warning(f"RAG query failed ({e}); trying global search")
-        try:
-            results = collection.query(
-                query_texts=[query],
-                n_results=n_results,
-            )
-        except Exception as e2:
-            logger.error(f"Global RAG query also failed: {e2}")
-            return [], []
-
-    candidates = results["documents"][0]
-    metadatas = results["metadatas"][0] if results.get("metadatas") else [{}] * len(candidates)
-
-    if not candidates:
-        logger.warning("No candidates returned from ChromaDB.")
+        logger.error(f"RAG TF-IDF retrieval failed: {e}")
         return [], []
-
-    logger.info(f"RAG retrieval: {len(candidates)} results for city={city!r}")
-    return candidates, metadatas
 
 
 def retrieve_relevant_laws_multi(
