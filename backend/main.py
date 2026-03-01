@@ -123,6 +123,7 @@ async def health_check():
 @app.post("/analyze")
 async def analyze(request: AnalyzeRequest):
     t0 = time.perf_counter()
+    print(f"[DEBUG] POST /analyze — city={request.city!r}, chars={len(request.problem)}", flush=True)
     logger.info(f"▶ POST /analyze — city={request.city!r}, chars={len(request.problem)}")
 
     try:

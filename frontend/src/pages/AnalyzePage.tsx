@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback, useRef } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { analyzeRights } from "../api";
@@ -29,6 +29,20 @@ const EXAMPLES: string[] = [
 ];
 
 const TABS = ["Your Rights", "The Laws", "Next Steps", "Demand Letter"];
+
+const COMMON_CASES = [
+  { icon: "🌡️", category: "Heat & Repairs", scenario: "My landlord hasn't fixed the heat in my apartment for 2+ weeks. It's winter and the temperature inside is dropping below 60°F." },
+  { icon: "⚖️", category: "Eviction Notice", scenario: "I received an eviction notice but I've paid all my rent on time. My landlord says I have 5 days to leave." },
+  { icon: "👮", category: "Police Conduct", scenario: "A police officer stopped me on the street and searched my bag without a warrant or my permission." },
+  { icon: "🏚️", category: "Unsafe Conditions", scenario: "My apartment has mold, pests, and structural damage that my landlord has been ignoring for months." },
+];
+
+const PIPELINE_STEPS = [
+  { num: "01", name: "Situation Parsed", desc: "AI extracts key facts and legal topics" },
+  { num: "02", name: "Laws Retrieved", desc: "Semantic search across 50K+ real ordinances" },
+  { num: "03", name: "Citations Verified", desc: "Cosine similarity grounding check" },
+  { num: "04", name: "Letter Generated", desc: "Formal demand letter drafted" },
+];
 
 /* ── Spinner SVG ────────────────────────────────────────────────────────────── */
 
@@ -851,6 +865,8 @@ const AnalyzePage: React.FC = () => {
   const [activeTab, setActiveTab] = useState(0);
   const [showExamples, setShowExamples] = useState(false);
   const [loadingMessage, setLoadingMessage] = useState(0);
+  const [hoveredCity, setHoveredCity] = useState<string | null>(null);
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => {
     if (!isLoading) return;
@@ -894,6 +910,34 @@ const AnalyzePage: React.FC = () => {
     >
       <style>{`
         .analyze-textarea::placeholder { color: #C4CEDD; }
+        @keyframes panelGlow {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0.4; }
+        }
+        .panel-glow-overlay {
+          position: absolute;
+          inset: 0;
+          background: radial-gradient(ellipse at 20% 50%, rgba(26,86,219,0.06) 0%, transparent 60%);
+          pointer-events: none;
+          animation: panelGlow 6s ease-in-out infinite;
+        }
+        @keyframes livePulse {
+          0% { box-shadow: 0 0 0 0 rgba(16,185,129,0.4); }
+          70% { box-shadow: 0 0 0 10px rgba(16,185,129,0); }
+          100% { box-shadow: 0 0 0 0 rgba(16,185,129,0); }
+        }
+        .live-dot { animation: livePulse 2s infinite; }
+        @keyframes btnShimmer {
+          0% { background-position: 100% 50%; }
+          100% { background-position: -100% 50%; }
+        }
+        .btn-shimmer {
+          background: linear-gradient(90deg, #1A56DB 0%, #1A56DB 35%, #2563EB 50%, #1A56DB 65%, #1A56DB 100%) !important;
+          background-size: 200% 100% !important;
+          animation: btnShimmer 3s linear infinite;
+        }
+        .scenario-card { transition: border-color 150ms; }
+        .scenario-card:hover { border-color: #1A56DB !important; }
       `}</style>
 
       {/* ── LEFT PANEL ── */}
@@ -907,10 +951,11 @@ const AnalyzePage: React.FC = () => {
           height: "100vh",
           overflowY: "auto",
           boxSizing: "border-box",
-          position: "sticky",
+          position: "relative",
           top: 0,
         }}
       >
+        <div className="panel-glow-overlay" />
         {/* Back link */}
         <Link
           to="/"
@@ -931,16 +976,21 @@ const AnalyzePage: React.FC = () => {
         {/* Title */}
         <h1
           style={{
-            fontSize: 28,
+            fontSize: 32,
             fontWeight: 800,
             color: "#0F172A",
-            letterSpacing: "-0.02em",
+            letterSpacing: "-0.03em",
             lineHeight: 1.2,
             margin: 0,
           }}
         >
           Check Your Rights
         </h1>
+
+        {/* Powered-by line */}
+        <div style={{ fontSize: 12, fontWeight: 600, color: "#F59E0B", marginTop: 6 }}>
+          ⚖ Powered by real municipal law
+        </div>
 
         {/* Subtext dots */}
         <div style={{ display: "flex", gap: 16, marginTop: 8, alignItems: "center" }}>
@@ -962,56 +1012,47 @@ const AnalyzePage: React.FC = () => {
         </div>
 
         <div
-          style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8, marginTop: 10 }}
+          style={{ display: "flex", flexDirection: "column", gap: 4, marginTop: 10 }}
         >
           {CITIES.map((c) => {
             const isSelected = city === c.name;
+            const isHovered = hoveredCity === c.name;
             return (
               <button
                 key={c.name}
                 onClick={() => setCity(c.name)}
+                onMouseEnter={() => setHoveredCity(c.name)}
+                onMouseLeave={() => setHoveredCity(null)}
                 style={{
-                  border: `1.5px solid ${isSelected ? "#1A56DB" : "#EAEAEA"}`,
-                  borderRadius: 10,
+                  borderTop: "1.5px solid #EAEAEA",
+                  borderRight: "1.5px solid #EAEAEA",
+                  borderBottom: "1.5px solid #EAEAEA",
+                  borderLeft: isSelected ? "3px solid #1A56DB" : "1.5px solid #EAEAEA",
+                  borderRadius: isSelected ? "0 10px 10px 0" : 8,
                   padding: "12px 14px",
                   textAlign: "left",
-                  background: isSelected ? "#F0F7FF" : "white",
+                  background: isSelected ? "#F0F7FF" : isHovered ? "#FAFAFA" : "white",
                   cursor: "pointer",
                   transition: "all 150ms",
                   fontFamily: "inherit",
                   boxShadow: isSelected ? "0 0 0 3px rgba(26,86,219,0.08)" : "none",
                 }}
-                onMouseEnter={(e) => {
-                  if (!isSelected) {
-                    e.currentTarget.style.borderColor = "#CBD5E1";
-                    e.currentTarget.style.backgroundColor = "#FAFAFA";
-                  }
-                }}
-                onMouseLeave={(e) => {
-                  if (!isSelected) {
-                    e.currentTarget.style.borderColor = "#EAEAEA";
-                    e.currentTarget.style.backgroundColor = "white";
-                  }
-                }}
               >
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 0,
-                  }}
-                >
-                  <span style={{ fontSize: 18 }}>{c.emoji}</span>
-                  <span
-                    style={{
-                      fontSize: 14,
-                      fontWeight: 600,
-                      color: isSelected ? "#1A56DB" : "#0F172A",
-                      marginLeft: 8,
-                    }}
-                  >
-                    {c.name}
-                  </span>
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: 0 }}>
+                    <span style={{ fontSize: 18 }}>{c.emoji}</span>
+                    <span
+                      style={{
+                        fontSize: 14,
+                        fontWeight: 600,
+                        color: isSelected ? "#1A56DB" : "#0F172A",
+                        marginLeft: 8,
+                      }}
+                    >
+                      {c.name}
+                    </span>
+                  </div>
+                  <span style={{ color: "#1A56DB", fontSize: 14, opacity: isHovered && !isSelected ? 1 : 0, transition: "opacity 150ms" }}>→</span>
                 </div>
                 <div style={{ fontSize: 11, color: "#9CA3AF", marginTop: 2, fontWeight: 400 }}>
                   {c.count}
@@ -1031,6 +1072,7 @@ const AnalyzePage: React.FC = () => {
         </div>
 
         <textarea
+          ref={textareaRef}
           className="analyze-textarea"
           value={problem}
           onChange={(e) => setProblem(e.target.value.slice(0, 5000))}
@@ -1166,6 +1208,7 @@ const AnalyzePage: React.FC = () => {
           <button
             type="submit"
             disabled={isDisabled}
+            className={!isDisabled && !isLoading ? "btn-shimmer" : undefined}
             style={{
               width: "100%",
               height: 52,
@@ -1178,7 +1221,7 @@ const AnalyzePage: React.FC = () => {
               cursor: isDisabled ? "not-allowed" : "pointer",
               boxShadow: isDisabled ? "none" : "0 4px 14px rgba(26,86,219,0.25)",
               fontFamily: "inherit",
-              transition: "all 150ms",
+              transition: "box-shadow 150ms, background-color 150ms",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -1233,8 +1276,32 @@ const AnalyzePage: React.FC = () => {
           overflowY: "auto",
           padding: "40px 44px",
           boxSizing: "border-box",
+          position: "relative",
         }}
       >
+        {/* Live indicator */}
+        <div
+          style={{
+            position: "absolute",
+            top: 24,
+            right: 44,
+            display: "flex",
+            alignItems: "center",
+            gap: 6,
+            background: "white",
+            border: "1.5px solid #EAEAEA",
+            borderRadius: 100,
+            padding: "6px 12px",
+            fontSize: 12,
+            fontWeight: 600,
+            color: "#374151",
+            zIndex: 10,
+          }}
+        >
+          <span className="live-dot" style={{ width: 8, height: 8, background: "#10B981", borderRadius: "50%", display: "inline-block", flexShrink: 0 }} />
+          System Active
+        </div>
+
         {/* Error state */}
         {error && (
           <div
@@ -1254,61 +1321,80 @@ const AnalyzePage: React.FC = () => {
 
         {/* Empty state */}
         {!results && !isLoading && (
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              justifyContent: "center",
-              height: "100%",
-              textAlign: "center",
-            }}
-          >
-            <div
-              style={{
-                width: 64,
-                height: 64,
-                background: "white",
-                border: "1.5px solid #EAEAEA",
-                borderRadius: "50%",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                marginBottom: 24,
-              }}
-            >
-              <span style={{ fontSize: 28, color: "#CBD5E1", lineHeight: 1 }}>⚖</span>
+          <div style={{ marginTop: 40 }}>
+            {/* Top section — Common Situations */}
+            <div style={{ padding: "0 0 40px 0", borderBottom: "1px solid #EAEAEA" }}>
+              <div style={{ fontSize: 11, fontWeight: 600, letterSpacing: "0.1em", color: "#9CA3AF", marginBottom: 16 }}>
+                COMMON SITUATIONS
+              </div>
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+                {COMMON_CASES.map((card) => (
+                  <div
+                    key={card.category}
+                    className="scenario-card"
+                    onClick={() => {
+                      setProblem(card.scenario);
+                      textareaRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+                      setTimeout(() => textareaRef.current?.focus(), 300);
+                    }}
+                    style={{
+                      border: "1.5px solid #EAEAEA",
+                      borderRadius: 10,
+                      padding: "14px 16px",
+                      cursor: "pointer",
+                      background: "white",
+                    }}
+                  >
+                    <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+                      <span style={{ fontSize: 20 }}>{card.icon}</span>
+                      <span style={{ fontSize: 12, fontWeight: 600, color: "#374151" }}>{card.category}</span>
+                    </div>
+                    <div style={{ fontSize: 12, color: "#9CA3AF", lineHeight: 1.4, marginTop: 4 }}>
+                      {card.scenario}
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
-            <h3 style={{ color: "#374151", fontWeight: 600, fontSize: 18, margin: 0 }}>
-              Your analysis will appear here
-            </h3>
-            <p style={{ color: "#9CA3AF", fontSize: 14, marginTop: 8, marginBottom: 0, maxWidth: 280 }}>
-              Select a city and describe your situation to get started.
-            </p>
-            <div
-              style={{
-                marginTop: 32,
-                display: "flex",
-                gap: 10,
-                flexWrap: "wrap",
-                justifyContent: "center",
-              }}
-            >
-              {["Semantic retrieval", "Citation verified", "Demand letter"].map((chip) => (
-                <span
-                  key={chip}
+
+            {/* Bottom section — Pipeline */}
+            <div style={{ paddingTop: 40 }}>
+              <div style={{ fontSize: 11, fontWeight: 600, letterSpacing: "0.1em", color: "#9CA3AF", marginBottom: 8 }}>
+                HOW YOUR ANALYSIS IS BUILT
+              </div>
+              {PIPELINE_STEPS.map((step, i) => (
+                <div
+                  key={step.num}
                   style={{
-                    background: "white",
-                    border: "1.5px solid #EAEAEA",
-                    borderRadius: 100,
-                    padding: "6px 14px",
-                    fontSize: 12,
-                    color: "#6B7280",
-                    fontWeight: 500,
+                    display: "flex",
+                    gap: 12,
+                    padding: "10px 0",
+                    borderBottom: i < PIPELINE_STEPS.length - 1 ? "1px solid #F8FAFC" : "none",
+                    alignItems: "flex-start",
                   }}
                 >
-                  {chip}
-                </span>
+                  <div
+                    style={{
+                      width: 24,
+                      height: 24,
+                      borderRadius: "50%",
+                      background: "#F1F5F9",
+                      color: "#374151",
+                      fontSize: 11,
+                      fontWeight: 700,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      flexShrink: 0,
+                    }}
+                  >
+                    {step.num}
+                  </div>
+                  <div>
+                    <div style={{ fontSize: 13, fontWeight: 600, color: "#0F172A" }}>{step.name}</div>
+                    <div style={{ fontSize: 12, color: "#9CA3AF", marginTop: 2 }}>{step.desc}</div>
+                  </div>
+                </div>
               ))}
             </div>
           </div>

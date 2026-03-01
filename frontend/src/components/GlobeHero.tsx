@@ -186,22 +186,24 @@ function GlobeScene({ onCitySelect }: GlobeHeroProps) {
       <ambientLight intensity={0.8} />
       <directionalLight position={[5, 3, 5]} intensity={1.2} color="white" />
       <pointLight position={[0, 0, 5]} intensity={0.3} color="white" />
-      <GlobeMesh />
-      <Atmosphere />
-      {CITIES.map((city) => (
-        <CityMarker
-          key={city.name}
-          city={city}
-          onClick={() => onCitySelect?.(city.name)}
-        />
-      ))}
+      <group rotation={[-0.3, Math.PI * 1.85, 0]}>
+        <GlobeMesh />
+        <Atmosphere />
+        {CITIES.map((city) => (
+          <CityMarker
+            key={city.name}
+            city={city}
+            onClick={() => onCitySelect?.(city.name)}
+          />
+        ))}
+      </group>
       <OrbitControls
         autoRotate
         autoRotateSpeed={0.5}
         enableZoom={false}
         enablePan={false}
-        minPolarAngle={Math.PI * 0.3}
-        maxPolarAngle={Math.PI * 0.7}
+        minPolarAngle={Math.PI * 0.35}
+        maxPolarAngle={Math.PI * 0.65}
       />
     </>
   );
@@ -219,7 +221,7 @@ const GlobeHero: React.FC<GlobeHeroProps> = ({ onCitySelect }) => (
     }}
   >
     <Canvas
-      camera={{ position: [0, 0, 5.5], fov: 45 }}
+      camera={{ position: [0, 0.8, 5.2], fov: 45 }}
       gl={{ alpha: true, antialias: true }}
       style={{ background: "transparent" }}
     >

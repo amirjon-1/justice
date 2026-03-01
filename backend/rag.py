@@ -91,10 +91,18 @@ def retrieve_relevant_laws(
     n_stage1 = min(20, total)
     city_tag = CITY_TAG_MAP.get(city)
 
-    results = None
-
-    # Try city-filtered retrieval first
-    if city_tag:
+    if city_tag is None:
+        # "General" or unknown city — global search across ALL documents, no city filter
+        print(f"[DEBUG] RAG: city={city!r} → no city filter, searching all documents", flush=True)
+        logger.info(f"[RAG] city={city!r} → no city filter, global search")
+        results = store.query(
+            query_embeddings=[query_embedding],
+            n_results=n_stage1,
+        )
+    else:
+        # City-specific: try filtered first, fall back to global if too few results
+        print(f"[DEBUG] RAG: city={city!r} → filtering by city_tag={city_tag!r}", flush=True)
+        logger.info(f"[RAG] city={city!r} → city_tag={city_tag!r}")
         try:
             results = store.query(
                 query_embeddings=[query_embedding],
@@ -105,17 +113,16 @@ def retrieve_relevant_laws(
                 logger.info(
                     f"Few city-specific results for '{city_tag}'; broadening to global search"
                 )
-                results = None
+                results = store.query(
+                    query_embeddings=[query_embedding],
+                    n_results=n_stage1,
+                )
         except Exception as e:
-            logger.warning(f"City-filtered query failed: {e}")
-            results = None
-
-    # Fallback: global unfiltered retrieval
-    if results is None or not results["documents"][0]:
-        results = store.query(
-            query_embeddings=[query_embedding],
-            n_results=n_stage1,
-        )
+            logger.warning(f"City-filtered query failed: {e}; falling back to global search")
+            results = store.query(
+                query_embeddings=[query_embedding],
+                n_results=n_stage1,
+            )
 
     candidates = results["documents"][0]
     metadatas = results["metadatas"][0] if results.get("metadatas") else [{}] * len(candidates)

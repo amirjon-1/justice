@@ -5,6 +5,7 @@ const API_BASE = process.env.REACT_APP_API_URL || "http://localhost:8000";
 export async function analyzeRights(
   request: AnalyzeRequest
 ): Promise<AnalysisResponse> {
+  console.log("[JusticeMap] POST /analyze →", { city: request.city, problemLength: request.problem.length });
   const response = await fetch(`${API_BASE}/analyze`, {
     method: "POST",
     headers: {
