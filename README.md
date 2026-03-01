@@ -1,37 +1,43 @@
-# JusticeMap ⚖️
+# JusticeMap
 
 **AI-powered legal rights assistant for urban communities**
 
 Built for the UN SDG Hackathon targeting:
-- 🏙️ **SDG 11** — Sustainable Cities and Communities
-- ⚖️ **SDG 16** — Peace, Justice and Strong Institutions
+- **SDG 11** — Sustainable Cities and Communities
+- **SDG 16** — Peace, Justice and Strong Institutions
 
 ---
 
 ## What It Does
 
-A user describes their urban legal problem (bad landlord, eviction, unsafe housing, police misconduct, denied permits), selects their city, and JusticeMap:
+Describe your urban legal problem (bad landlord, eviction, unsafe housing, police misconduct, denied permits), select your city, and JusticeMap:
 
-1. **Retrieves relevant local laws** using a two-stage RAG pipeline (bi-encoder retrieval → cross-encoder re-ranking) over embedded municipal legal documents
-2. **Queries Wolfram Alpha** for real city statistics (median income, rent, population)
-3. **Passes everything to Claude** to reason over law + stats → structured legal analysis
-4. **Runs a hallucination guard** (second Claude call) to verify all citations are grounded in source documents
-5. **Generates a formal demand letter** the user can send immediately
+1. **Detects language** — auto-detects input language and responds in kind
+2. **Runs an intake agent** — extracts key facts and generates targeted search queries
+3. **Retrieves relevant local laws** via ChromaDB RAG over embedded municipal documents
+4. **Queries Wolfram Alpha** for real city statistics (median income, rent, population)
+5. **Structures applicable statutes** with a research agent
+6. **Generates a full legal analysis** with severity rating and recommended actions
+7. **Writes a formal demand letter** you can send immediately
+8. **Scores confidence** via TF-IDF cosine similarity grounding (no LLM needed)
+9. **Escalates to legal aid orgs** when severity or confidence warrants it
 
 ---
 
 ## Architecture
 
 ```
-frontend/          React + TypeScript + Tailwind CSS
+frontend/                     React 18, TypeScript, React Router v7
 backend/
-  main.py          FastAPI app (POST /analyze)
-  rag.py           Two-stage RAG: ChromaDB bi-encoder + CrossEncoder re-ranker
-  wolfram.py       Wolfram Alpha Short Answers API
-  claude_agent.py  Claude analysis + hallucination guard
-  seed_legal_docs.py  Index legal docs into ChromaDB
-  scraper.py       Web scraper (Justia.com real legal text)
-  legal_docs/      Bundled legal text files (NYC, Chicago, LA, Federal)
+  main.py                     FastAPI app — 8-step pipeline orchestrator
+  claude_agent.py             4 Groq agents (intake, research, analysis, letter)
+  rag.py                      ChromaDB retrieval with ONNX embeddings
+  grounding.py                TF-IDF cosine similarity confidence scoring
+  wolfram.py                  Wolfram Alpha city stats
+  legal_aid.py                Escalation logic + legal aid org directory
+  seed_legal_docs.py          Index legal docs into ChromaDB (run before first start)
+  scraper.py                  Web scraper for additional legal text
+  legal_docs/                 18 bundled legal text files (NYC, Chicago, LA, Federal)
 ```
 
 ---
@@ -40,28 +46,32 @@ backend/
 
 ### Prerequisites
 
-- Python 3.10+
+- Python **3.11** (required — 3.12+ may conflict with ChromaDB)
 - Node.js 18+
-- API keys: [Anthropic](https://console.anthropic.com/) + [Wolfram Alpha](https://developer.wolframalpha.com/) (optional)
+- API keys: [Groq](https://console.groq.com/) (required) + [Wolfram Alpha](https://developer.wolframalpha.com/) (optional)
 
 ---
 
-### Quick Start (Recommended)
+### Backend
 
 ```bash
-# 1. Clone / navigate to the project
-cd justiceMap
+cd backend
+python3.11 -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
+pip install -r requirements.txt
 
-# 2. Add your API keys to backend/.env
-cp backend/.env.example backend/.env
-# Edit backend/.env — add ANTHROPIC_API_KEY and WOLFRAM_APP_ID
+# Seed the vector database (must run before starting the server)
+python seed_legal_docs.py
 
-# 3. Start the backend (creates venv, installs deps, seeds DB, starts server)
-./start.sh
+# Start the API server
+uvicorn main:app --reload --port 8000
+```
 
-# 4. In a new terminal, start the frontend
+### Frontend
+
+```bash
 cd frontend
-npm install
+npm install --legacy-peer-deps
 npm start
 ```
 
@@ -69,81 +79,50 @@ Open http://localhost:3000
 
 ---
 
-### Manual Setup
+## Environment Variables
 
-**Backend:**
-```bash
-cd backend
-python3 -m venv venv
-source venv/bin/activate          # Windows: venv\Scripts\activate
-pip install -r requirements.txt
+Create `backend/.env`:
 
-# (Optional) Scrape real legal content from Justia.com
-python scraper.py
-
-# Index legal documents into ChromaDB (required before first run)
-python seed_legal_docs.py
-
-# Start the API server
-uvicorn main:app --reload --port 8000
+```
+GROQ_API_KEY=gsk_...
+WOLFRAM_APP_ID=XXXX-XXXX        # optional — city stats will be empty without this
 ```
 
-**Frontend:**
-```bash
-cd frontend
-npm install
-npm start
-```
+| Variable | Required | Purpose |
+|----------|----------|---------|
+| `GROQ_API_KEY` | Yes | Powers all 4 LLM agents (llama-3.3-70b-versatile) |
+| `WOLFRAM_APP_ID` | No | City statistics (median income, rent, population) |
 
 ---
 
-## API Keys
+## Deployment
 
-| Key | Required | Purpose | Get It |
-|-----|----------|---------|--------|
-| `ANTHROPIC_API_KEY` | ✅ Required | Legal analysis + hallucination guard | [console.anthropic.com](https://console.anthropic.com/) |
-| `WOLFRAM_APP_ID` | Optional | City statistics | [developer.wolframalpha.com](https://developer.wolframalpha.com/) |
+**Frontend → Vercel**
 
-Set them in `backend/.env`:
+Push to GitHub; import the repo in Vercel. Set the root directory to `frontend`.
+
+**Backend → Render**
+
+The `backend/render.yaml` is pre-configured. Render will:
+1. `pip install -r requirements.txt`
+2. `python seed_legal_docs.py` — builds the ChromaDB vector store at build time
+3. Start `uvicorn main:app --host 0.0.0.0 --port $PORT --workers 1`
+
+Set `GROQ_API_KEY` (and optionally `WOLFRAM_APP_ID`) as environment variables in the Render dashboard.
+
+After deploying, set the backend URL in `frontend/.env.production`:
 ```
-ANTHROPIC_API_KEY=sk-ant-...
-WOLFRAM_APP_ID=XXXX-XXXX
+REACT_APP_API_URL=https://your-service.onrender.com
 ```
-
----
-
-## Features
-
-### Two-Stage RAG Pipeline
-- **Stage 1:** ChromaDB bi-encoder retrieval (all-MiniLM-L6-v2) → 20 candidates
-- **Stage 2:** CrossEncoder re-ranking (ms-marco-MiniLM-L-6-v2) → top 5 results
-- City-filtered search with global fallback
-
-### Hallucination Guard
-After generating the legal analysis, a second Claude call verifies every citation:
-- ✅ **Verified citations:** Found in retrieved source documents
-- ⚠️ **Unverified citations:** Not found in sources (may still be accurate — verify independently)
-- **Confidence score:** 0–100% showing what fraction of citations are grounded
-
-### Legal Documents Covered
-| File | City | Content |
-|------|------|---------|
-| `nyc_tenant_rights.txt` | NYC | Admin Code §27-2029, HPD process, warranty of habitability, RPAPL §755 |
-| `chicago_tenant_rights.txt` | Chicago | RLTO §5-12-110, repair-and-deduct, rent withholding, retaliation protections |
-| `la_tenant_rights.txt` | LA | RSO, LAHD, just cause eviction, AB 1482, anti-harassment |
-| `general_housing_rights.txt` | Federal | Fair Housing Act, warranty of habitability, Section 8 / HCV |
-| `police_accountability.txt` | Federal | First Amendment recording rights, §1983 municipal liability, FOIA |
-
-### Real Data Scraping
-Run `python scraper.py` to fetch real legal text from Justia.com (Illinois Ch. 765, NY Admin Code, California Civil Code). Scraped files are stored in `legal_docs/scraped/` and automatically picked up by the seeder.
 
 ---
 
 ## API Reference
 
+**GET `/health`** — liveness check
+
 **POST `/analyze`**
 
-Request:
 ```json
 {
   "city": "New York City",
@@ -151,28 +130,28 @@ Request:
 }
 ```
 
-Response:
+Supported cities: `New York City`, `Chicago`, `Los Angeles`, `General`
+
+Response includes:
 ```json
 {
   "legal_analysis": "...",
-  "relevant_laws": ["NYC Admin Code §27-2029...", "..."],
-  "wolfram_stats": {
-    "median_income": "...",
-    "median_rent": "...",
-    "population": "..."
-  },
-  "demand_letter": "...",
+  "plain_english_summary": "...",
   "severity": "high",
+  "relevant_laws": ["NYC Admin Code §27-2029", "..."],
   "recommended_actions": ["..."],
-  "estimated_timeline": "...",
-  "confidence_score": 0.94,
+  "demand_letter": "...",
+  "confidence_score": 0.82,
   "verified_citations": ["..."],
   "unverified_citations": [],
-  "source_urls": ["..."]
+  "wolfram_stats": { "median_income": "...", "median_rent": "...", "population": "..." },
+  "source_urls": ["..."],
+  "should_escalate": false,
+  "legal_aid_orgs": [],
+  "detected_language": "English",
+  "processing_time_seconds": 12.4
 }
 ```
-
-Supported cities: `New York City`, `Chicago`, `Los Angeles`, `General`
 
 ---
 
@@ -180,54 +159,82 @@ Supported cities: `New York City`, `Chicago`, `Los Angeles`, `General`
 
 | Layer | Technology |
 |-------|-----------|
-| Frontend | React 18, TypeScript, Tailwind CSS 3 |
-| Backend | Python 3.10+, FastAPI, uvicorn |
-| AI | Anthropic Claude (claude-sonnet-4-6) |
-| Vector DB | ChromaDB (local persistent) |
-| Embeddings | sentence-transformers all-MiniLM-L6-v2 |
-| Re-ranking | cross-encoder/ms-marco-MiniLM-L-6-v2 |
+| Frontend | React 18, TypeScript, React Router v7, framer-motion |
+| Backend | Python 3.11, FastAPI, uvicorn |
+| LLM | Groq — llama-3.3-70b-versatile |
+| Vector DB | ChromaDB 0.4.22 (local persistent) |
+| Embeddings | ONNXMiniLM_L6_V2 (no PyTorch) |
+| Grounding | scikit-learn TF-IDF cosine similarity |
 | Statistics | Wolfram Alpha Short Answers API |
+| Hosting | Vercel (frontend) + Render free tier (backend) |
+
+---
+
+## Legal Documents Covered
+
+| File | City | Content |
+|------|------|---------|
+| `nyc_tenant_rights.txt` | NYC | Admin Code §27-2029, HPD process, warranty of habitability |
+| `nyc_business_rights.txt` | NYC | Business licensing, permits |
+| `nyc_infrastructure_rights.txt` | NYC | 311, infrastructure complaints |
+| `chicago_tenant_rights.txt` | Chicago | RLTO §5-12-110, repair-and-deduct, retaliation protections |
+| `chicago_business_rights.txt` | Chicago | Business regulations |
+| `la_tenant_rights.txt` | LA | RSO, LAHD, just cause eviction, AB 1482, anti-harassment |
+| `la_business_rights.txt` | LA | Business licensing |
+| `general_housing_rights.txt` | Federal | Fair Housing Act, warranty of habitability, Section 8 |
+| `general_civil_rights.txt` | Federal | Civil rights protections |
+| `general_employment_rights.txt` | Federal | Employment law |
+| `general_discrimination.txt` | Federal | Anti-discrimination law |
+| `general_consumer_rights.txt` | Federal | Consumer protections |
+| `general_immigration_rights.txt` | Federal | Immigration rights |
+| `general_education_rights.txt` | Federal | Education rights |
+| `general_noise_nuisance.txt` | Federal | Noise and nuisance law |
+| `general_public_benefits.txt` | Federal | Public benefits |
+| `general_municipal_liability.txt` | Federal | §1983 municipal liability |
+| `police_accountability.txt` | Federal | First Amendment recording rights, FOIA |
+
+Run `python scraper.py` to fetch additional real legal text from Justia.com. Scraped files are stored in `legal_docs/scraped/` and automatically picked up by the seeder.
 
 ---
 
 ## Project Structure
 
 ```
-justiceMap/
-├── start.sh                    # One-command startup script
+justice/
 ├── README.md
+├── .gitignore
+├── vercel.json                 # Vercel root-level config
 ├── backend/
-│   ├── main.py                 # FastAPI app
-│   ├── rag.py                  # Two-stage RAG pipeline
+│   ├── main.py                 # FastAPI app (8-step pipeline)
+│   ├── claude_agent.py         # 4 Groq LLM agents
+│   ├── rag.py                  # ChromaDB retrieval
+│   ├── grounding.py            # TF-IDF grounding verifier
 │   ├── wolfram.py              # Wolfram Alpha integration
-│   ├── claude_agent.py         # Claude + hallucination guard
-│   ├── seed_legal_docs.py      # Document indexing script
-│   ├── scraper.py              # Real legal text scraper
+│   ├── legal_aid.py            # Escalation + legal aid directory
+│   ├── seed_legal_docs.py      # Vector DB seeding script
+│   ├── scraper.py              # Legal text scraper
+│   ├── render.yaml             # Render deployment config
 │   ├── requirements.txt
-│   ├── .env.example
-│   └── legal_docs/
-│       ├── nyc_tenant_rights.txt
-│       ├── chicago_tenant_rights.txt
-│       ├── la_tenant_rights.txt
-│       ├── general_housing_rights.txt
-│       └── police_accountability.txt
+│   └── legal_docs/             # 18 bundled legal text files
 └── frontend/
     ├── package.json
-    ├── tailwind.config.js
     ├── tsconfig.json
-    ├── public/index.html
+    ├── vercel.json
+    ├── .env.production         # REACT_APP_API_URL for production
     └── src/
-        ├── App.tsx
-        ├── api.ts
-        ├── types.ts
-        ├── index.tsx
-        ├── index.css
+        ├── App.tsx             # React Router routes
+        ├── api.ts              # POST /analyze client
+        ├── types.ts            # TypeScript interfaces
+        ├── pages/
+        │   ├── LandingPage.tsx
+        │   ├── AnalyzePage.tsx
+        │   └── AboutPage.tsx
         └── components/
-            ├── QueryForm.tsx
-            ├── ResultsPanel.tsx
-            ├── StatsCard.tsx
-            ├── DemandLetter.tsx
-            └── LoadingSpinner.tsx
+            ├── Navbar.tsx
+            ├── GlobeHero.tsx
+            ├── AgentPipeline.tsx
+            ├── LawGraph.tsx
+            └── tabs/
 ```
 
 ---
