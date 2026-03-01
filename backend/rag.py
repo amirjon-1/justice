@@ -1,11 +1,8 @@
 """
-rag.py — Two-stage RAG pipeline for JusticeMap.
+rag.py — Bi-encoder RAG pipeline for JusticeMap.
 
-Stage 1: numpy VectorStore bi-encoder retrieval → top 20 candidates
-Stage 2: CrossEncoder re-ranker (ms-marco-MiniLM-L-6-v2) → top 5 final results
-
-Uses a simple numpy-based vector store (no ChromaDB / no pydantic dependency)
-so it works on Python 3.14+.
+Single-stage: numpy VectorStore bi-encoder retrieval → top 5 results.
+Cross-encoder re-ranking removed to stay within Render free-tier 512MB RAM.
 """
 
 import logging
@@ -17,7 +14,6 @@ logger = logging.getLogger(__name__)
 
 VECTOR_STORE_PATH = os.getenv("VECTOR_STORE_PATH", "./vector_db")
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
-RERANKER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 
 # City name → metadata tag mapping
 CITY_TAG_MAP = {
@@ -29,7 +25,6 @@ CITY_TAG_MAP = {
 
 # Lazy-loaded singletons
 _encoder = None
-_reranker = None
 _store: VectorStore | None = None
 
 
@@ -40,19 +35,6 @@ def _get_encoder():
         logger.info(f"Loading bi-encoder: {EMBEDDING_MODEL}")
         _encoder = SentenceTransformer(EMBEDDING_MODEL)
     return _encoder
-
-
-def _get_reranker():
-    global _reranker
-    if _reranker is None:
-        try:
-            from sentence_transformers import CrossEncoder
-            logger.info(f"Loading cross-encoder re-ranker: {RERANKER_MODEL}")
-            _reranker = CrossEncoder(RERANKER_MODEL)
-        except Exception as e:
-            logger.warning(f"Could not load cross-encoder ({e}); reranking skipped.")
-            _reranker = None
-    return _reranker
 
 
 def _get_store() -> VectorStore:
@@ -69,14 +51,8 @@ def retrieve_relevant_laws(
     n_results: int = 5,
 ) -> tuple[list[str], list[dict]]:
     """
-    Two-stage retrieval pipeline.
-
-    Stage 1: Bi-encoder embedding + cosine ANN search → top 20 candidates.
-             Tries city-filtered search first; falls back to unfiltered.
-    Stage 2: CrossEncoder re-ranking → top n_results final documents.
-
-    Returns:
-        (documents, metadatas) — parallel lists of text chunks and their metadata.
+    Single-stage bi-encoder retrieval. Returns top n_results directly.
+    Cross-encoder re-ranking removed to stay within 512MB RAM on Render free tier.
     """
     store = _get_store()
     total = store.count()
@@ -88,40 +64,34 @@ def retrieve_relevant_laws(
     encoder = _get_encoder()
     query_embedding = encoder.encode([query])[0].tolist()
 
-    n_stage1 = min(20, total)
+    n_fetch = min(n_results, total)
     city_tag = CITY_TAG_MAP.get(city)
 
     if city_tag is None:
-        # "General" or unknown city — global search across ALL documents, no city filter
-        print(f"[DEBUG] RAG: city={city!r} → no city filter, searching all documents", flush=True)
         logger.info(f"[RAG] city={city!r} → no city filter, global search")
         results = store.query(
             query_embeddings=[query_embedding],
-            n_results=n_stage1,
+            n_results=n_fetch,
         )
     else:
-        # City-specific: try filtered first, fall back to global if too few results
-        print(f"[DEBUG] RAG: city={city!r} → filtering by city_tag={city_tag!r}", flush=True)
         logger.info(f"[RAG] city={city!r} → city_tag={city_tag!r}")
         try:
             results = store.query(
                 query_embeddings=[query_embedding],
-                n_results=n_stage1,
+                n_results=n_fetch,
                 where={"city": city_tag},
             )
-            if not results["documents"][0] or len(results["documents"][0]) < 3:
-                logger.info(
-                    f"Few city-specific results for '{city_tag}'; broadening to global search"
-                )
+            if not results["documents"][0]:
+                logger.info(f"No city-specific results for '{city_tag}'; falling back to global")
                 results = store.query(
                     query_embeddings=[query_embedding],
-                    n_results=n_stage1,
+                    n_results=n_fetch,
                 )
         except Exception as e:
             logger.warning(f"City-filtered query failed: {e}; falling back to global search")
             results = store.query(
                 query_embeddings=[query_embedding],
-                n_results=n_stage1,
+                n_results=n_fetch,
             )
 
     candidates = results["documents"][0]
@@ -131,27 +101,8 @@ def retrieve_relevant_laws(
         logger.warning("No candidates returned from vector store.")
         return [], []
 
-    logger.info(f"Stage 1 retrieval: {len(candidates)} candidates")
-
-    # Stage 2: Cross-encoder re-ranking
-    reranker = _get_reranker()
-    if reranker is not None and len(candidates) > n_results:
-        try:
-            pairs = [(query, doc) for doc in candidates]
-            scores = reranker.predict(pairs)
-            ranked = sorted(
-                zip(scores, candidates, metadatas),
-                key=lambda x: x[0],
-                reverse=True,
-            )
-            top_docs = [doc for _, doc, _ in ranked[:n_results]]
-            top_meta = [meta for _, _, meta in ranked[:n_results]]
-            logger.info(f"Stage 2 re-ranking: {len(candidates)} → {len(top_docs)}")
-            return top_docs, top_meta
-        except Exception as e:
-            logger.warning(f"Cross-encoder re-ranking failed ({e}); using raw ranking")
-
-    return candidates[:n_results], metadatas[:n_results]
+    logger.info(f"RAG retrieval: {len(candidates)} results for city={city!r}")
+    return candidates, metadatas
 
 
 def retrieve_relevant_laws_multi(
