@@ -1,14 +1,14 @@
 """
-seed_legal_docs.py — Index legal documents into the numpy vector store.
+seed_legal_docs.py — Index legal documents into ChromaDB.
 
 Reads all .txt files from legal_docs/ (and legal_docs/scraped/ if it exists),
-chunks them into overlapping ~500-character segments, embeds with
-sentence-transformers (all-MiniLM-L6-v2), and stores in VectorStore.
+chunks them into overlapping ~500-character segments, and stores with
+ONNXMiniLM_L6_V2 embeddings (no PyTorch required).
 
 Run once before starting the server:
     python seed_legal_docs.py
 
-Re-run to refresh the index (will delete and recreate the store).
+Re-run to refresh the index (will delete and recreate the collection).
 """
 
 import glob
@@ -23,10 +23,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-VECTOR_STORE_PATH = "./vector_db"
+VECTOR_STORE_PATH = os.getenv("VECTOR_STORE_PATH", "./vector_db")
+COLLECTION_NAME = "legal_docs"
 LEGAL_DOCS_PATH = "./legal_docs"
 SCRAPED_DOCS_PATH = "./legal_docs/scraped"
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 100
 BATCH_SIZE = 64
@@ -153,23 +153,29 @@ def collect_doc_files() -> list[str]:
 
 
 def seed_database():
-    from sentence_transformers import SentenceTransformer
-    from vector_store import VectorStore
+    import chromadb
+    from chromadb.utils.embedding_functions import ONNXMiniLM_L6_V2
 
     logger.info("=" * 60)
-    logger.info("JusticeMap Legal Document Seeder")
+    logger.info("JusticeMap Legal Document Seeder (ChromaDB)")
     logger.info("=" * 60)
 
-    store = VectorStore(path=VECTOR_STORE_PATH)
-    store.delete()
-    logger.info(f"Cleared vector store at '{VECTOR_STORE_PATH}'")
+    ef = ONNXMiniLM_L6_V2()
+    client = chromadb.PersistentClient(path=VECTOR_STORE_PATH)
 
-    # Re-instantiate after delete
-    store = VectorStore(path=VECTOR_STORE_PATH)
+    # Delete existing collection if present
+    try:
+        client.delete_collection(name=COLLECTION_NAME)
+        logger.info(f"Deleted existing collection '{COLLECTION_NAME}'")
+    except Exception:
+        pass
 
-    logger.info(f"Loading embedding model: {EMBEDDING_MODEL}")
-    encoder = SentenceTransformer(EMBEDDING_MODEL)
-    logger.info("Model loaded.")
+    collection = client.create_collection(
+        name=COLLECTION_NAME,
+        embedding_function=ef,
+        metadata={"hnsw:space": "cosine"},
+    )
+    logger.info(f"Created collection '{COLLECTION_NAME}' at '{VECTOR_STORE_PATH}'")
 
     doc_files = collect_doc_files()
     if not doc_files:
@@ -204,15 +210,18 @@ def seed_database():
 
         for batch_start in range(0, len(chunks), BATCH_SIZE):
             batch_chunks = chunks[batch_start : batch_start + BATCH_SIZE]
-            embeddings = encoder.encode(batch_chunks, show_progress_bar=False).tolist()
             ids = [f"{source_name}_chunk_{batch_start + j}" for j in range(len(batch_chunks))]
             metadatas_batch = [metadata.copy() for _ in batch_chunks]
-            store.add(ids=ids, documents=batch_chunks, embeddings=embeddings, metadatas=metadatas_batch)
+            collection.add(
+                ids=ids,
+                documents=batch_chunks,
+                metadatas=metadatas_batch,
+            )
 
         total_chunks += len(chunks)
 
     logger.info("=" * 60)
-    logger.info(f"Seeding complete!")
+    logger.info("Seeding complete!")
     logger.info(f"  Documents indexed: {len(doc_files)}")
     logger.info(f"  Total chunks stored: {total_chunks}")
     logger.info(f"  Vector store path: {os.path.abspath(VECTOR_STORE_PATH)}")

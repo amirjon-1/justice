@@ -36,4 +36,7 @@ frontend/yarn-error.log*
 # Start script (contains local paths / dev-only setup)
 start.sh
 
+# ChromaDB vector store (rebuilt at deploy time via seed_legal_docs.py)
+backend/vector_db/
+
 
