@@ -1,0 +1,141 @@
+GENERAL CONSUMER RIGHTS: DEBT, LENDING, FRAUD, AND DEPOSITS
+=============================================================
+
+FAIR DEBT COLLECTION PRACTICES ACT (FDCPA)
+-------------------------------------------
+
+The Fair Debt Collection Practices Act (FDCPA), 15 USC §1692 et seq., enacted in 1977 and regularly updated, is the primary federal law governing the conduct of third-party debt collectors — companies or individuals who collect debts owed to others. Note: the FDCPA applies to third-party collectors, not to original creditors collecting their own debts (though many state laws extend similar protections to original creditors).
+
+WHAT THE FDCPA PROHIBITS:
+Debt collectors cannot:
+- Call before 8:00 AM or after 9:00 PM in the consumer's local time zone
+- Call your workplace if the collector knows or has reason to know that your employer prohibits such communications
+- Use obscene, profane, or abusive language
+- Make threats of violence or harm
+- Falsely represent themselves — including misrepresenting the amount owed, the name of the creditor, or claiming to be attorneys or law enforcement when they are not
+- Threaten legal action (such as lawsuit or arrest) that the collector cannot legally take or does not actually intend to take
+- Publish your name on a "deadbeat" list or communicate debt information to third parties (other than your attorney, credit reporting agencies, or the creditor)
+- Engage in repeated or continuous phone calls intended to annoy, abuse, or harass
+
+RIGHTS UNDER THE FDCPA:
+
+Right to cease-communication request: You have the right to send a written request to the collector asking them to stop all further communication with you. After receiving such a written request, the collector may only contact you to: (1) acknowledge receipt of the request; (2) advise you that they are terminating collection efforts; or (3) advise you of a specific remedy (e.g., filing a lawsuit). Send the cease-communication letter by certified mail with return receipt so you have proof of delivery.
+
+Right to debt validation: Within 5 days of the debt collector's first communication with you, they must send a written "validation notice" stating: the amount of the debt; the name of the creditor to whom the debt is owed; and your right to dispute the debt within 30 days. If you send a written dispute within 30 days of receiving this notice, the collector must stop collection efforts until they verify the debt and send you proof of the debt. Always dispute in writing — oral disputes are not protected.
+
+Right to dispute the debt: Send a written dispute letter (certified mail, return receipt) within 30 days of the validation notice. The collector must cease collection and obtain verification of the debt (such as a copy of the original signed agreement, a complete payment history, and confirmation of the amount owed) before resuming collection.
+
+HOW TO FILE A COMPLAINT FOR FDCPA VIOLATIONS:
+- Federal Trade Commission (FTC): File at reportfraud.ftc.gov. The FTC compiles complaints, investigates patterns, and can take enforcement action against debt collectors.
+- Consumer Financial Protection Bureau (CFPB): File at consumerfinance.gov/complaint or call 1-855-411-2372. The CFPB supervises large debt collectors directly and forwards complaints to companies for response.
+- Private lawsuit: You can sue a debt collector in federal court within 1 year of the violation. Remedies include: actual damages (emotional distress, lost wages from time spent dealing with collector, other out-of-pocket losses); statutory damages of up to $1,000 per lawsuit (not per violation — even if violations are egregious, the cap for individuals is $1,000 in a single action); and attorneys' fees if you prevail. Class actions are allowed and the statutory damages cap is $500,000 or 1% of the collector's net worth (whichever is less).
+
+CFPB COMPLAINT PROCESS
+------------------------
+
+The Consumer Financial Protection Bureau (CFPB), established under the Dodd-Frank Wall Street Reform and Consumer Protection Act in 2010, is the primary federal consumer financial protection regulator.
+
+PRODUCTS AND SERVICES COVERED BY CFPB:
+- Mortgages (origination, servicing, foreclosure)
+- Credit cards
+- Student loans (private and federal)
+- Auto loans
+- Personal loans and installment loans
+- Payday loans and other short-term credit products
+- Debt collection practices
+- Credit reporting and credit scores
+- Bank accounts and services
+- Money transfers and remittances
+
+HOW TO FILE A CFPB COMPLAINT:
+1. Go to consumerfinance.gov/complaint or call 1-855-411-2372 (Monday-Friday, 8am-8pm ET)
+2. Select the product or service type
+3. Describe what happened, what you want the company to do, and upload supporting documents
+4. The CFPB sends your complaint to the company, which has 15 days to respond (60 days to provide a final response)
+5. You receive an email when the company responds; you have 60 days to review and provide feedback on the company's response
+6. Complaints and company responses are published in the CFPB's public database (with personal identifying information redacted)
+
+CREDIT REPORTING DISPUTES: If your credit report contains inaccurate or incomplete information, dispute it directly with the credit bureau (Equifax, Experian, TransUnion) in writing, and with the company that provided the inaccurate information (called the "furnisher"). The credit bureau must investigate within 30 days and remove the item if it cannot be verified. If the bureau fails to correct a verified error, file a CFPB complaint. You can also sue under the Fair Credit Reporting Act (FCRA), 15 USC §1681 et seq., within 2 years of discovering the violation. Annual free credit reports: annualcreditreport.com.
+
+PREDATORY LENDING PROTECTIONS
+-------------------------------
+
+TRUTH IN LENDING ACT (TILA): The Truth in Lending Act (TILA), 15 USC §1601 et seq., requires creditors to disclose key terms of credit agreements in a standardized format so consumers can compare loan offers. Required disclosures include: Annual Percentage Rate (APR); finance charge (total cost of credit in dollars); amount financed; total amount paid over the life of the loan; and the payment schedule. Creditors who fail to make required disclosures may be subject to civil liability — actual damages, statutory damages of twice the finance charge (minimum $200, maximum $2,000 for individual actions), and attorneys' fees.
+
+REAL ESTATE SETTLEMENT PROCEDURES ACT (RESPA): RESPA (12 USC §2601 et seq.) governs the real estate settlement process for most residential mortgage loans. It requires: disclosure of all settlement costs (Loan Estimate and Closing Disclosure forms under TRID — the TILA/RESPA Integrated Disclosures rule); prohibits kickbacks or referral fees between settlement service providers; limits escrow account requirements. File RESPA complaints with CFPB.
+
+PAYDAY LOAN REGULATIONS BY STATE:
+- Illinois: Illinois enacted the Predatory Loan Prevention Act (PLPA) in 2021, capping interest rates on consumer loans at 36% APR. This effectively bans traditional payday loans in Illinois, as most payday lenders charge 200-400% APR. The cap applies to all consumer loans, regardless of the lender's charter type.
+- California: Effective January 1, 2020, SB 539 caps interest rates on personal installment loans between $2,500 and $10,000 at 36% plus the Federal Funds Rate (approximately 38-40%). For loans under $2,500, payday loan rates remain largely unregulated, though California has a $300 maximum payday loan amount.
+- New York City/New York State: New York law caps interest on consumer loans (general usury) at 16% APR. Criminal usury (applying to any lender) is charged at 25% APR or more. Payday lending at triple-digit interest rates is effectively illegal in New York. The NY Department of Financial Services (DFS) actively pursues unlicensed lenders.
+
+SECURITY DEPOSIT RIGHTS
+-------------------------
+
+Security deposits are governed by state and local law. The following are general principles with jurisdiction-specific details:
+
+GENERAL PRINCIPLES (most states):
+- A landlord may only deduct from your security deposit for: unpaid rent, damage beyond normal wear and tear, and other specific lease-defined deductions.
+- "Normal wear and tear" includes: small scuffs on walls, minor carpet wear from regular use, small nail holes from hanging pictures, fading paint from sunlight. Landlords cannot charge for these.
+- Landlords CANNOT deduct for: repainting walls if the paint just looks old (not damaged), regular carpet cleaning after normal use, replacement of items that were already old when you moved in.
+
+NEW YORK CITY:
+- NYC limits security deposits for residential leases to 1 month's rent (for units subject to the Housing Stability and Tenant Protection Act of 2019).
+- Landlords must return the security deposit within 14 days of the tenant vacating, with an itemized statement of any deductions.
+- Failure to return within 14 days can result in the tenant recovering the full deposit amount regardless of deductions. File a complaint with the NY State Division of Housing and Community Renewal (DHCR) or sue in Small Claims Court.
+
+ILLINOIS (Chicago):
+- Chicago RLTO §5-12-082: Landlords must return deposits within 30 days. If the landlord intends to make deductions, they must provide a written itemized statement of damages and estimated repair costs within 30 days, and return the remainder. Failure to comply allows the tenant to sue for twice the amount wrongfully withheld, plus attorneys' fees, plus court costs.
+- Security deposit interest: Landlords in Chicago who hold deposits for 6+ months must pay interest annually (rate set annually by the City Comptroller).
+
+CALIFORNIA (Los Angeles):
+- California Civil Code §1950.5: Landlords must return deposits within 21 days of move-out, with an itemized statement of deductions and receipts or invoices for any repairs over $125 (unless the landlord employs their own repair crew).
+- Maximum deposit: 2 months' rent for unfurnished units, 3 months' for furnished units.
+- Failure to return properly can result in liability for 2 times the amount wrongfully withheld in court.
+
+CONSUMER FRAUD AND STATE CONSUMER PROTECTION LAWS
+--------------------------------------------------
+
+Every state has some version of an "Unfair and Deceptive Acts and Practices" (UDAP) statute, sometimes called a consumer protection act. These laws prohibit businesses from engaging in deceptive, false, or unfair practices in consumer transactions. They complement federal law (FTC Act §5) and often provide stronger protections and remedies.
+
+KEY PROVISIONS: UDAP statutes generally prohibit: misrepresenting the nature, characteristics, or quality of goods or services; making false claims in advertising; engaging in bait-and-switch selling; using deceptive pricing (fake "sale" prices); billing for services not rendered; and other unfair or deceptive business practices.
+
+REMEDIES UNDER UDAP STATUTES: Private lawsuits under state UDAP statutes often allow: actual damages, treble (triple) damages for willful violations, attorneys' fees, and injunctive relief. Many states also allow small claims court for consumer fraud up to the applicable limit.
+
+FILING COMPLAINTS:
+- FTC: File at reportfraud.ftc.gov. The FTC enforces the FTC Act §5 against unfair or deceptive acts and practices, including false advertising, privacy violations, identity theft schemes, and telemarketing fraud.
+- State Attorney General: Most state AGs have consumer protection divisions. NY AG: ag.ny.gov (212-416-8300). IL AG: illinoisattorneygeneral.gov (1-800-386-5438). CA AG: oag.ca.gov (1-800-952-5225). File online or by phone.
+
+SMALL CLAIMS COURT AS A CONSUMER REMEDY
+-----------------------------------------
+
+Small Claims Court is one of the most effective tools available to consumers for recovering money without a lawyer. It is particularly useful for:
+- Recovering security deposits from landlords
+- Suing contractors for defective or incomplete work
+- Recovering for defective products (including warranty claims against sellers)
+- Recovering unpaid refunds for returned goods or cancelled services
+- Suing for minor UDAP/consumer fraud violations
+- Recovering for overcharges or billing disputes
+
+DOLLAR LIMITS BY STATE (2024):
+- New York: $10,000 (Small Claims Court); filing fee $15-20
+- Illinois: $10,000 (Small Claims in Circuit Court); filing fee approximately $200-300
+- California: $12,500 for individuals, $6,250 for businesses; filing fee $30-75
+
+PRACTICAL TIPS FOR SMALL CLAIMS:
+1. Send a formal demand letter by certified mail before filing — this creates a paper trail, demonstrates good faith, and often prompts settlement without court proceedings
+2. Organize your evidence: contracts, receipts, photos, emails, text messages — print and label them clearly
+3. Know your statute of limitations: don't wait too long to file (2-4 years depending on the type of claim and state)
+4. Bring a copy of any relevant law or regulation that supports your claim
+5. Be concise and factual in your presentation — avoid emotional argument and stick to provable facts and dollar amounts
+
+Key Consumer Protection Contacts:
+- CFPB: consumerfinance.gov/complaint | 1-855-411-2372
+- FTC: reportfraud.ftc.gov
+- NY AG Consumer Frauds Bureau: 212-416-8300 | ag.ny.gov
+- IL AG Consumer Protection: 1-800-386-5438 | illinoisattorneygeneral.gov
+- CA AG Consumer Protection: 1-800-952-5225 | oag.ca.gov
+- NYC DCWP: 311 | nyc.gov/consumers
+- Chicago BACP: 312-744-9400 | chicago.gov/bacp
+
+This document is provided for general informational purposes. Consumer rights law varies by state and is subject to frequent change. Consult a licensed attorney for advice specific to your situation.

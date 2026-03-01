@@ -1,0 +1,135 @@
+GENERAL IMMIGRATION RIGHTS: CONSTITUTIONAL PROTECTIONS AND LEGAL RESOURCES
+==========================================================================
+
+FOURTH AMENDMENT RIGHTS APPLY TO ALL PERSONS IN THE UNITED STATES
+------------------------------------------------------------------
+
+A foundational principle of U.S. constitutional law is that the protections of the Fourth Amendment apply to all persons physically present within the United States, regardless of immigration status. Immigration status does not strip a person of their constitutional rights. This has been affirmed repeatedly by federal courts.
+
+YOUR RIGHTS IF ICE OR LAW ENFORCEMENT COMES TO YOUR HOME:
+
+You do NOT have to open your door: Unless law enforcement presents a valid judicial warrant signed by a federal judge or magistrate, you are not required to open your door. You have the right to ask: "Do you have a warrant?" Ask them to slip the warrant under the door or hold it up to a window. Examine it carefully.
+
+The critical distinction — Judicial Warrant vs. Administrative Warrant:
+- A JUDICIAL WARRANT (Form I-200 signed by a federal district court judge or magistrate, or an arrest warrant in a criminal case signed by a judge) authorizes law enforcement to enter your home.
+- An ADMINISTRATIVE WARRANT (USCIS Form I-200 or Form I-205 signed only by an ICE or CBP officer, not a judge) is an administrative document, NOT a judicial warrant. An administrative warrant DOES NOT give ICE the legal authority to enter your home without your consent. ICE agents may present an administrative warrant, but you are not required to open your door based solely on an administrative warrant.
+
+If agents force their way in: Do not physically resist. State clearly: "I do not consent to this search or entry." Do not resist physically — resistance can result in criminal charges and harm. Memorize the agents' badge numbers and identifying information and contact an immigration attorney immediately.
+
+FIFTH AMENDMENT: RIGHT TO REMAIN SILENT
+-----------------------------------------
+
+The Fifth Amendment's protection against compelled self-incrimination applies to all persons in the United States, regardless of immigration status. You are NOT required to:
+- Answer questions about your citizenship status
+- Answer questions about how you entered the United States
+- Answer questions about where you were born
+- Answer questions about your immigration history
+- Provide your passport or immigration documents (unless you are at a port of entry or have been lawfully stopped under specific immigration border zone circumstances)
+
+HOW TO INVOKE YOUR RIGHTS:
+- State clearly and calmly: "I am exercising my right to remain silent" or "I do not wish to answer questions without a lawyer present."
+- Do not say anything that could be construed as an admission regarding your immigration status.
+- Do not sign any documents, forms, or agreements without first consulting with an immigration attorney. Signing a "voluntary departure" or similar document may waive important rights.
+- If you are detained: again, state: "I want to speak with a lawyer" and do not answer questions about your immigration history.
+
+SANCTUARY CITY POLICIES
+------------------------
+
+Several major U.S. cities have enacted "sanctuary" policies that limit or prohibit local law enforcement from cooperating with ICE civil immigration enforcement.
+
+NEW YORK CITY:
+NYC's sanctuary protections are among the strongest in the country. New York City Administrative Code §9-131 prohibits NYPD and other City agencies from honoring ICE civil immigration detainer requests (requests to hold a person in custody beyond their release date) unless the individual: has been convicted of certain enumerated serious crimes (168 specific crimes listed), is on the federal terrorist watch list, or a warrant signed by a judge is presented. NYC Executive Order 41 further limits sharing of personal information about residents with immigration authorities. NYC does not permit ICE access to Rikers Island for civil immigration enforcement purposes.
+
+What this means practically: If you are arrested in NYC and the NYPD would otherwise release you, NYC (absent the specific exceptions above) will not hold you based solely on an ICE detainer request, and NYPD will not notify ICE of your release.
+
+CHICAGO:
+Chicago's sanctuary ordinance is codified at Chicago Municipal Code §2-173-042 (Welcoming City Ordinance). Chicago Police Department is prohibited from: (1) stopping, questioning, or arresting individuals based solely on actual or suspected immigration status; (2) participating in any immigration enforcement; (3) conditioning the provision of City services on immigration status; (4) sharing information about individuals' immigration status with federal authorities. Cook County also has a sanctuary resolution limiting cooperation with ICE detainers.
+
+LOS ANGELES:
+The Los Angeles Police Department's Special Order 40, first issued in 1979, prohibits LAPD officers from stopping individuals to inquire about immigration status and from initiating contact with federal immigration authorities for the purpose of inquiring about an individual's immigration status. The Los Angeles County Sheriff's Department has adopted similar policies. Los Angeles County also enacted a sanctuary ordinance in 2019.
+
+IMPORTANT CAVEAT: Federal law supersedes local sanctuary policies in fundamental ways. ICE is a federal agency and can still operate independently of local law enforcement. ICE can conduct arrests on the street, at courthouses, at airports, or in other public places. Local sanctuary policies restrict what local police do — they cannot prevent federal agents from acting. Know that even in sanctuary cities, federal enforcement actions can and do occur.
+
+IF YOU ARE DETAINED BY ICE
+----------------------------
+
+1. Do not sign anything: Do not sign any documents that you do not fully understand. Documents such as "voluntary departure" forms, "stipulated removal" orders, or any form waiving a hearing can have severe permanent consequences for your right to return to the United States.
+
+2. Right to contact your country's consulate: Under Article 36 of the Vienna Convention on Consular Relations, any foreign national who is arrested or detained in the United States must be informed "without delay" of their right to contact their country's consulate. You have the right to have the consulate notified of your detention. The consulate can: visit you in detention, help you find an attorney, communicate with your family, and assist in other ways. Invoke this right clearly: "I want to contact my consulate."
+
+3. Right to an attorney in immigration proceedings: In civil immigration court proceedings (deportation/removal hearings), you have the right to be represented by an attorney — but at no expense to the government. The government will not provide you with a free attorney in immigration court. You must find and pay for your own attorney or find a nonprofit organization that provides free representation. Contact:
+- RAICES (Refugee and Immigrant Center for Education and Legal Services): raicestexas.org
+- CLINIC (Catholic Legal Immigration Network): clinic.org
+- ACLU Immigrants' Rights Project: aclu.org/immigrants-rights
+- Local immigration legal services: search at immigrationadvocates.org/nonprofit/legaldirectory/
+
+4. Right to a bond hearing: If you are detained by ICE, you may be eligible to request a bond hearing before an immigration judge. At a bond hearing, the judge will determine whether you should be released while your case is pending and, if so, at what bond amount. The government has the burden to show you are a flight risk or a danger to the community. Factors that favor release: community ties, family members who are US citizens or residents, long time in the country, employment history, no criminal history.
+
+5. Right to appear before an immigration judge: You have the right to a hearing before an immigration judge before you can be ordered removed (deported) from the United States. You can present evidence, call witnesses, and make legal arguments. Do not waive this right.
+
+RIGHT TO APPOINTED ATTORNEY IN CRIMINAL PROCEEDINGS (vs. IMMIGRATION)
+-----------------------------------------------------------------------
+
+There is a critical distinction between criminal proceedings and immigration proceedings:
+- Criminal proceedings (e.g., you are charged with a crime): You have the Sixth Amendment right to an attorney, and if you cannot afford one, the government must provide one (Gideon v. Wainwright, 372 US 335 (1963)).
+- Civil immigration proceedings (deportation hearings in immigration court): You do NOT have a constitutional right to a government-appointed attorney. The Sixth Amendment does not apply to civil proceedings.
+
+If you face both criminal charges and immigration consequences (which is common, as even minor criminal convictions can trigger deportation), you need both a criminal defense attorney and an immigration attorney. The U.S. Supreme Court held in Padilla v. Kentucky, 559 US 356 (2010), that criminal defense attorneys are constitutionally required to advise non-citizen clients of the immigration consequences of a criminal guilty plea.
+
+ASYLUM BASICS
+--------------
+
+Asylum is a form of protection that allows people who have been persecuted, or who have a well-founded fear of persecution, to remain in the United States.
+
+ELIGIBILITY FOR ASYLUM: To qualify for asylum, you must establish that:
+1. You have been persecuted in your home country or have a well-founded fear of future persecution
+2. The persecution is based on one of five protected grounds: race, religion, nationality, membership in a particular social group, or political opinion
+3. The government of your home country is responsible for the persecution, or the government is unable or unwilling to protect you from private actors who persecute you
+
+WHO CAN APPLY: You must be physically present in the United States or at a port of entry. Asylum can be sought regardless of your immigration status — whether you entered legally or without authorization.
+
+ONE-YEAR FILING DEADLINE: You must file for asylum within 1 year of your arrival in the United States. Limited exceptions exist for changed circumstances (e.g., conditions in your home country have changed since your arrival that now create a fear of persecution) or extraordinary circumstances (e.g., severe illness preventing timely filing). These exceptions are narrow and must be established with documentation. Do not miss the 1-year deadline — consult an immigration attorney immediately if you believe you may be eligible for asylum.
+
+HOW TO APPLY:
+- File Form I-589 (Application for Asylum and for Withholding of Removal) with USCIS if you have not been placed in removal proceedings — this is "affirmative" asylum.
+- If you have been placed in removal proceedings (you received a Notice to Appear in immigration court), you apply for asylum as a "defense" before the immigration judge — this is "defensive" asylum.
+
+DACA (DEFERRED ACTION FOR CHILDHOOD ARRIVALS)
+----------------------------------------------
+
+Deferred Action for Childhood Arrivals (DACA) is a federal program, established by executive action in 2012, that provides temporary protection from deportation and authorization to work in the United States for eligible individuals who were brought to the U.S. as children.
+
+ELIGIBILITY REQUIREMENTS (as of current policy):
+- Arrived in the United States before the age of 16
+- Continuously resided in the U.S. since June 15, 2012
+- Were physically present in the U.S. on June 15, 2012 and at the time of filing for DACA
+- Were under the age of 31 as of June 15, 2012
+- Currently in school, graduated or obtained a GED, or honorably discharged from the armed forces
+- Have not been convicted of a felony, a significant misdemeanor, or three or more other misdemeanors
+- Do not pose a threat to national security or public safety
+
+STATUS AND APPLICATION: DACA status must be renewed every 2 years. Current recipients may renew. Whether new applications are being accepted has been subject to ongoing litigation; check uscis.gov or consult an immigration attorney for the current status.
+
+EMPLOYER OBLIGATIONS REGARDLESS OF IMMIGRATION STATUS
+------------------------------------------------------
+
+Employers have legal obligations to all workers regardless of immigration status:
+
+PAY MINIMUM WAGE AND OVERTIME: Employers must pay minimum wage and overtime to all workers covered by the FLSA and applicable state laws, regardless of the worker's immigration status. An employer cannot refuse to pay a worker because the worker is undocumented. This has been confirmed by federal courts and the Department of Labor.
+
+NO NATIONAL ORIGIN DISCRIMINATION: Employers cannot refuse to hire based on citizenship or national origin, except where required by law (e.g., security clearances). The IRCA (Immigration Reform and Control Act) anti-discrimination provision (8 USC §1324b) prohibits discrimination in hiring, firing, or recruitment based on citizenship status or national origin, and is enforced by the DOJ Office of Special Counsel for Immigration-Related Unfair Employment Practices (OSC).
+
+NO RETALIATION FOR WAGE COMPLAINTS: An employer cannot report or threaten to report a worker's immigration status as retaliation for complaining about unpaid wages, unsafe working conditions, or other labor law violations. Such retaliation may violate the FLSA, NLRA, OSHA, and state laws. Report retaliation to: the DOL Wage and Hour Division at 1-866-487-9243, your state labor department, or OSHA.
+
+Key Immigration Legal Resources:
+- USCIS: uscis.gov | 1-800-375-5283
+- RAICES: raicestexas.org
+- CLINIC: clinic.org
+- Immigrant Defense Project (NY): immigrantdefenseproject.org
+- National Immigration Law Center: nilc.org
+- ACLU Immigrants' Rights: aclu.org/immigrants-rights
+- NY Legal Services (NYLAG): nylag.org
+- Chicago Legal Clinic (immigration): chicagolegalclinic.org
+- CHIRLA (LA): chirla.org
+
+This document is for general informational purposes only. Immigration law is extremely complex and rapidly changing. Consult a licensed immigration attorney for advice specific to your situation. Do not rely on this document for legal decisions.

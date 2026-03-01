@@ -1,0 +1,136 @@
+GENERAL DISCRIMINATION LAW: FEDERAL AND STATE PROTECTIONS
+==========================================================
+
+FAIR HOUSING ACT (42 USC §3601-3619)
+--------------------------------------
+
+The Fair Housing Act (FHA), originally enacted as Title VIII of the Civil Rights Act of 1968 and substantially amended in 1988, is the primary federal law prohibiting discrimination in housing. The FHA makes it unlawful to discriminate in the sale, rental, or financing of housing — as well as in advertising and brokerage services — based on the following protected characteristics:
+
+- Race
+- Color
+- Religion
+- Sex (including gender-based harassment and sexual harassment)
+- National origin
+- Disability (including physical and mental disabilities, and conditions such as HIV/AIDS)
+- Familial status (having children under 18, being pregnant, or being in the process of securing custody of children)
+
+WHAT THE FHA COVERS: The FHA applies to most housing transactions including: the sale or rental of single-family homes, apartments, condominiums, cooperatives, and manufactured homes; mortgage lending and homeowner's insurance; home advertising; and the services of real estate brokers and agents. The FHA also requires housing providers to make reasonable accommodations for persons with disabilities (e.g., allowing a service animal despite a "no pets" policy, granting a first-floor unit to a tenant with mobility issues) and to allow reasonable modifications to the property (e.g., installation of grab bars in a bathroom).
+
+EXEMPTIONS: The FHA contains a few narrow exemptions:
+- Owner-occupied buildings with 4 or fewer units ("Mrs. Murphy" exemption): A private individual who owns and resides in a building of 4 or fewer units may decline to rent to someone for any reason — however, the exemption does not apply to advertising, which must remain non-discriminatory under all circumstances.
+- Single-family homes sold or rented without the use of a broker by a private owner who owns no more than 3 such homes
+- Housing operated by religious organizations for members of that religion (limited)
+- Private clubs providing lodging to members (limited)
+
+FILING A FAIR HOUSING COMPLAINT:
+- HUD Complaint: File with the U.S. Department of Housing and Urban Development (HUD) at hud.gov/fairhousing, by phone at 1-800-669-9777, or at a local HUD office. The complaint must be filed within 1 year of the most recent act of discrimination. HUD investigates the complaint, can offer conciliation/mediation, and may file a charge of discrimination. Hearings can be conducted before a HUD ALJ or in federal district court.
+- Federal Lawsuit: You may bypass the administrative process and file directly in federal district court. The lawsuit must be filed within 2 years of the most recent act of discrimination. The 2-year period is tolled during any time a HUD complaint is pending.
+- State and Local Agencies: Many states and cities have their own fair housing agencies with concurrent jurisdiction and broader protections than the federal FHA.
+- Remedies: Actual damages (including out-of-pocket losses, emotional distress, and humiliation), injunctive relief (e.g., ordering the landlord to rent to you), civil money penalties (first violation up to $16,000; subsequent violations higher), and attorneys' fees.
+
+ADA TITLE I: EMPLOYMENT DISABILITY DISCRIMINATION
+--------------------------------------------------
+
+Title I of the Americans with Disabilities Act (ADA), 42 USC §12111 et seq., prohibits employment discrimination against qualified individuals with disabilities by employers with 15 or more employees (as well as employment agencies, labor unions, and joint labor-management committees).
+
+PROTECTED INDIVIDUALS: A person is protected by ADA Title I if they: (1) have a physical or mental impairment that substantially limits one or more major life activities (such as walking, seeing, hearing, breathing, working, performing manual tasks, concentrating, thinking); (2) have a record of such impairment; or (3) are regarded as having such an impairment.
+
+PROHIBITED CONDUCT: Covered employers cannot:
+- Refuse to hire a qualified person because of their disability
+- Fire an employee because of disability
+- Fail to promote, demote, or assign different job duties based on disability
+- Harass an employee based on disability
+- Conduct unlawful pre-employment medical inquiries (employers may only ask about ability to perform job-related functions; medical examinations can occur only after a conditional offer of employment)
+
+REASONABLE ACCOMMODATION: Employers must provide reasonable accommodations to enable qualified individuals with disabilities to perform the essential functions of the job, unless doing so would impose an undue hardship on the employer (an action requiring significant difficulty or expense). Examples: modified work schedules, remote work, ergonomic equipment, modified training materials, reassignment to a vacant position, leave of absence.
+
+FILE WITH THE EEOC: File a charge of disability discrimination with the Equal Employment Opportunity Commission (EEOC) at eeoc.gov or by calling 1-800-669-4000. In states with fair employment agencies (such as NY, CA, IL), the filing deadline is 300 days from the discriminatory act; in other states, 180 days. After the EEOC issues a "right to sue" letter, you have 90 days to file a federal lawsuit.
+
+ADA TITLE II: PUBLIC ENTITIES
+-------------------------------
+
+ADA Title II (42 USC §12131 et seq.) prohibits disability discrimination by state and local governments and their agencies, programs, services, and activities. Covered entities include: all state and local government agencies, public schools, public universities, court systems, public transit agencies, and law enforcement. (Detailed coverage in the municipal liability document.)
+
+ADA TITLE III: PUBLIC ACCOMMODATIONS
+--------------------------------------
+
+ADA Title III (42 USC §12181 et seq.) prohibits discrimination against individuals with disabilities by "places of public accommodation" — businesses and organizations that are open to the public. This includes: restaurants, hotels, stores, movie theaters, doctor's offices, law offices, gyms, banks, schools, and sports stadiums.
+
+REQUIREMENTS FOR PUBLIC ACCOMMODATIONS:
+- Reasonable modifications in policies, practices, and procedures when necessary to accommodate individuals with disabilities (e.g., allowing a guide dog, providing a sign language interpreter, permitting service animals)
+- Effective communication: provide aids and services necessary for effective communication (e.g., captioning, Braille materials, audio descriptions)
+- Accessible facilities: remove architectural barriers in existing facilities where "readily achievable" (easily accomplishable without much difficulty or expense); ensure all new construction and alterations meet ADA Standards for Accessible Design
+
+COMPLAINT PROCESS: File a DOJ ADA complaint at ada.gov (ADA Information Line: 1-800-514-0301). Or file a private lawsuit in federal court — no administrative complaint is required before filing suit under Title III. However, private plaintiffs under Title III can only recover injunctive relief (an order to remove the barrier or modify the policy) and attorneys' fees — not monetary damages.
+
+AGE DISCRIMINATION IN EMPLOYMENT ACT (ADEA)
+--------------------------------------------
+
+The Age Discrimination in Employment Act (ADEA), 29 USC §621 et seq., enacted in 1967, protects workers 40 years of age or older from employment discrimination based on age. The ADEA applies to employers with 20 or more employees (including state and local governments, employment agencies, and labor organizations).
+
+PROTECTED CONDUCT: The ADEA prohibits: refusing to hire or promote, firing, demoting, setting different terms and conditions of employment, or harassing an employee because they are 40 or older. An employee who is 40 cannot be treated less favorably than a younger employee in the same position.
+
+FILING PROCESS: File a charge with the EEOC. In states with state age discrimination agencies, the deadline is 300 days from the discriminatory act; in non-deferral states, 180 days. After a right-to-sue letter, file in federal court within 90 days.
+
+NOTE: The ADEA does not protect against decisions that favor older workers over younger ones. Only workers 40 and older are protected. Courts have held that the ADEA requires proving that age was the "but-for" cause of the adverse employment action — a higher standard than Title VII's "motivating factor" standard.
+
+TITLE VII OF THE CIVIL RIGHTS ACT OF 1964
+------------------------------------------
+
+Title VII (42 USC §2000e et seq.) is the foundational federal employment anti-discrimination law. It prohibits employment discrimination based on: race, color, religion, sex (including pregnancy, sexual orientation, and gender identity — see Bostock v. Clayton County, 590 US 644 (2020)), and national origin. It applies to employers with 15 or more employees.
+
+COVERED EMPLOYMENT ACTIONS: Title VII covers: hiring, firing, promotion, demotion, job assignments, compensation, terms and conditions of employment, training opportunities, and harassment that creates a hostile work environment.
+
+HOSTILE WORK ENVIRONMENT: Harassment based on a protected characteristic (e.g., racial slurs, sexual harassment) that is sufficiently severe or pervasive to create a hostile, abusive, or offensive work environment — and that the employer knew or should have known about but failed to correct — violates Title VII.
+
+FILING PROCESS: File an EEOC charge within 300 days (deferral state) or 180 days (non-deferral state) of the discriminatory act. The EEOC investigates, may attempt mediation, and issues either a "cause" finding or a "no cause" finding plus right-to-sue letter. After receiving the letter, file in federal court within 90 days. If the EEOC has not acted within 180 days of filing, you may request a right-to-sue letter.
+
+EEOC COMPLAINT PROCESS: Step-by-Step
+- Step 1: File at eeoc.gov, call 1-800-669-4000, or visit a local EEOC office. Provide: your name and contact information, the employer's name and address, a description of the discriminatory conduct, dates of the conduct, and any witnesses.
+- Step 2: The EEOC will schedule an intake interview (by phone or in person) to review your charge.
+- Step 3: The EEOC notifies the employer (called the "Respondent") of the charge.
+- Step 4: The EEOC may offer mediation to both parties — a free, voluntary, confidential process that often resolves charges quickly.
+- Step 5: If mediation fails or is declined, the EEOC investigates. This can take 6 months to several years depending on case complexity and EEOC workload.
+- Step 6: EEOC issues either: (a) a "cause" finding and attempts conciliation (settlement); (b) a "no cause" finding (right-to-sue letter issued; 90 days to file federal lawsuit); or (c) right-to-sue letter upon request (regardless of findings if 180 days have elapsed).
+
+NYC HUMAN RIGHTS LAW (NYC Administrative Code §8-101 et seq.)
+--------------------------------------------------------------
+
+New York City's Human Rights Law (NYCHRL) is one of the strongest and most comprehensive anti-discrimination statutes in the country. It is interpreted more broadly than federal law and the New York State Human Rights Law.
+
+COVERAGE: The NYCHRL applies to: employers with 4 or more employees (compared to 15 under Title VII and the ADA); any housing provider (no exceptions for small landlords); all places of public accommodation.
+
+PROTECTED CHARACTERISTICS: Race, color, creed (religion), age (18 and over), national origin, alienage or citizenship status, gender (including gender identity and expression), sexual orientation, marital and partnership status, disability, pregnancy and childbirth status, caregiver status, status as a victim of domestic violence, stalking or sex offenses, arrest record (under certain circumstances), and credit history (for employment).
+
+KEY DIFFERENCES FROM FEDERAL LAW: Under the NYCHRL, the plaintiff's burden of proof is lower — they need only show they were treated "less well" because of a protected characteristic, not that the discrimination was "severe or pervasive." This means more conduct qualifies as illegal under the NYCHRL than under Title VII.
+
+FILING: File with the NYC Commission on Human Rights (CCHR) within 3 years of the discriminatory act (or the most recent act in a continuing pattern), OR file directly in state court within 3 years. CCHR conducts investigations and can hold hearings; successful complainants can receive compensatory damages, civil penalties (up to $250,000 if discrimination was malicious or wanton), and attorney's fees. Contact CCHR at 212-416-0197 or nyc.gov/cchr.
+
+CHICAGO HUMAN RIGHTS ORDINANCE (Municipal Code Ch. 2-160)
+----------------------------------------------------------
+
+Chicago's Human Rights Ordinance prohibits discrimination in employment, housing, and public accommodations based on race, color, sex, age (40+), religion, disability, national origin, ancestry, sexual orientation, marital status, parental status, military discharge status, and source of income.
+
+COVERAGE: Employers with 1 or more employees (for disability and age discrimination in some cases; broader than federal law); all housing transactions; all public accommodations.
+
+FILING: File a complaint with the Chicago Commission on Human Relations (CCHR) within 300 days of the discriminatory act. CCHR investigates and can order remedies including back pay, compensatory damages, and fines. Contact: 312-744-4111 | chicago.gov/humanrelations.
+
+CALIFORNIA FAIR EMPLOYMENT AND HOUSING ACT (FEHA) — Gov. Code §12900+
+-----------------------------------------------------------------------
+
+California's FEHA, administered by the Civil Rights Department (CRD, formerly DFEH), is among the broadest state employment anti-discrimination laws in the country.
+
+COVERAGE: Employers with 5 or more employees for most prohibitions; 1 or more employees for harassment prohibitions.
+
+PROTECTED CHARACTERISTICS: Race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex (including pregnancy, childbirth, and related medical conditions), gender (including gender identity and expression), age (40 and over), sexual orientation, military and veteran status, and reproductive health decisions.
+
+FILING PROCESS: File a complaint with the CRD at calcivilrights.ca.gov within 3 years of the most recent act of discrimination (this period was extended from 1 year in 2020). After the CRD issues a right-to-sue notice, file in Superior Court within 1 year. California allows class action FEHA suits and has generous damages provisions including unlimited emotional distress damages and punitive damages.
+
+Key Contacts:
+- EEOC: eeoc.gov | 1-800-669-4000
+- HUD Fair Housing: hud.gov/fairhousing | 1-800-669-9777
+- NYC Commission on Human Rights: 212-416-0197 | nyc.gov/cchr
+- Chicago Commission on Human Relations: 312-744-4111
+- CA Civil Rights Department (CRD): calcivilrights.ca.gov | 1-800-884-1684
+
+This document is for general informational purposes. Discrimination law is complex and highly fact-specific. Consult a licensed attorney with experience in employment, housing, or civil rights law.

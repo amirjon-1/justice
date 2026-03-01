@@ -1,0 +1,169 @@
+GENERAL EDUCATION RIGHTS: SPECIAL EDUCATION, DISCIPLINE, TITLE IX, AND STUDENT RIGHTS
+=======================================================================================
+
+IDEA: INDIVIDUALS WITH DISABILITIES EDUCATION ACT
+---------------------------------------------------
+
+The Individuals with Disabilities Education Act (IDEA), 20 USC §1400 et seq., is the primary federal law governing the education of children with disabilities. IDEA guarantees eligible children with disabilities (ages 3 through 21) the right to a Free Appropriate Public Education (FAPE) in the Least Restrictive Environment (LRE) — at public expense.
+
+FREE APPROPRIATE PUBLIC EDUCATION (FAPE): "Free" means no cost to the family. "Appropriate" means the education must be reasonably calculated to enable the child to make meaningful progress in light of their circumstances (Endrew F. v. Douglas County School District, 580 US 386 (2017) — the Supreme Court clarified in 2017 that the educational program must be "appropriately ambitious," not merely more than de minimis). "Public education" includes placements in public schools, special schools, residential facilities, or private schools when the public school cannot provide FAPE.
+
+LEAST RESTRICTIVE ENVIRONMENT (LRE): IDEA requires that children with disabilities be educated alongside non-disabled peers to the maximum extent appropriate. Placement in a separate special education classroom, special school, or residential facility is only permissible when the nature or severity of the disability is such that education in regular classes cannot be achieved satisfactorily even with the use of supplementary aids and services.
+
+COVERED DISABILITIES: Children qualify for IDEA services if they have one of 13 specific disability categories AND the disability adversely affects their educational performance AND they need special education and related services. The 13 categories include: autism, deaf-blindness, deafness, emotional disturbance, hearing impairment, intellectual disability, multiple disabilities, orthopedic impairment, other health impairment (including ADHD), specific learning disability (including dyslexia), speech or language impairment, traumatic brain injury, and visual impairment.
+
+EVALUATION AND ELIGIBILITY PROCESS:
+1. Referral: Any person (parent, teacher, doctor, other school staff) can refer a child for a special education evaluation.
+2. Parent Consent: The school must obtain written parental consent before conducting an initial evaluation. Parents can also initiate an evaluation request by sending a written request to the school.
+3. Evaluation: The school must complete a comprehensive evaluation within 60 days of receiving parental consent (deadline may differ by state). The evaluation must be comprehensive, conducted by qualified professionals, and must assess all areas of suspected disability.
+4. Eligibility Determination: A team (including parents) reviews evaluation results to determine whether the child qualifies for special education services under IDEA.
+5. IEP Development: If eligible, the team develops an Individualized Education Program (IEP) within 30 days of the eligibility determination.
+
+IEP (INDIVIDUALIZED EDUCATION PROGRAM) RIGHTS
+-----------------------------------------------
+
+The IEP is the cornerstone of IDEA. It is a written document that describes the special education program designed specifically for an eligible child.
+
+REQUIRED IEP CONTENTS (20 USC §1414(d)):
+- The child's present levels of academic achievement and functional performance
+- Annual measurable goals (academic and functional)
+- A description of how progress toward goals will be measured and reported
+- Special education and related services (e.g., speech therapy, occupational therapy, physical therapy, counseling, paraprofessional support, transportation) to be provided
+- An explanation of the extent to which the child will NOT participate with non-disabled children in regular classes
+- Any accommodations for state and district assessments
+- The projected start date, frequency, location, and duration of services
+
+ANNUAL REVIEW: The IEP must be reviewed at least annually by the IEP team (which includes the parents, the child where appropriate, at least one general education teacher, one special education teacher, a school administrator who can commit school resources, and a district representative).
+
+TRIENNIAL REEVALUATION: The school must reevaluate the child at least every three years (or more frequently if conditions warrant or the parent or teacher requests it) to determine whether the child continues to have a disability and educational needs.
+
+PARENTS AS EQUAL PARTICIPANTS: Parents are full members of the IEP team with equal standing. The school must:
+- Notify parents of IEP meetings with sufficient advance notice and ensure meetings are scheduled at mutually convenient times
+- Provide the parent with a copy of the IEP at no cost
+- Conduct meetings in the parent's native language if they are not proficient in English (with an interpreter)
+
+INDEPENDENT EDUCATIONAL EVALUATION (IEE): If a parent disagrees with the school's evaluation, they have the right to request an IEE (an evaluation conducted by a qualified examiner who is not employed by the school district) at public expense. The school must either: fund the IEE, or file for a due process hearing to show their evaluation was appropriate. If the school files for a hearing and wins, the parent may still have the IEE but must pay for it themselves. The school must consider (but is not required to adopt) the IEE results.
+
+PROCEDURAL SAFEGUARDS NOTICE: Schools must provide parents with a copy of their procedural safeguards at least once per year, and at initial referral, upon each notification of an IEP meeting, upon re-evaluation, and upon filing of a due process complaint.
+
+WHAT TO DO WHEN THE SCHOOL FAILS TO PROVIDE FAPE:
+1. State Complaint: File a written complaint with the state education department. The state must investigate and issue a written decision within 60 days. The investigation focuses on whether the school complied with IDEA procedures, not on educational judgment.
+2. Mediation: Voluntary, free, conducted by a trained mediator. Confidential. Can produce a binding agreement.
+3. Due Process Hearing: File a due process complaint with the state. A hearing officer conducts a formal evidentiary hearing. Timelines: The school has 30 days to resolve the complaint (resolution period). If not resolved, the hearing proceeds. The hearing officer issues a decision within 45 days after the resolution period expires. Parents may represent themselves or have an attorney.
+4. Appeals: Decisions of due process hearing officers may be appealed to state-level review (if the state has a two-tier system) and then to federal or state court.
+5. Attorneys' Fees: Under IDEA (20 USC §1415(i)(3)), parents who prevail in due process hearings or litigation are entitled to recover attorneys' fees from the school district.
+
+504 PLANS (REHABILITATION ACT §504)
+--------------------------------------
+
+Section 504 of the Rehabilitation Act of 1973 (29 USC §794) is a federal civil rights law that prohibits discrimination against individuals with disabilities by any program or activity receiving federal financial assistance — which includes virtually all public schools (and most private schools, since they accept federal funds).
+
+HOW 504 DIFFERS FROM IDEA:
+- 504 covers a broader range of disabilities (any physical or mental impairment that substantially limits one or more major life activities — a much lower bar than IDEA's 13 categories)
+- 504 does not require a child to need "special education" — it can provide regular education with accommodations
+- 504 plans do not have the same detailed procedural requirements as IEPs
+- No individual funding is provided under 504 (unlike IDEA's requirement to fund special education)
+
+COMMON 504 ACCOMMODATIONS:
+- Extended time on tests and assignments
+- Preferential seating (front of class, away from distractions)
+- Permission to record lectures
+- Frequent breaks
+- Modified homework assignments
+- Use of calculator or spell-checker on tests
+- Physical accommodations (ramp access, elevator use, modified PE)
+- Specialized diet in school cafeteria for medical conditions (e.g., peanut allergy accommodations)
+
+FILING A 504 COMPLAINT: File a complaint with the U.S. Department of Education's Office for Civil Rights (OCR) at ed.gov/ocr or by calling 1-800-421-3481. OCR investigates complaints that schools have discriminated against students with disabilities by failing to provide appropriate 504 accommodations. Complaints must generally be filed within 180 days of the last discriminatory act (with limited exceptions).
+
+SCHOOL DISCIPLINE AND DUE PROCESS
+------------------------------------
+
+The Due Process Clause of the Fourteenth Amendment applies to school disciplinary proceedings when a student faces suspension or expulsion — a deprivation of the property interest in continued public education (Goss v. Lopez, 419 US 565 (1975)).
+
+SHORT-TERM SUSPENSION (10 DAYS OR FEWER):
+Minimum due process required:
+- Oral notice of the charges
+- An explanation of the evidence against the student
+- An opportunity for the student to explain their side of the story
+These informal requirements can be satisfied quickly (even immediately before the suspension if no imminent danger).
+
+LONG-TERM SUSPENSION OR EXPULSION:
+More formal due process is required before imposing a suspension exceeding 10 consecutive days or expulsion. This includes:
+- Written notice of charges, with sufficient detail to allow a defense
+- Notice of the hearing date, time, and location with sufficient advance time to prepare
+- The right to present evidence and witnesses on the student's behalf
+- The right to know the evidence against the student
+- A written decision from the hearing officer
+Some states and districts also allow representation by a parent, advocate, or attorney at expulsion hearings.
+
+DISABLED STUDENTS — MANIFESTATION DETERMINATION REVIEW (MDR):
+Under IDEA, before a school can suspend or expel a special education student for more than 10 cumulative school days in a school year, it must conduct a Manifestation Determination Review. The MDR team (including the parents and relevant IEP team members) must determine:
+1. Was the conduct caused by, or did it have a direct and substantial relationship to, the student's disability? OR
+2. Was the conduct the direct result of the school's failure to implement the IEP?
+
+If the answer to either question is YES, the conduct is a "manifestation" of the disability. In that case: the school CANNOT suspend or expel the student using the same procedures as for non-disabled students; the school must conduct a functional behavioral assessment and develop a behavioral intervention plan; the student must return to their current placement (unless the parties agree otherwise or certain special circumstances apply, such as possession of a weapon or drugs).
+
+If the answer is NO (the conduct is not a manifestation of the disability): the school may apply the same disciplinary procedures as for non-disabled students. However, during the period of removal, the school must still provide FAPE in whatever setting the student is placed.
+
+TITLE IX: SEX DISCRIMINATION IN EDUCATION
+------------------------------------------
+
+Title IX of the Education Amendments of 1972 (20 USC §1681 et seq.) prohibits sex discrimination in any educational program or activity receiving federal financial assistance. Title IX is administered by the U.S. Department of Education's Office for Civil Rights (OCR).
+
+WHAT TITLE IX COVERS:
+- Sex discrimination in admissions (for programs that are not expressly single-sex)
+- Athletics: Schools must provide equal athletic opportunities for male and female students. This involves analysis of: proportionality of athletic participation relative to enrollment; history and continuing practice of expanding opportunities; full and effective accommodation of interests and abilities of the underrepresented sex.
+- Sexual harassment: Title IX requires schools to respond to sexual harassment of students, including: hostile environment harassment (severe, pervasive, and objectively offensive conduct based on sex), quid pro quo harassment by a school employee, and sexual violence (rape, sexual assault, sexual coercion).
+- Sexual violence: Schools must investigate reports of sexual violence promptly and equitably, provide supportive measures to complainants, and, after a live hearing with cross-examination (under the 2020 regulations for postsecondary institutions), make a determination using the preponderance of evidence or clear and convincing evidence standard.
+
+FILING A TITLE IX COMPLAINT:
+- Report to the school's Title IX Coordinator: Every school receiving federal funds must designate a Title IX Coordinator. Report sexual harassment or discrimination to the Coordinator. The school must respond promptly.
+- File a complaint with OCR: File at ed.gov/ocr within 180 days of the most recent discriminatory act. OCR investigates and can require the school to take corrective action.
+- Private lawsuit: After filing with OCR (or independently), you may file a private lawsuit in federal court. The statute of limitations varies by state (typically 2 years for Title IX claims under the applicable state personal injury statute).
+
+FIRST AMENDMENT RIGHTS IN SCHOOLS
+------------------------------------
+
+The landmark case Tinker v. Des Moines Independent Community School District, 393 US 503 (1969), established the foundational principle that students do not "shed their constitutional rights to freedom of speech or expression at the schoolhouse gate." Students retain First Amendment rights in public schools, but those rights are not unlimited.
+
+WHEN SCHOOLS CAN RESTRICT STUDENT SPEECH:
+A school may restrict student speech or expression only when it would: (1) materially and substantially disrupt school operations or discipline; or (2) invade the rights of others. A school's subjective fear or mere discomfort with the message is not sufficient. The disruption must be actual or based on well-grounded facts about likely disruption (Tinker standard for general student speech).
+
+SCHOOL-SPONSORED SPEECH: Schools have greater latitude to regulate school-sponsored speech (student newspapers, theatrical productions, speech as part of a class curriculum) — courts apply the Hazelwood standard (Hazelwood School District v. Kuhlmeier, 484 US 260 (1988)), which allows schools to regulate school-sponsored speech for legitimate pedagogical reasons.
+
+OFF-CAMPUS SPEECH: The Supreme Court addressed off-campus student speech in Mahanoy Area School District v. B.L., 594 US 180 (2021), holding that public schools have limited authority to regulate off-campus speech and must apply the Tinker "substantial disruption" test (or stricter scrutiny) to off-campus, online speech.
+
+STUDENT RELIGIOUS EXPRESSION: Student-initiated, student-led religious expression (prayer, religious clubs, distributing religious literature) in public schools is protected First Amendment activity. School-sponsored or school-led prayer violates the Establishment Clause. The Equal Access Act (20 USC §4071) requires public secondary schools that allow non-curriculum-related student groups to meet to allow religious student clubs the same access.
+
+SPECIAL EDUCATION COMPLAINT PROCESS (SUMMARY)
+----------------------------------------------
+
+1. State Complaint (IDEA §616): File with your state education department. State must investigate and issue a written decision within 60 calendar days of the complaint. May order corrective action, compensatory services, and reimbursement.
+
+2. Due Process Hearing (IDEA §615): File with the state. A neutral hearing officer conducts an evidentiary hearing. Resolution period: 30 days. Hearing decision: within 45 days after resolution period. Appeals: to state-level review (if applicable), then federal or state court. Successful parents may recover attorneys' fees.
+
+3. OCR Complaint (§504/Title IX): File at ed.gov/ocr within 180 days of the violation. OCR investigates and can require corrective action. OCR does not award monetary damages to individual complainants but can enforce systemic changes.
+
+4. Private Lawsuit: For IDEA, parents must first exhaust administrative remedies (complete the due process hearing process) before filing a lawsuit in federal or state court, unless an exception applies (e.g., if exhaustion would be futile or inadequate). For §504 and Title IX, a private lawsuit may be filed in federal court, typically after filing with OCR (though OCR filing is not always required).
+
+RIGHT TO PUBLIC EDUCATION REGARDLESS OF IMMIGRATION STATUS
+-----------------------------------------------------------
+
+In Plyler v. Doe, 457 US 202 (1982), the United States Supreme Court held that states cannot deny undocumented children access to free public K-12 education. A state law that bars undocumented children from public school violates the Equal Protection Clause of the Fourteenth Amendment.
+
+PRACTICAL IMPLICATIONS:
+- Public schools may NOT require Social Security numbers from children or their parents as a condition of enrollment
+- Public schools may NOT require immigration documents (such as a visa, green card, or passport) as a condition of enrollment
+- Schools cannot bar undocumented students from enrolling based on their immigration status
+- Schools may require proof of residency within the school district — but only to determine the correct district of enrollment, not immigration status
+- For homeless children (including children of undocumented families): The McKinney-Vento Homeless Education Assistance Act (42 USC §11431 et seq.) requires schools to immediately enroll homeless children even without documents, immunization records, or proof of residency.
+
+Key Education Rights Contacts:
+- U.S. Dept of Education, Office for Civil Rights (OCR): ed.gov/ocr | 1-800-421-3481
+- IDEA dispute resolution: Contact your state education department's special education division
+- Parent Training and Information Centers (PTIs): Federally funded organizations that help parents understand IDEA rights (find at parentcenterhub.org)
+- Disability Rights Advocates: dralegal.org
+- National Disability Rights Network: ndrn.org
+
+This document is for general informational purposes. Education law is complex and varies by state. Consult a licensed attorney or advocate specializing in education rights for advice specific to your child's situation.

@@ -1,0 +1,131 @@
+GENERAL EMPLOYMENT RIGHTS: WAGES, WORKING CONDITIONS, AND WRONGFUL TERMINATION
+================================================================================
+
+FAIR LABOR STANDARDS ACT (FLSA): MINIMUM WAGE AND OVERTIME
+-----------------------------------------------------------
+
+The Fair Labor Standards Act (FLSA), 29 USC §201 et seq., is the federal law governing minimum wage, overtime, recordkeeping, and child labor standards for most private and public sector workers.
+
+FEDERAL MINIMUM WAGE: The federal minimum wage is $7.25 per hour. This rate has been unchanged since July 2009. Most states and many cities have enacted higher minimum wages — always check your state and local rate, as the higher rate applies.
+
+STATE AND CITY MINIMUM WAGES (2024 rates):
+
+New York City:
+- NYC minimum wage: $16.00 per hour for all NYC workers (effective January 1, 2024)
+- Long Island and Westchester County: $16.00 per hour
+- Remainder of New York State: $15.00 per hour
+- Tipped food service workers in NYC: $10.65 per hour cash wage (employer may apply tip credit of $5.35/hr, as long as tips bring total hourly compensation to at least $16.00/hr)
+- Tipped service workers other than food service in NYC: $13.35 cash wage with tip credit to $16.00/hr
+- Note: New York minimum wage is indexed and increases annually; check the NY Department of Labor at labor.ny.gov for current rates.
+
+Chicago:
+- Chicago minimum wage: $15.80 per hour (effective July 1, 2024 for employers with 21 or more workers)
+- Employers with 4-20 workers: $15.00 per hour
+- Tipped workers in Chicago: Employers may pay tipped workers a "tip credit" wage. The minimum cash wage for tipped workers is $9.48/hr (effective July 1, 2024) as long as tips bring total hourly compensation to at least $15.80/hr for large employers. If tips are insufficient in any workweek to reach the minimum wage, the employer must make up the difference.
+
+Los Angeles:
+- LA minimum wage: $17.28 per hour (effective July 1, 2024, applies citywide and to LAX workers under the Living Wage Ordinance)
+- California state minimum wage: $16.00/hr (effective January 1, 2024)
+- Tipped workers in California: California does NOT permit a tip credit. All workers in California — including tipped workers — must receive the full minimum wage from their employer. Tips are additional income on top of the minimum wage. This is significantly more protective than federal law and most other states.
+
+OVERTIME UNDER THE FLSA: Non-exempt employees must receive overtime pay at 1.5 times ("time and a half") their regular rate of pay for all hours worked over 40 in a single workweek. A "workweek" is any fixed recurring period of 168 hours — 7 consecutive 24-hour periods. Overtime is calculated weekly — you cannot average hours over two weeks to avoid overtime liability.
+
+EXEMPT vs. NON-EXEMPT EMPLOYEES: The FLSA exempts certain categories of workers from overtime and minimum wage requirements. The most commonly invoked exemptions are the "white-collar" exemptions for executive, administrative, and professional employees — but only if the employee meets BOTH: (1) a duties test (their primary job duties must meet specific criteria) AND (2) a salary basis test (they must be paid at least $684 per week as of the 2020 updated regulations). Simply calling someone "salaried" does not make them exempt. Many workers misclassified as exempt are entitled to unpaid overtime.
+
+TIP CREDITS AND POOLING: Under federal law, employers may pay tipped workers as little as $2.13 per hour in cash wages if the employee's tips bring their total hourly compensation to at least $7.25/hr. If tips are insufficient, the employer must pay the difference. California prohibits tip credits entirely. The FLSA also addresses tip pooling — employers with tipped employees may not require employees to share tips with non-tipped employees (such as managers, supervisors, or kitchen workers who do not customarily receive tips).
+
+WRONGFUL TERMINATION IN AT-WILL EMPLOYMENT
+-------------------------------------------
+
+AT-WILL EMPLOYMENT: The United States follows the "at-will" employment doctrine by default — absent a specific contract or policy, an employer can fire an employee at any time, for any reason, or no reason at all. Employees can also quit at any time without legal consequence (subject to any contract terms). This is the default rule in 49 states (Montana has modified it by statute).
+
+ILLEGAL REASONS FOR TERMINATION — EXCEPTIONS TO AT-WILL:
+Despite the at-will rule, there are many situations in which terminating an employee is unlawful. These include:
+
+1. Discrimination based on a protected characteristic: Firing someone because of their race, sex, age (40+), religion, national origin, disability, pregnancy, sexual orientation, or gender identity violates Title VII, the ADA, the ADEA, or applicable state law.
+
+2. Retaliation for protected activity: Firing an employee because they engaged in a legally protected activity — such as reporting discrimination to HR or the EEOC, filing a workers' compensation claim, requesting FMLA leave, reporting wage theft, participating in an OSHA inspection, or acting as a whistleblower — is retaliation, which is independently prohibited by numerous federal and state laws.
+
+3. Violation of an employment contract: If the employee has a written employment contract specifying the grounds for termination or a specific term of employment, termination outside those grounds is breach of contract.
+
+4. Violation of an implied contract: Some courts hold that an employer's statements in an employee handbook (e.g., "employees will only be terminated for good cause following a progressive discipline process") can create an implied contract that limits at-will termination.
+
+5. Public policy violations: Firing an employee for refusing to perform an illegal act, for exercising a legal right (voting, jury duty), or for reporting criminal conduct is a "public policy" wrongful termination in most states.
+
+WHISTLEBLOWER RETALIATION PROTECTIONS
+---------------------------------------
+
+Federal law provides whistleblower protection under approximately 25 statutes administered by OSHA's Whistleblower Protection Program. These cover workers who report violations in industries including: workplace safety (OSHA/OSH Act), financial fraud (Sarbanes-Oxley, Dodd-Frank), environmental violations (Clean Air Act, Clean Water Act), transportation safety, nuclear safety, and more.
+
+OSH ACT WHISTLEBLOWER PROTECTION (Section 11(c)): An employer cannot discharge or discriminate against any employee who reports a workplace hazard, files a complaint with OSHA, participates in an OSHA inspection, or exercises any other OSHA-protected right. File a retaliation complaint with OSHA within 30 days of the retaliatory action (the deadline is only 30 days — do not delay). OSHA will investigate and, if the complaint has merit, can order reinstatement, back pay, and other remedies.
+
+NLRA PROTECTION FOR CONCERTED ACTIVITY: Under the National Labor Relations Act (NLRA), Section 7 protects employees' rights to engage in "concerted activity" — acting together to improve working conditions. This includes: discussing wages with coworkers, complaining about working conditions as a group, and organizing. An employer cannot fire an employee for discussing wages with coworkers, even if the employer has a policy prohibiting such discussion (that policy itself would be unlawful).
+
+STATE WHISTLEBLOWER LAWS: New York (New York Labor Law §740), Illinois (Illinois Whistleblower Act, 740 ILCS 174/1), and California (Labor Code §1102.5) all have state whistleblower protection statutes that provide additional coverage beyond federal law. California's Labor Code §1102.5 is particularly broad, protecting employees who report or refuse to participate in activity they reasonably believe violates law, regardless of whether the employer actually violated the law.
+
+OSHA WORKPLACE SAFETY RIGHTS
+------------------------------
+
+Under the Occupational Safety and Health Act (OSH Act), 29 USC §651 et seq., workers have the right to a safe workplace free from recognized hazards likely to cause death or serious physical harm.
+
+OSHA WORKER RIGHTS:
+- Right to request an OSHA inspection (anonymously if desired): File a complaint at osha.gov, by calling 1-800-321-OSHA (6742), or in person at a local OSHA area office.
+- Right to receive information about hazards and access to OSHA standards and citations
+- Right to participate in OSHA inspections and speak privately with inspectors
+- Right to receive copies of any workplace injury logs (OSHA Form 300) upon request
+- Right to refuse to do work if there is an imminent danger of death or serious physical harm and there is insufficient time to eliminate the danger through normal channels — but only if a reasonable person would conclude the danger is real and immediate
+
+IMMINENT DANGER: If there is an imminent danger condition (an immediate threat of serious injury or death), OSHA must investigate as quickly as possible, often within 24 hours. File the complaint immediately. Identify the hazard with as much specificity as possible.
+
+EMPLOYER OBLIGATIONS: Employers with 10 or more employees must maintain an OSHA injury and illness log (Form 300) and post an annual summary (Form 300A) from February 1 through April 30 each year.
+
+UNPAID WAGE CLAIMS
+-------------------
+
+Wage theft — failure to pay minimum wage, unpaid overtime, illegal deductions, and withheld tips — is one of the most common labor law violations. Workers have several avenues to recover unpaid wages:
+
+US DEPARTMENT OF LABOR, WAGE AND HOUR DIVISION (WHD):
+File a complaint at dol.gov/agencies/whd or by calling 1-866-487-9243. WHD investigates and can recover up to 2 years of back wages (3 years for willful violations) plus an equal amount in liquidated damages. WHD investigations are free and do not require an attorney. WHD does not charge fees.
+
+STATE LABOR AGENCIES:
+- New York: NYC Department of Consumer and Worker Protection (DCWP) and the NY State Department of Labor handle wage theft claims. DCWP specifically handles NYC workers and can recover back wages plus penalties. The NY Labor Law allows recovery of liquidated damages of 100% of unpaid wages plus attorneys' fees. File at nyc.gov/dcwp or call 311.
+- Illinois: The Illinois Department of Labor (IDOL) handles wage claims under the Illinois Minimum Wage Law and Wage Payment and Collection Act (820 ILCS 115/1). File online at labor.illinois.gov. IDOL can order back wages plus 2% per month interest.
+- California: The California Labor Commissioner's Office (also called the Division of Labor Standards Enforcement, DLSE) handles wage claims under California Labor Code §98. California offers the "Berman hearing" administrative process for claims under $25,000 — a relatively informal hearing before a Deputy Labor Commissioner. For claims over $25,000, file in Superior Court. California allows recovery of back wages, interest, waiting time penalties (up to 30 days of wages if final paycheck is not timely paid), and attorneys' fees. File at dir.ca.gov/dlse.
+
+PRIVATE LAWSUITS: Workers can sue employers directly under the FLSA or applicable state law. Many wage and hour attorneys take these cases on contingency or on a "fee-shifting" basis (the losing employer pays your attorneys' fees). Class actions are common for widespread wage theft affecting multiple workers.
+
+FAMILY AND MEDICAL LEAVE ACT (FMLA)
+--------------------------------------
+
+The Family and Medical Leave Act (FMLA), 29 USC §2601 et seq., provides eligible employees of covered employers with up to 12 workweeks of unpaid, job-protected leave per year for specified family and medical reasons.
+
+COVERED EMPLOYERS: Employers with 50 or more employees within 75 miles of the work site.
+
+ELIGIBLE EMPLOYEES: Must have worked for the employer for at least 12 months AND at least 1,250 hours during the previous 12-month period.
+
+QUALIFYING REASONS FOR LEAVE:
+- Serious health condition of the employee (illness, injury, or medical condition requiring inpatient care or continuing treatment by a healthcare provider)
+- Serious health condition of a spouse, child, or parent
+- Birth of a child or adoption/foster placement of a child
+- Qualifying exigency related to a family member's military service
+- Care for a covered servicemember with a serious injury or illness (up to 26 weeks)
+
+PROTECTIONS: The employer must restore the employee to the same or an equivalent position with equivalent pay, benefits, and other terms and conditions of employment upon return from FMLA leave. Employers cannot interfere with FMLA rights or retaliate against employees for exercising them.
+
+NOTICE: Employees must give at least 30 days' advance notice when the need for leave is foreseeable, or as soon as practicable when it is not. Employers may require certification from a healthcare provider.
+
+CALIFORNIA ADDITIONAL PROTECTIONS: California Family Rights Act (CFRA) applies to employers with 5 or more employees, covering a broader set of family relationships. California also provides Paid Family Leave (PFL) through the state disability insurance program, paying up to 60-70% of wages during leave.
+
+CONTACT INFORMATION FOR WAGE AND HOUR ENFORCEMENT
+--------------------------------------------------
+
+- US DOL Wage and Hour Division: dol.gov/agencies/whd | 1-866-487-9243
+- NYC DCWP (wage theft): nyc.gov/dcwp | 311
+- NY State DOL: labor.ny.gov | 1-888-4-NYSDOL (469-7365)
+- IL Dept of Labor: labor.illinois.gov | 217-782-6206
+- CA Labor Commissioner (DLSE): dir.ca.gov/dlse | 1-844-522-6734
+- OSHA (workplace safety): osha.gov | 1-800-321-OSHA (6742)
+- NLRB (unfair labor practices, concerted activity): nlrb.gov | 1-844-762-6572
+- EEOC (employment discrimination): eeoc.gov | 1-800-669-4000
+
+This document is for general informational purposes. Employment law is highly jurisdiction-specific. Consult a licensed employment attorney for advice specific to your situation. Many employment attorneys offer free initial consultations.

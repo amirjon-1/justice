@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+sentence-transformers
+groq
+requests
+python-dotenv
+beautifulsoup4
+lxml
+numpy
+langdetect

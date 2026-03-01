@@ -1,0 +1,289 @@
+LOS ANGELES TENANT RIGHTS AND HOUSING LAW
+City of Los Angeles & State of California Tenant Protections
+Source: LA Housing Department (LAHD), California Civil Code, LAMC
+Last Updated: 2024
+
+================================================================================
+CALIFORNIA HABITABILITY STANDARDS — Civil Code §1941 and §1941.1
+================================================================================
+
+California law requires landlords to maintain rental properties in a "habitable"
+condition at all times. California Civil Code §1941 places this duty on the
+landlord regardless of what the lease says.
+
+A DWELLING IS HABITABLE UNDER §1941.1 WHEN IT HAS:
+1. Effective waterproofing and weather protection of roof and exterior walls,
+   including unbroken windows and doors
+2. Plumbing or gas facilities maintained in good working order (conforming to
+   law at time of installation)
+3. A water supply approved under applicable law providing hot and cold running
+   water connected to a sewage disposal system
+4. Heating facilities in good working order (conforming to law at time of install)
+5. Electrical lighting, wiring, and equipment in good working order
+6. Building, grounds, and appurtenances clean, sanitary, and free from debris,
+   filth, rubbish, garbage, rodents, and vermin
+7. Adequate garbage and rubbish storage and removal facilities
+8. Floors, stairways, and railings maintained in good repair
+9. Locks on: main entrance door, deadbolt on entry doors (30-inch grip), window
+   locks on ground floor windows
+
+HOT WATER REQUIREMENTS (California):
+- Landlords must provide hot water sufficient for ordinary use
+- LA requires water temperature of 120°F minimum
+- Failure to provide hot water violates California habitability law
+
+HEATING REQUIREMENTS:
+- Heating facilities must be present and working
+- LA Municipal Code requires heating capable of maintaining 70°F in habitable rooms
+- Failure to maintain working heat violates both state and city law
+
+================================================================================
+TENANT REMEDIES UNDER CALIFORNIA LAW — Civil Code §1942 et seq.
+================================================================================
+
+REMEDY 1: REPAIR AND DEDUCT — Civil Code §1942
+After giving landlord reasonable time to repair (usually 30 days; less for
+emergencies posing immediate health/safety risk):
+
+- You may cause the repair to be made
+- Deduct the cost from rent
+- Maximum: One month's rent per incident
+- May only use this remedy TWICE in any 12-month period
+- Must use a licensed contractor
+- Keep all receipts
+
+Example: Monthly rent = $2,000. Maximum repair and deduct = $2,000.
+(LA's cap is higher than many other cities due to high rents)
+
+REMEDY 2: RENT WITHHOLDING — Civil Code §1942 (implied)
+You may withhold rent when the landlord breaches the warranty of habitability.
+IMPORTANT: Courts are strict about this. Required steps:
+1. Notify landlord in writing of the condition
+2. Allow reasonable time to repair
+3. Document everything (photos, videos, written communications)
+4. Continue to deposit rent in a separate account
+5. Be prepared to prove habitability breach in court
+
+REMEDY 3: ABANDONMENT / CONSTRUCTIVE EVICTION
+If conditions are so severe that the apartment is essentially uninhabitable:
+- You may vacate and terminate the lease
+- Must document conditions thoroughly before leaving
+- May sue for damages: moving costs, rent differential, personal injury
+- Must give landlord written notice of intent to terminate
+
+REMEDY 4: REDUCTION IN SERVICES PETITION (Rent-Stabilized Only)
+If your unit is covered by the LA Rent Stabilization Ordinance, you may
+file a petition with LAHD for rent reduction due to reduction in services.
+
+================================================================================
+LOS ANGELES RENT STABILIZATION ORDINANCE (RSO) — LAMC Chapter XV, Art. 1
+================================================================================
+
+COVERAGE — RSO APPLIES TO:
+- Rental units built on or before October 1, 1978 (or Certificate of Occupancy
+  issued on or before that date)
+- Units in Los Angeles city limits (not LA County or other cities)
+- 2+ units on a parcel (condos excluded unless built before 1978 and rented)
+- Applies to approximately 650,000 units in Los Angeles
+
+RSO DOES NOT APPLY TO:
+- Units built after October 1, 1978
+- Single-family homes and condos (with limited exceptions per AB 1482)
+- Units where landlord lives in adjacent unit in small building
+- Hotels, motels, and similar transient accommodations
+
+RSO ANNUAL RENT INCREASES:
+- Landlord may raise rent by the annual allowable increase (set each year)
+- 2024 allowable increase: 4% (varies by year, tied to CPI)
+- No more than one rent increase per 12-month period
+- 30 days advance written notice required for any rent increase
+- Rent increases ABOVE the allowable amount are VOID and uncollectable
+
+RSO JUST CAUSE EVICTION PROTECTIONS:
+Under the RSO, landlords may only evict RSO-covered tenants for specific
+"just cause" reasons:
+TENANT-CAUSED JUST CAUSES:
+1. Nonpayment of rent
+2. Breach of lease provision (with opportunity to cure)
+3. Maintaining a nuisance
+4. Illegal use of unit
+5. Denial of landlord's right to entry (after proper notice)
+6. Subletting without permission
+
+LANDLORD-CAUSED NO-FAULT EVICTIONS (require relocation assistance):
+7. Owner or immediate family member occupancy
+8. Demolition or removal from rental market (Ellis Act)
+9. Substantial rehabilitation (limited)
+10. Government order to vacate
+
+RELOCATION ASSISTANCE REQUIREMENTS:
+For no-fault evictions, landlords must pay relocation assistance:
+- Small landlord: 1 month rent
+- Large landlord (≥4 units): 3 months rent
+- Elderly, disabled, or families with minor children: Additional 1 month rent
+- All cases: City filing fee of $1,875 (paid to City, credited against assistance)
+
+AB 1482 — STATEWIDE RENT CAP AND JUST CAUSE (Single-Family, Post-1978 Units):
+California AB 1482 (effective Jan 1, 2020) provides protections for units
+NOT covered by local rent control:
+- Annual rent increase cap: 5% + local CPI, maximum 10%
+- Just cause required for eviction after 12 months of tenancy
+- Relocation assistance for no-fault evictions: 1 month's rent
+
+================================================================================
+LA HOUSING DEPARTMENT (LAHD) COMPLAINT PROCESS
+================================================================================
+
+LAHD is the City of Los Angeles agency that enforces the RSO and housing
+habitability codes. LAHD handles:
+- Rent control complaints
+- Habitability complaints (health and safety violations)
+- Illegal rent increase complaints
+- Retaliatory eviction complaints
+- Landlord failure to register unit (all RSO units must be registered)
+
+HOW TO FILE A HABITABILITY COMPLAINT WITH LAHD:
+1. Online: lahd.lacity.org → "File a Complaint"
+2. By phone: (866) 557-7368 (LAHD hotline) or 311
+3. In person: LAHD offices at 3550 Wilshire Blvd, Suite 1500, Los Angeles
+
+WHAT HAPPENS AFTER FILING:
+- Inspector scheduled (1-3 weeks for non-emergency; 24-48 hours for emergency)
+- Inspector visits property, documents violations
+- Notice to Comply issued to landlord (30 days to correct)
+- Follow-up inspection scheduled
+- If violations persist: Administrative citation ($200–$1,000+ per violation)
+- Severe/persistent violations: Case referred to City Attorney for prosecution
+
+LAHD RENT REDUCTION PETITION:
+For RSO tenants: If your landlord reduces services or fails to maintain
+habitability, file a Petition for Reduction in Services (on LAHD form).
+Outcome: LAHD may reduce your legal maximum rent until violations are fixed.
+
+LAHD RSO UNIT REGISTRATION:
+- All RSO units must be registered with LAHD annually
+- Landlord must pay registration fee
+- Failure to register: Landlord cannot collect rent increases
+- Check registration: lahd.lacity.org/residents
+
+================================================================================
+LOS ANGELES JUST CAUSE EVICTION ORDINANCE (LARSO Update — 2024)
+================================================================================
+
+Effective 2023, the Los Angeles City Council expanded Just Cause Eviction
+protections. Key points:
+
+EXTENDED TO NEWER UNITS: Just cause protections now apply after 12 months
+of occupancy, including many units not covered by RSO (post-1978 buildings,
+single-family homes — within City of LA limits).
+
+PERMITTED JUST CAUSES:
+- Non-payment of rent (after 3-day notice)
+- Habitually late rent payment (3+ times in 12 months, each ≥5 days late)
+- Damaging the unit
+- Criminal activity on premises
+- Nuisance
+- Denial of landlord access (after proper notice per Civil Code §1954)
+- Owner/family member move-in
+- Withdrawal from rental market
+
+TENANT PROTECTIONS FOR NO-FAULT EVICTIONS:
+- 60-day minimum notice for tenants with 1+ year of tenancy
+- Relocation assistance based on unit size:
+  * Studio: $9,200
+  * 1 bedroom: $12,600
+  * 2 bedroom: $14,900
+  * 3+ bedroom: $18,000
+  (amounts subject to annual adjustment by LAHD)
+
+================================================================================
+ANTI-HARASSMENT ORDINANCE — LAMC §151.33
+================================================================================
+
+The LA Anti-Harassment Ordinance (passed 2021) prohibits landlords from
+taking the following actions with intent to cause a tenant to vacate:
+- Interrupting, terminating, or failing to provide housing services
+- Failing to perform and complete timely repairs
+- Removing amenities without consent
+- Threatening to report tenants to immigration authorities
+- Interfering with tenant's right to organize
+- Entering a tenant's unit without proper notice and cause
+- Verbal abuse, intimidation, or coercion
+- Disrupting tenant's peaceful enjoyment of the premises
+
+PENALTIES: Up to $15,000 per violation + actual damages + attorneys' fees.
+Tenants may sue in Civil Court or file complaint with LAHD.
+
+================================================================================
+EVICTION PROCESS IN CALIFORNIA (Civil Code §1161 et seq.)
+================================================================================
+
+California's eviction process requires court involvement at every stage.
+A landlord CANNOT evict you without a court judgment and sheriff enforcement.
+
+STEP 1 — NOTICE:
+- Non-payment: 3-day notice to pay or quit
+- Lease violation: 3-day notice to cure or quit
+- No-fault: 60-day notice (30 days if tenancy less than 1 year)
+
+STEP 2 — UNLAWFUL DETAINER LAWSUIT:
+If you do not comply with the notice, landlord may file an Unlawful Detainer
+(UD) lawsuit in Los Angeles Superior Court (Stanley Mosk Courthouse or branch).
+
+STEP 3 — COURT HEARING:
+- You have 5 business days to respond to the UD summons
+- Defenses include: improper notice, landlord breach of habitability,
+  retaliation, discrimination, RSO violations, improper rent calculation
+- If you assert habitability defense, court will schedule inspection
+
+STEP 4 — JUDGMENT:
+If landlord wins, court issues judgment. You have 5 days to vacate.
+If you raise habitability defense and win, landlord pays your attorneys' fees.
+
+STEP 5 — LOCKOUT:
+Only the Los Angeles County Sheriff can enforce an eviction. Landlord
+cannot change locks without a court-ordered writ of possession.
+
+NEVER IGNORE A UD SUMMONS — You have only 5 business days to respond.
+
+================================================================================
+FREE LEGAL RESOURCES IN LOS ANGELES
+================================================================================
+
+LA HOUSING DEPARTMENT (LAHD):
+- (866) 557-7368
+- lahd.lacity.org
+- RSO complaints, habitability complaints, illegal eviction complaints
+
+HOUSING IS A HUMAN RIGHT:
+- housingisahumanright.org
+- Tenant rights information and advocacy
+
+LEGAL AID FOUNDATION OF LOS ANGELES (LAFLA):
+- (800) 399-4529
+- lafla.org
+- Free civil legal services for low-income residents
+
+INNER CITY LAW CENTER:
+- (213) 891-2880
+- innercitylaw.org
+- Focuses on homelessness prevention and tenants at risk
+
+CAUSA JUSTA :: JUST CAUSE:
+- cjjc.org
+- Community organizing and tenant rights resources
+
+LA COUNTY BAR ASSOCIATION LAWYER REFERRAL SERVICE:
+- (213) 243-1525
+- lacba.org/lrs
+- Attorney referrals with reduced-fee initial consultations
+
+STRATEGIC ACTIONS FOR A JUST ECONOMY (SAJE):
+- (213) 745-9961
+- saje.net
+- Tenant rights education and advocacy in South/Central LA
+
+LOS ANGELES SUPERIOR COURT SELF-HELP CENTER:
+- 111 N. Hill Street, Los Angeles (Stanley Mosk Courthouse, Room 9)
+- Free assistance for unrepresented tenants in eviction cases
+- (213) 830-0845

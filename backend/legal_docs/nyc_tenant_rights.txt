@@ -1,0 +1,300 @@
+NEW YORK CITY TENANT RIGHTS AND HOUSING MAINTENANCE CODE
+NYC Administrative Code Title 27 - Building Code
+NYC Administrative Code Chapter 2 - Housing Maintenance Code
+Source: NYC Department of Housing Preservation and Development (HPD)
+Last Updated: 2024
+
+================================================================================
+SECTION 27-2029: HEAT AND HOT WATER REQUIREMENTS
+================================================================================
+
+Under New York City Administrative Code §27-2029, all residential buildings in
+New York City must provide adequate heat and hot water to tenants. This law
+applies to all multiple dwellings and private dwellings in which the owner does
+not reside.
+
+HEAT REQUIREMENTS - Heating Season (October 1 through May 31):
+- Between 6:00 AM and 10:00 PM: If the outside temperature falls below 55°F
+  (12.8°C), the indoor temperature in every habitable room must be at least
+  68°F (20°C).
+- Between 10:00 PM and 6:00 AM: The indoor temperature must be maintained at
+  a minimum of 62°F (16.7°C) regardless of the outside temperature.
+
+HOT WATER REQUIREMENTS (Year-Round, 24 hours/day):
+- Hot water must be maintained at a constant minimum temperature of 120°F
+  (48.9°C) at the tap.
+- Hot water must be available 24 hours a day, 365 days a year.
+- Failure to provide hot water is a Class C immediately hazardous violation.
+
+PENALTIES FOR HEAT/HOT WATER VIOLATIONS:
+- Class C (Immediately Hazardous) violation: Must be corrected within 24 hours
+- Civil penalty: $250–$500 per day for first violation
+- Second violation within two years: $500–$1,000 per day
+- Third or subsequent: $1,000–$2,500 per day
+- Enhanced penalties during cold weather emergencies (below 28°F outdoor temp)
+
+HPD EMERGENCY REPAIR PROGRAM:
+If your landlord fails to restore heat within 24 hours of an HPD violation,
+HPD may arrange emergency repairs and bill the landlord, placing a lien on the
+property if unpaid.
+
+================================================================================
+WARRANTY OF HABITABILITY — New York Real Property Law §235-b
+================================================================================
+
+Every residential lease in New York State contains an implied warranty of
+habitability. This statutory warranty cannot be waived by the tenant, even in
+the lease. Under RPL §235-b, landlords must:
+
+1. Maintain the premises in a habitable condition fit for human occupation.
+2. Maintain all building services, facilities, and equipment in good repair.
+3. Provide heat and hot water as required by the Housing Maintenance Code.
+4. Keep the building free from vermin, cockroaches, rodents, and pests.
+5. Maintain all electrical, plumbing, sanitary, heating, and ventilation systems.
+6. Keep all exterior and interior public areas in a safe and sanitary condition.
+7. Comply with all applicable building, housing, and health codes.
+
+The warranty of habitability applies to:
+- All residential leases (month-to-month and term leases)
+- All apartment types (rent-stabilized, market-rate, rent-controlled)
+- All dwelling sizes (studio apartments to single-family homes)
+
+The warranty CANNOT be:
+- Waived in the lease agreement
+- Bargained away by the tenant
+- Disclaimed by the landlord
+
+TENANT REMEDIES UNDER WARRANTY OF HABITABILITY:
+1. Withhold or reduce rent (following proper procedure)
+2. Repair and deduct (minor repairs up to $300 per RPL §235-a)
+3. File an HP action in Housing Court for inspections and orders to repair
+4. Counterclaim in non-payment eviction proceedings
+5. Sue for damages in Civil Court or Housing Court
+6. Constructive eviction (abandon unit and terminate lease)
+
+================================================================================
+RENT WITHHOLDING PROCEDURE — RPAPL §755
+================================================================================
+
+New York Real Property Actions and Proceedings Law §755 provides that a tenant
+may withhold rent when there is a "rent impairing violation" or condition that
+materially affects habitability. IMPORTANT: Tenants cannot simply stop paying.
+
+STEPS REQUIRED BEFORE WITHHOLDING RENT:
+1. Notify the landlord in WRITING of the dangerous or hazardous condition.
+2. The notice must describe the condition with specificity (what, where, when).
+3. Allow the landlord reasonable time to repair:
+   - Heat/hot water: 24-48 hours (life safety emergency)
+   - Other conditions: typically 30 days
+4. If landlord fails to repair: Begin placing withheld rent in a separate
+   bank account (escrow). Keep records of all deposits.
+5. Continue depositing rent amounts each month into the escrow account.
+
+WHAT HAPPENS IN COURT:
+If your landlord sues you for non-payment, you can assert the warranty of
+habitability as a defense and counterclaim. The court will:
+- Order an inspection of the premises
+- Determine the percentage by which habitability is impaired
+- Reduce your rent obligation by that percentage
+- Order the landlord to make repairs
+
+CONSTRUCTIVE EVICTION:
+If conditions are so severe that the apartment is uninhabitable and you are
+forced to move out, you may claim constructive eviction:
+- Terminate the lease without liability
+- Stop paying rent from the date you vacate
+- Sue for damages: moving costs, difference in rent at new apartment, etc.
+- File a claim for personal injury damages if applicable
+
+================================================================================
+REPAIR AND DEDUCT — New York Real Property Law §235-a
+================================================================================
+
+For minor repairs, tenants may:
+1. Notify the landlord in writing of the needed repair.
+2. Allow the landlord 30 days to make the repair (less for emergencies).
+3. If landlord fails: Hire a licensed contractor to make the repair.
+4. Deduct the cost from the next month's rent (maximum: $300).
+5. Retain all receipts and notify landlord of deduction in writing.
+
+This remedy is for MINOR repairs only. Major structural issues require the
+full warranty of habitability process or court action.
+
+================================================================================
+HPD COMPLAINT PROCESS — NYC Housing Preservation and Development
+================================================================================
+
+HPD is the city agency that enforces the Housing Maintenance Code and Multiple
+Dwelling Law. HPD inspects for code violations and issues violation notices.
+
+HOW TO FILE A COMPLAINT:
+1. Call 311 (available 24/7, multilingual service)
+   - Say: "Heat complaint" or "Housing code violation"
+   - Available in over 180 languages
+2. Online: nyc.gov/hpd → "Report a Problem"
+3. NYC311 mobile app
+4. In-person: HPD offices at 100 Gold Street, Manhattan (Mon-Fri 8am-5pm)
+
+WHAT HAPPENS AFTER FILING:
+- You receive a complaint number for tracking
+- HPD schedules an inspection:
+  * Emergency conditions (heat, gas, structural): Within 24 hours
+  * Hazardous conditions: Within a few days
+  * Non-emergency: Within 45 days
+- If violation found: Notice of Violation (NOV) served on landlord
+- Landlord must certify correction within the time frame specified
+- If uncertified: HPD may reinspect and impose additional penalties
+
+EMERGENCY HEAT COMPLAINT (October 1 - May 31):
+- Automatically treated as Class C (Immediately Hazardous)
+- HPD will attempt to inspect within 24 hours
+- Landlord must restore heat within 24 hours of the NOV
+- If heat not restored: HPD Emergency Repair Program may intervene
+
+311 COMPLAINT TRACKING:
+- Track your complaint at 311.nyc.gov
+- Sign up for text or email updates
+- Complaint status available 24/7 online
+
+================================================================================
+NYC HOUSING MAINTENANCE CODE — VIOLATION CLASSIFICATIONS
+================================================================================
+
+CLASS A — NON-HAZARDOUS:
+Minor conditions not immediately dangerous to health, safety, or life.
+Examples: Missing light in common area, cracked tile, worn carpet
+Correction time: 90 days
+
+CLASS B — HAZARDOUS:
+Conditions hazardous to life, health, or safety of residents.
+Examples: Mold, rodents, vermin infestation, inadequate lighting in stairwells
+Correction time: 30 days
+
+CLASS C — IMMEDIATELY HAZARDOUS:
+Conditions immediately dangerous to life, health, or safety.
+Examples: NO HEAT or HOT WATER, lack of fire exits, gas leaks, lead paint
+           hazards (with children under 6), broken elevator
+Correction time: 24 hours (immediate action required)
+
+IMPORTANT: Heat and hot water violations are ALWAYS Class C.
+
+CHECKING VIOLATIONS ON YOUR BUILDING:
+- HPD Building Information System: a810-bisweb.nyc.gov/biswebapp/
+- Enter your address to see all open violations
+- This is public information and useful evidence in court
+
+================================================================================
+TENANT PROTECTION AGAINST RETALIATION — Real Property Law §223-b
+================================================================================
+
+Your landlord CANNOT retaliate against you for exercising your legal rights.
+Protected activities include:
+- Filing a complaint with HPD, 311, or any government agency
+- Joining or organizing a tenant association
+- Participating in a rent strike (if properly organized)
+- Testifying or providing information to authorities
+- Exercising any rights under the lease or law
+
+PROHIBITED RETALIATORY ACTIONS:
+- Eviction or filing an eviction proceeding
+- Substantial alteration of the lease terms
+- Failure to renew a lease
+- Interruption or reduction of services
+- Harassment or intimidation
+- Bringing code enforcement proceedings against tenant
+
+PRESUMPTION OF RETALIATION:
+If the landlord takes any adverse action within 90 days of your protected
+activity, the LAW PRESUMES the action is retaliatory. The burden then shifts
+to the landlord to prove the action was NOT retaliatory (very difficult).
+
+REMEDIES FOR RETALIATION:
+- Injunctive relief (court order stopping the retaliation)
+- Actual damages
+- Punitive damages
+- Attorney's fees
+- Defense to eviction proceedings
+
+================================================================================
+NYC RENT STABILIZATION LAW
+================================================================================
+
+COVERAGE: Buildings built before 1974 with 6 or more residential units,
+and certain buildings constructed with J-51 or 421-a tax benefits.
+
+PROTECTIONS FOR RENT-STABILIZED TENANTS:
+1. Rent can only be increased by percentages set by the NYC Rent Guidelines Board
+   (RGB) each year (announced in June each year).
+2. Right to a renewal lease on the same terms and conditions.
+3. Protection from eviction without legally specified "good cause."
+4. Right to have immediate family members succeed to the lease.
+
+GOOD CAUSE FOR EVICTION (Rent-Stabilized):
+Landlord may only evict for: non-payment of rent; breach of lease; illegal
+use of apartment; nuisance; landlord wants apartment for primary personal use;
+building demolition (with conditions).
+
+RENT REDUCTION ORDERS:
+If your landlord fails to provide heat, hot water, or other required services,
+you may file a complaint with the Division of Housing and Community Renewal
+(DHCR). DHCR can issue a Rent Reduction Order, reducing your legal regulated
+rent until services are restored.
+
+DHCR Contact: hcr.ny.gov | (718) 739-6400 | 25 Beaver St, Manhattan
+
+================================================================================
+HOUSING COURT AND LEGAL PROCESS
+================================================================================
+
+NYC HOUSING COURT:
+- Manhattan: 111 Centre Street, New York, NY 10013
+- Bronx: 851 Grand Concourse, Bronx, NY 10451
+- Brooklyn: 141 Livingston Street, Brooklyn, NY 11201
+- Queens: 89-17 Sutphin Blvd, Jamaica, NY 11435
+- Staten Island: 927 Castleton Avenue, Staten Island, NY 10310
+
+HP ACTIONS (Housing Part Petitions):
+Tenants can file HP Actions in Housing Court to compel repairs:
+1. File HP petition at Housing Court clerk's window (free to file)
+2. Court orders an inspection by HPD
+3. If violations found: Judge can order repairs with a deadline
+4. If landlord fails: Held in contempt (fines, jail)
+
+HP Actions are particularly effective for emergency conditions like no heat.
+
+LAWYERS FOR THE DAY PROGRAM:
+Free legal assistance available at Housing Court on walk-in basis.
+Contact Housing Court Answers: (212) 962-4795
+
+================================================================================
+FREE LEGAL RESOURCES IN NYC
+================================================================================
+
+LEGAL AID SOCIETY:
+- Main number: (212) 577-3300
+- Housing Unit: Free representation for qualifying low-income tenants
+- Website: legalaidnyc.org
+
+MOBILIZATION FOR JUSTICE:
+- (212) 417-3700
+- mfjlegal.org
+- Free civil legal services for low-income New Yorkers
+
+COMMUNITY SERVICE SOCIETY:
+- (212) 254-8900 | cssny.org
+- Tenant assistance and legal referrals
+
+NYC BAR ASSOCIATION LAWYER REFERRAL SERVICE:
+- (212) 626-7373
+- nycbar.org
+- Reduced-fee legal consultations
+
+RIGHT TO COUNSEL NYC (Eviction Cases):
+Low-income tenants facing eviction in NYC Housing Court have the RIGHT to a
+free attorney. This applies to households earning 200% or below the federal
+poverty level. Contact Legal Aid or call 311.
+
+HOUSING COURT ANSWERS:
+- (212) 962-4795
+- housingcourtanswers.org
+- Free advice and assistance navigating Housing Court

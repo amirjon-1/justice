@@ -1,0 +1,131 @@
+CHICAGO BUSINESS RIGHTS: LICENSING, INFRASTRUCTURE, CONSUMER PROTECTION, AND COMMERCIAL TENANTS
+================================================================================================
+
+CHICAGO MUNICIPAL CODE CHAPTER 4-6: BUSINESS LICENSING
+--------------------------------------------------------
+
+All businesses operating within the City of Chicago must obtain and maintain a valid business license issued by the City. Chapter 4-6 of the Chicago Municipal Code ("Business Licenses") sets forth the general licensing requirements, application procedures, renewal obligations, and the rights of licensees in enforcement proceedings.
+
+LICENSE TYPES: Chicago requires specific licenses for a wide range of business activities, including but not limited to: retail food establishments, restaurants, bars and taverns, limited business licenses (LBL) for general retail and service businesses, home-based businesses, contractors, amusement establishments, tobacco retailers, and many professional categories. The Department of Business Affairs and Consumer Protection (BACP) administers most business license categories.
+
+APPLICATION AND RENEWAL: License applications must be submitted with the required documentation, applicable fees, and evidence that the business premises comply with zoning ordinances, building codes, and fire prevention codes. Licenses are typically issued for two-year terms and must be renewed before expiration. Chicago Municipal Code §4-6-010 and related sections set forth the general requirements.
+
+BUSINESS OWNER RIGHTS IN LICENSE PROCEEDINGS:
+
+License Denial: If BACP denies a license application, the applicant has the right to a hearing before the Department of Administrative Hearings (DOAH) (Chicago Municipal Code §4-4-060 et seq.). The denial notice must specify the grounds for denial. The applicant must file a request for hearing with DOAH within the timeframe stated in the notice — typically 35 days of service.
+
+License Revocation or Suspension: Before revoking or suspending a license, the City must provide the licensee with written notice stating the alleged violations and the date, time, and location of the administrative hearing. The hearing is conducted before an Administrative Law Officer (ALO) at DOAH. The licensee has the right to: appear in person, be represented by an attorney, present evidence and witnesses, and cross-examine City witnesses. The ALO issues a recommended finding, which is reviewed and finalized by the City.
+
+License Conditions: In some cases, BACP may seek to impose conditions on a license (e.g., restricted hours of operation, required security measures, noise mitigation). Conditions can also be contested through DOAH.
+
+Appeals of DOAH Decisions: Following the DOAH final decision, a licensee may seek judicial review in the Circuit Court of Cook County (Administrative Review Law, 735 ILCS 5/3-101 et seq.). The petition for administrative review must typically be filed within 35 days of service of the final DOAH order.
+
+CHICAGO SIDEWALK AND INFRASTRUCTURE OBLIGATIONS
+------------------------------------------------
+
+SNOW AND ICE REMOVAL: Under Chicago Municipal Code §10-8-180, property owners and occupants are required to remove snow and ice from abutting sidewalks within 3 inches of the property line within a specified period after snowfall ends. For public sidewalks abutting residential properties, snow must be cleared within 24 hours after snowfall stops. Commercial properties on major arterials may face shorter windows during declared snow emergencies.
+
+Failure to maintain snow-free sidewalks can result in: a municipal ticket (fine of $50-$500 or more depending on circumstances); a City complaint and citation; civil liability if someone slips and falls on the property owner's portion of the sidewalk. Chicago follows the "snow and ice removal act" principles, and courts have found commercial property owners liable for injuries caused by negligently maintained sidewalks.
+
+POTHOLE AND STREET DEFECT REPORTING: Chicago 311 (call 311, use the CHI311 app, or go online at chicago.gov/311) handles reports of potholes, damaged sidewalks, broken streetlights, cave-ins, street sign issues, and other infrastructure defects. Every complaint generates a service request (SR) number for tracking. Chicago's 311 system integrates with the City's work order management system, and SR numbers can be used to check progress online.
+
+CHICAGO'S 311 SYSTEM: The City of Chicago's 311 service request system is available 24/7 by phone, online at chicago.gov/311, and through the CHI311 mobile app. It tracks service requests across more than 100 city service categories including: pothole repair, alley repairs, graffiti removal, tree trimming, building violations, and noise complaints. Service requests are publicly searchable by address, allowing residents and businesses to see all prior complaints at a given location — which is important for establishing a history of reported defects in a legal claim.
+
+ILLINOIS SMALL CLAIMS COURT
+----------------------------
+
+Illinois provides a Small Claims Court track within the Circuit Court system for resolving money disputes without complex procedures or mandatory attorney representation.
+
+DOLLAR LIMIT: $10,000 per claim. Claims between $10,001 and $100,000 may be filed as "civil law" cases on the regular civil docket.
+
+WHERE TO FILE IN COOK COUNTY: File at the Circuit Court of Cook County (for Chicago and surrounding suburban municipalities). The main courthouse is located at Richard J. Daley Center, 50 W. Washington Street, Chicago, IL 60602. Additional courthouses are located in suburban Cook County districts (Bridgeview, Rolling Meadows, Markham, Maywood, Skokie, Waukegan for Lake County, etc.).
+
+FILING FEES: Approximately $221-$266 for claims up to $10,000 in Cook County (fees vary slightly by court house and are subject to periodic adjustment). Check the Circuit Court of Cook County's website at cookcountycourt.org for current fees.
+
+PROCEDURE: The plaintiff (person filing) completes a Small Claims Complaint form, pays the filing fee, and the clerk issues summons to the defendant. The defendant must be served with the summons and complaint. The first hearing date is typically set 30-45 days out. Both parties attend; if either party fails to appear, the case may be dismissed or default judgment entered. At the hearing, present your evidence to the judge (or magistrate) in plain language. No strict evidentiary rules apply in Small Claims Court.
+
+WHO CAN REPRESENT WHOM: Individuals may represent themselves. Corporations, LLCs, and partnerships must technically be represented by an attorney in Illinois courts (including small claims). However, in practice, small claims courts are accessible to unrepresented business owners, and the threshold for enforcing the representation rule varies by judge.
+
+ENFORCEMENT OF JUDGMENTS: A judgment from Small Claims Court can be enforced through: citation to discover assets (a proceeding compelling the debtor to disclose assets); wage deduction (garnishment — limited to 15% of gross wages or 25% of disposable earnings); bank account citations; and recording a judgment lien on real estate owned by the debtor in any county where the judgment is recorded.
+
+STATUTES OF LIMITATIONS IN ILLINOIS:
+- Written contracts: 10 years (735 ILCS 5/13-206)
+- Oral contracts: 5 years (735 ILCS 5/13-205)
+- Personal injury: 2 years (735 ILCS 5/13-202)
+- Property damage: 5 years
+
+COMMERCIAL TENANT RIGHTS IN CHICAGO
+-------------------------------------
+
+Chicago's well-known Residential Landlord-Tenant Ordinance (RLTO), codified at Chicago Municipal Code Chapter 5-12, provides extensive protections to residential tenants — but it expressly DOES NOT APPLY to commercial rental relationships. Commercial landlords and tenants in Chicago are governed primarily by:
+
+1. The express terms of the written lease agreement
+2. Illinois common law of contracts
+3. Illinois statutes governing commercial real estate
+
+KEY PROTECTIONS APPLICABLE TO COMMERCIAL TENANTS:
+
+Prohibition on Self-Help Eviction: Even though commercial tenants do not have RLTO protections, Illinois law prohibits landlords from using "self-help" eviction for commercial tenants. Under 735 ILCS 5/9-101 et seq., a landlord seeking to evict a commercial tenant who holds a valid lease must file a Forcible Entry and Detainer action in Circuit Court and obtain a court order and sheriff's eviction. A landlord who changes locks, removes the tenant's property, or physically shuts off utilities to force a commercial tenant out without a court order commits an unlawful act and can face civil liability and potential criminal charges.
+
+Lease Enforcement: Commercial tenants may sue for breach of lease in Circuit Court (Small Claims if under $10,000, regular civil docket for larger amounts). Common grounds: landlord fails to repair what the lease requires; landlord interferes with quiet enjoyment; landlord fails to provide utilities the lease specifies.
+
+Security Deposits: Commercial lease security deposit terms are governed entirely by the lease. Unlike residential deposits, there is no Illinois statute specifying return timeframes or itemization requirements for commercial security deposits. Review your lease for specific terms. If the lease is silent, courts apply general contract principles.
+
+Triple Net Leases: Chicago commercial tenants should be aware that many commercial leases are "triple net" (NNN), requiring the tenant to pay not just base rent but also a proportionate share of real estate taxes, building insurance, and common area maintenance (CAM) costs. Understand your total occupancy cost before signing.
+
+Holdover Tenancies: If a commercial tenant stays beyond the lease expiration without signing a renewal, Illinois courts may treat the holdover as creating a month-to-month tenancy on the same terms as the original lease. The landlord may also elect to treat the holdover tenant as a trespasser and initiate eviction proceedings.
+
+CHICAGO DEPARTMENT OF BUSINESS AFFAIRS AND CONSUMER PROTECTION (BACP)
+-----------------------------------------------------------------------
+
+BACP is Chicago's primary consumer protection and business licensing agency. It serves two roles: protecting consumers from deceptive business practices, and administering the business license system.
+
+CONSUMER PROTECTION ENFORCEMENT: BACP enforces the Chicago Consumer Protection Ordinance (Municipal Code Chapter 2-25), which mirrors and supplements the Illinois Consumer Fraud and Deceptive Business Practices Act (815 ILCS 505/1 et seq.). Prohibited practices include:
+
+- Price gouging: Unreasonably increasing prices of essential goods or services during a declared emergency
+- Deceptive advertising: False or misleading statements in any advertisement or sales communication
+- Bait-and-switch: Advertising a product at one price and then refusing to sell at that price
+- Failure to honor refund policies: If a business has a posted refund policy, it must honor it
+- Unconscionable contracts: Contract terms that are oppressively one-sided
+
+FILING A CONSUMER COMPLAINT WITH BACP: Consumers can file complaints online at chicago.gov/bacp, by phone at 312-744-9400, or in person at 121 N. LaSalle Street, Room 805, Chicago, IL 60602. BACP will investigate and attempt mediation. If violations are substantiated, BACP can assess fines, require restitution, or refer the matter for license action.
+
+BUSINESS-TO-BUSINESS COMPLAINTS: Business owners who believe a competitor or vendor has engaged in deceptive or illegal business practices can also file a BACP complaint. BACP has authority over licensed businesses in Chicago and can take action against businesses that violate consumer protection laws regardless of whether the victim is a consumer or another business.
+
+ILLINOIS CONSUMER FRAUD ACT: In addition to BACP complaints, businesses and consumers can file a private lawsuit under the Illinois Consumer Fraud and Deceptive Business Practices Act (815 ILCS 505/1 et seq.) in Circuit Court. This statute allows recovery of actual damages plus attorneys' fees in successful cases. Claims must be filed within 3 years of the deceptive act.
+
+LICENSE DISPUTE RESOLUTION — CHICAGO DEPARTMENT OF ADMINISTRATIVE HEARINGS (DOAH)
+-----------------------------------------------------------------------------------
+
+When a business faces a formal enforcement action by the City — a license revocation, suspension, denial, or administrative fine — the Chicago Department of Administrative Hearings (DOAH) is the forum for adjudication.
+
+DOAH OVERVIEW: DOAH is an independent quasi-judicial agency that conducts hearings for most City of Chicago code violations and license actions. It is located at 400 W. Superior Street, Chicago, IL 60654. Phone: 312-742-8585.
+
+TYPES OF CASES HEARD AT DOAH:
+- Business license disputes (denial, revocation, suspension)
+- Building code violations (violation notices from Department of Buildings)
+- Health code violations (violation notices from Department of Public Health)
+- Zoning code violations
+- Municipal code violations (noise, sanitation, animals, etc.)
+
+RIGHTS IN DOAH HEARINGS:
+1. Right to notice: You must receive written notice of the hearing date, location, and the charges against you with sufficient time to prepare (typically at least 7 days).
+2. Right to counsel: You may be represented by a licensed Illinois attorney at your own expense.
+3. Right to present evidence: You can submit documents, photographs, receipts, contracts, and other evidence. Make multiple copies.
+4. Right to call witnesses: You can call witnesses to testify on your behalf.
+5. Right to cross-examine: You can question any witness the City presents.
+6. Right to a written decision: The Administrative Law Officer must issue a written decision explaining the basis for any finding.
+7. Right to appeal: Following DOAH's final decision, you may file for Administrative Review in the Circuit Court of Cook County within 35 days.
+
+FILING DEADLINES: The notice of hearing will specify how many days you have to request a continuance or file a defense. Missing a hearing without rescheduling can result in a default order against you.
+
+KEY CONTACTS FOR CHICAGO BUSINESSES
+-------------------------------------
+
+- Chicago BACP (Business Affairs and Consumer Protection): 312-744-9400 | chicago.gov/bacp
+- Chicago Department of Administrative Hearings (DOAH): 312-742-8585 | chicago.gov/doah
+- Chicago 311 (infrastructure, noise, sanitation): Call 311 | chi311.cityofchicago.org
+- Circuit Court of Cook County (Small Claims): cookcountycourt.org | 312-603-5030
+- Illinois Consumer Fraud complaints (state AG): illinoisattorneygeneral.gov | 1-800-386-5438
+
+This document is for general informational purposes. Illinois law and Chicago ordinances are subject to amendment. Consult a licensed Illinois attorney for advice specific to your business situation.

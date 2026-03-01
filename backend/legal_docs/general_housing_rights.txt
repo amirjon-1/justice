@@ -1,0 +1,316 @@
+FEDERAL AND NATIONAL HOUSING RIGHTS
+General Tenant Protections Applicable Across the United States
+Source: U.S. Department of Housing and Urban Development (HUD), Federal Law
+Last Updated: 2024
+
+================================================================================
+FEDERAL FAIR HOUSING ACT — 42 U.S.C. §§ 3601–3619
+================================================================================
+
+The Fair Housing Act (FHA), Title VIII of the Civil Rights Act of 1968 as
+amended by the Fair Housing Amendments Act of 1988, prohibits discrimination
+in the sale, rental, and financing of housing based on protected characteristics.
+
+PROTECTED CLASSES UNDER THE FEDERAL FHA:
+1. Race
+2. Color
+3. National Origin
+4. Religion
+5. Sex (including gender identity and sexual orientation — per HUD guidance)
+6. Disability (physical and mental)
+7. Familial Status (presence of children under 18, pregnancy, adoption)
+
+PROHIBITED DISCRIMINATORY ACTS:
+- Refusing to sell, rent, or negotiate housing
+- Applying different terms, conditions, or privileges of rental
+- Misrepresenting that housing is unavailable when it is available
+- Advertising with discriminatory preferences or limitations
+- Blockbusting (persuading people to sell by implying minorities are moving in)
+- Steering (directing buyers/renters toward or away from neighborhoods)
+- Refusing to make reasonable accommodations for persons with disabilities
+- Refusing to allow reasonable modifications for persons with disabilities
+- Harassment based on any protected class
+
+DISABILITY ACCOMMODATIONS AND MODIFICATIONS:
+- Reasonable accommodations: Changes in rules, policies, practices, or services
+  that may be necessary to allow a person with a disability to use and enjoy
+  the housing (e.g., allowing an emotional support animal in a no-pets building)
+- Reasonable modifications: Physical changes to the unit or common areas
+  (e.g., grab bars in bathroom, wheelchair ramp)
+- Tenant generally pays for modifications but landlord cannot refuse them
+
+HOW TO FILE A FHA COMPLAINT:
+- HUD Office of Fair Housing: (800) 669-9777 | hud.gov/fairhousing
+- File within 1 year of the discriminatory act
+- HUD investigates and attempts conciliation; may refer to DOJ
+- Private right of action in federal court within 2 years of the act
+- Remedies: Injunctive relief, actual damages, punitive damages (up to $16,000
+  for first violation), attorneys' fees
+
+STATE AND LOCAL FAIR HOUSING LAWS:
+Many states and cities have stronger fair housing laws with additional protected
+classes (source of income, immigration status, age, marital status, etc.).
+Always check your local laws in addition to federal protections.
+
+================================================================================
+IMPLIED WARRANTY OF HABITABILITY — National Common Law Standard
+================================================================================
+
+The Implied Warranty of Habitability is recognized in virtually every U.S.
+state as a mandatory legal standard in residential leases. This warranty means:
+
+- The landlord implicitly promises to maintain the rental unit in a livable,
+  safe, and habitable condition throughout the tenancy
+- The warranty exists by operation of law — it is automatically part of every
+  residential lease even if not written in the contract
+- The warranty CANNOT be waived by the tenant (it's non-negotiable)
+- It applies to both the rented unit AND the common areas of the building
+
+WHAT CONSTITUTES HABITABILITY (National Standards):
+Most states require landlords to maintain:
+1. Structural integrity (sound floors, walls, ceilings, roof)
+2. Weatherproofing (windows, doors, exterior walls that keep out elements)
+3. Adequate heating facilities (functioning heat during cold months)
+4. Plumbing in good working order (hot and cold running water)
+5. Electrical systems functioning safely
+6. Freedom from infestation (rodents, cockroaches, bedbugs, vermin)
+7. Adequate sanitary facilities (working toilets, sinks, showers)
+8. Compliance with applicable building and housing codes affecting safety
+9. Freedom from environmental hazards (lead paint, asbestos, mold)
+
+CONDITIONS THAT BREACH THE WARRANTY:
+- No heat or hot water for extended periods
+- Sewage backup or non-functional plumbing
+- Significant mold or water intrusion
+- Rodent or cockroach infestation
+- Lack of security (broken locks, broken entry doors)
+- Exposed electrical wiring
+- Unstable floors, ceilings, or stairs
+- Lack of smoke or carbon monoxide detectors
+- Lead paint hazards (in pre-1978 housing with children under 6)
+
+CONDITIONS THAT DO NOT BREACH THE WARRANTY:
+- Minor aesthetic defects (small holes in walls, worn carpets)
+- Conditions caused by the tenant or tenant's guests
+- Conditions the tenant agreed to fix in the lease (carefully read your lease)
+
+TENANT REMEDIES FOR WARRANTY BREACH:
+1. REPAIR AND DEDUCT: (available in most states, limits vary)
+   - Notify landlord in writing
+   - Give reasonable time to repair
+   - If landlord fails: Hire licensed contractor and deduct from rent
+   - Limits typically: $100–$500 or one month's rent (varies by state)
+
+2. RENT WITHHOLDING: (available in most states, procedure varies)
+   - Notify landlord in writing
+   - Landlord fails to repair within required time
+   - Withhold some or all rent
+   - Recommended: Escrow withheld rent in separate account
+
+3. RENT REDUCTION: (available in most states)
+   - Sue landlord for past rent paid while unit was substandard
+   - Court reduces rent to reflect diminished value of unit
+
+4. LEASE TERMINATION / CONSTRUCTIVE EVICTION:
+   - If conditions make the unit essentially uninhabitable
+   - Tenant may vacate and terminate the lease
+   - Tenant not liable for further rent
+   - May sue for damages
+
+5. COURT ACTION:
+   - Sue in Small Claims Court (for amounts under the local limit)
+   - Sue in Civil Court for larger amounts
+   - May seek injunction ordering repairs
+
+================================================================================
+CONSTRUCTIVE EVICTION — National Common Law Doctrine
+================================================================================
+
+Constructive eviction occurs when a landlord's actions (or failure to act)
+make the premises so uninhabitable that the tenant is effectively forced to
+leave, even though the landlord has not formally evicted the tenant.
+
+ELEMENTS OF CONSTRUCTIVE EVICTION:
+1. The landlord wrongfully deprived the tenant of the beneficial use and
+   enjoyment of the premises
+2. The deprivation was substantial and materially affected the tenant's ability
+   to use the premises for the purpose for which it was leased
+3. The tenant vacated within a reasonable time after the deprivation
+4. The tenant gave the landlord notice and an opportunity to repair
+
+EXAMPLES OF CONSTRUCTIVE EVICTION:
+- Landlord allows building to become uninhabitable (no heat in winter)
+- Persistent rodent or insect infestation despite complaints
+- Landlord allows other tenants to harass the complaining tenant
+- Landlord fails to provide essential utilities
+- Landlord engages in harassment campaign to force tenant out
+
+TENANT'S OBLIGATIONS BEFORE CLAIMING CONSTRUCTIVE EVICTION:
+1. Must notify the landlord of the condition (in writing, with specifics)
+2. Must allow a reasonable time for the landlord to repair
+3. Must actually vacate the premises within a reasonable time
+   (Courts generally do not allow tenants to remain indefinitely and claim
+   constructive eviction — you must actually leave)
+
+CONSEQUENCES AND REMEDIES:
+If constructive eviction is established:
+- Tenant is discharged from further rent obligations from the date of vacation
+- Tenant may sue for: relocation costs, increased rent at new location,
+  moving expenses, property damage, personal injury if applicable
+- May sue for lost security deposit
+
+================================================================================
+SECTION 8 / HOUSING CHOICE VOUCHER PROGRAM — 42 U.S.C. § 1437f(o)
+================================================================================
+
+The Housing Choice Voucher (HCV) Program, commonly called "Section 8," is a
+federal rental assistance program administered by local Public Housing
+Authorities (PHAs) that helps low-income families pay rent.
+
+HOW THE PROGRAM WORKS:
+- HUD provides funding to local PHAs
+- PHAs issue vouchers to eligible low-income households
+- Tenant finds a private landlord willing to accept the voucher
+- Tenant pays 30% of adjusted monthly income toward rent
+- PHA pays the remainder directly to the landlord (Housing Assistance Payment)
+- Unit must meet HUD Housing Quality Standards (HQS)
+
+HOUSING QUALITY STANDARDS (HQS) — 24 C.F.R. § 982.401:
+For a unit to be eligible for Section 8, it must:
+1. Pass a HUD Housing Quality Standards inspection
+2. Be inspected annually or when a new tenant moves in
+3. Meet standards for: sanitation, safety, utilities, space, structure, security
+
+TENANT RIGHTS IN THE HCV PROGRAM:
+- RIGHT TO REQUEST INSPECTION: If you believe your unit has HQS violations,
+  you may request an inspection from your PHA at any time
+- RIGHT TO NOTICE: Landlord must give 30-day written notice before any
+  changes to the HAP contract
+- RIGHT TO INFORMAL HEARING: If PHA terminates your voucher, you have the
+  right to an informal hearing to challenge the decision
+- RIGHT TO PORTABILITY: After 12 months, you may move your voucher to
+  another jurisdiction where a PHA agrees to receive it
+
+LANDLORD OBLIGATIONS UNDER SECTION 8:
+- Must maintain the unit in compliance with HQS at all times
+- Cannot reduce services below what was in the HAP contract
+- Cannot charge additional fees not disclosed at lease signing
+- Must give PHA notice of any intent to evict the tenant
+
+HQS VIOLATIONS AND YOUR RIGHTS:
+- Serious violations (e.g., no heat, gas leaks): PHA will suspend HAP payments
+  and give landlord 30 days to correct
+- If landlord fails to correct: PHA terminates HAP contract; tenant may move
+  with voucher; landlord owes tenant relocation assistance in some states
+- EMERGENCY conditions: PHA may suspend payments within 24 hours
+
+HOW TO REPORT HQS VIOLATIONS:
+Contact your local PHA (Public Housing Authority) directly.
+- HUD national helpline: (800) 955-2232
+- HUD website: hud.gov/program_offices/public_indian_housing/programs/hcv
+
+FAIR HOUSING AND SECTION 8:
+- Several states and cities prohibit "source of income" discrimination
+  (landlords cannot refuse to rent to you because you have a voucher)
+- Federal FHA does not prohibit source of income discrimination, but many
+  states do: California, New York, Illinois, Washington D.C., and others
+
+================================================================================
+LANDLORD ENTRY RIGHTS AND TENANT PRIVACY
+================================================================================
+
+NATIONAL STANDARD:
+Most states require landlords to give 24–48 hours advance written notice before
+entering a tenant's unit (except in genuine emergencies).
+
+PERMISSIBLE REASONS FOR ENTRY:
+- Making necessary or agreed-upon repairs
+- Showing the unit to prospective tenants or buyers
+- Emergency situations (fire, flood, gas leak)
+- Court order
+- Landlord reasonably believes the unit has been abandoned
+
+IMPERMISSIBLE ENTRY (HARASSMENT):
+Repeated, unannounced entries or entries at unreasonable hours constitute
+harassment and may be grounds for:
+- Lawsuit for invasion of privacy
+- Constructive eviction
+- Punitive damages in egregious cases
+- Criminal harassment charges in some jurisdictions
+
+================================================================================
+ENVIRONMENTAL HAZARDS IN HOUSING
+================================================================================
+
+LEAD PAINT DISCLOSURE — 42 U.S.C. § 4852d:
+- All pre-1978 residential housing must have lead paint disclosure at lease signing
+- Landlord must provide: EPA "Protect Your Family" pamphlet, disclosure of
+  known lead hazards, any existing lead paint inspection reports
+- Failure to disclose: Up to $10,000 civil penalty + damages to tenant
+
+LEAD PAINT ABATEMENT:
+If your unit has lead paint and you have a child under 6, landlord must remediate.
+- File complaint with your local health department
+- HUD has Lead Hazard Control programs; contact hud.gov/leadlisting
+
+MOLD:
+- No specific federal mold standard exists, but mold can violate the warranty
+  of habitability if it affects health and safety
+- Many state and local laws require mold disclosure and remediation
+- Document mold with photos; notify landlord in writing; keep records
+
+ASBESTOS:
+- Federal regulations require disclosure in commercial settings
+- In residential housing, undisturbed asbestos is not always an immediate hazard
+- Disturbed asbestos during renovations is an OSHA and EPA violation
+- Contact EPA (epa.gov) or your state environmental agency for assistance
+
+================================================================================
+TENANT REPAIR REMEDIES — NATIONAL OVERVIEW
+================================================================================
+
+STATES WITH REPAIR AND DEDUCT (Selected):
+- California: Up to 1 month's rent; usable twice in 12 months
+- New York: Up to $300 (RPL §235-a)
+- Illinois (Chicago RLTO): Up to $500 or half monthly rent
+- Texas: Up to 1 month's rent + $500; requires written notice; 7 day wait
+- Florida: Up to 1 month's rent; 7-day written notice required
+- Washington: Up to 1 month's rent or $300
+
+STATES WITH RENT WITHHOLDING (Selected):
+- New York: RPAPL §755 (must escrow)
+- Illinois (Chicago): RLTO §5-12-110(b)
+- California: Common law (must give notice, often escrow)
+- Massachusetts: G.L. c. 239, §8A
+- New Jersey: Landlord-Tenant Law §46:8-27
+
+UNIVERSAL PROCEDURAL REQUIREMENTS:
+1. Written notice to landlord describing the condition
+2. Reasonable time to repair (varies: 24 hours to 30 days)
+3. Condition must be serious (habitability-affecting)
+4. Document everything (photos, videos, dated written communications)
+5. Keep repairs receipts if using repair-and-deduct
+
+================================================================================
+NATIONAL HOUSING RESOURCES
+================================================================================
+
+HUD HOUSING COUNSELING AGENCIES:
+- Free or low-cost housing counseling: (800) 569-4287
+- Find local agencies: hud.gov/i_want_to/talk_to_a_housing_counselor
+
+NATIONAL HOUSING LAW PROJECT:
+- nhlp.org
+- Legal resources and advocacy for low-income housing rights
+
+NATIONAL LOW INCOME HOUSING COALITION:
+- nlihc.org
+- Research, policy, and advocacy on housing affordability
+
+LSC (LEGAL SERVICES CORPORATION):
+- lsc.gov
+- Find free legal aid in your area
+
+211 HELPLINE:
+- Dial 2-1-1
+- Connects to local social services including housing assistance and legal aid

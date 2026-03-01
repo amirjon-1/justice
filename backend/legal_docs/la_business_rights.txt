@@ -1,0 +1,123 @@
+LOS ANGELES BUSINESS RIGHTS: INFRASTRUCTURE, COURTS, CONSUMER PROTECTION, AND COMMERCIAL TENANTS
+=================================================================================================
+
+LA BUREAU OF STREET SERVICES (BSS): INFRASTRUCTURE RESPONSIBILITIES
+--------------------------------------------------------------------
+
+The City of Los Angeles Bureau of Street Services (BSS), a division of the Los Angeles Department of Public Works, is responsible for maintaining over 11,000 lane miles of streets and approximately 10,750 miles of sidewalks within city limits. BSS handles pothole repair, sidewalk repair on City-controlled areas, alley maintenance, street sweeping, and tree removal/trimming.
+
+BSS RESPONSIBILITIES:
+- Pothole repair: BSS crews respond to pothole complaints and are responsible for repairing defects in asphalt on City-maintained streets.
+- Sidewalk repair: The City of Los Angeles has had a complicated history with sidewalk liability. Under a 2016 settlement agreement in Willits v. City of Los Angeles, the City committed to a 30-year, $1.4 billion sidewalk repair program to bring all City-owned sidewalks into ADA compliance. In Los Angeles, the City (not adjacent property owners) is generally responsible for sidewalk repairs — a distinction from NYC's §7-210 approach. However, property owners remain responsible for maintaining sidewalks damaged by their own trees or property improvements.
+- Street damage by private contractors: If a utility company, contractor, or private party damages a City street, BSS coordinates the repair and seeks cost recovery from the responsible party.
+
+HOW TO SUBMIT SERVICE REQUESTS TO BSS:
+- Online: lacity.gov/bss or at lacity.gov/myla311
+- Via MyLA311 app: Available for iOS and Android. Create an account to track your service requests. The app uses GPS to precisely locate reported problems and allows photo uploads.
+- By phone: Call the LA 311 equivalent at 311 (within city limits) or 213-473-3231 (from outside the city). Available Monday-Friday 8am-6pm; 24/7 for emergencies.
+
+MyLA311: The City of Los Angeles's 311-equivalent system is MyLA311 (also called 311LA). It serves as the centralized intake for non-emergency City service requests across dozens of departments. All service requests receive a tracking number that can be used to monitor the status of your complaint online. MyLA311 covers: pothole and street repairs, graffiti removal, bulky item collection, illegal dumping, streetlight outages, dead animal removal, tree trimming, and much more. Filing a MyLA311 service request creates an official City record and establishes that the City received notice of the reported hazard — which is legally relevant if the hazard later causes injury or property damage and you pursue a claim against the City.
+
+CALIFORNIA GOVERNMENT TORT CLAIMS ACT
+---------------------------------------
+
+Before a person or business can file a lawsuit against the City of Los Angeles, Los Angeles County, the State of California, or any other California public entity for money damages, they must first present a written government tort claim to the public entity. This requirement is governed by the California Government Claims Act, California Government Code §§810-996.6.
+
+FILING DEADLINES:
+- Personal injury or wrongful death: The claim must be presented to the public entity within 6 months of the date the cause of action accrued (the date the injury occurred). (Gov. Code §911.2(a))
+- Property damage: The claim must be presented within 1 year of the date the cause of action accrued. (Gov. Code §911.2(b))
+- Late claims: If you miss the deadline, you may file a written application for leave to file a late claim within 1 year of the accrual date, but approval is not guaranteed. Courts will only grant late claim applications for limited reasons (mistake, inadvertence, surprise, excusable neglect, minority, incapacity). (Gov. Code §911.6)
+
+REQUIRED CONTENTS OF A GOVERNMENT CLAIM (Gov. Code §910):
+The claim must contain:
+(a) The name and post office address of the claimant
+(b) The post office address to which the entity may mail notices regarding the claim
+(c) The date, place, and other circumstances of the occurrence or transaction that gave rise to the claim
+(d) A general description of the indebtedness, obligation, injury, damage, or loss incurred
+(e) The name or names of the public employee or employees who caused the injury, damage, or loss, if known
+(f) The amount claimed if it totals less than $10,000, including the estimated amount of any prospective injury, damage, or loss, if known; or if the amount claimed exceeds $10,000, the claim shall indicate whether the case would be a limited civil case
+
+WHERE TO FILE AGAINST THE CITY OF LOS ANGELES: Claims against the City of Los Angeles are filed with the City Clerk's Office, Office of the City Clerk, City Hall, 200 N. Spring Street, Room 360, Los Angeles, CA 90012. Phone: 213-978-1133. Claims can also be filed online through the City's online portal.
+
+AFTER FILING: The City has 45 days to act on the claim. The City may: (1) accept the claim and offer settlement; (2) reject the claim by mailing written notice of rejection; (3) return the claim as insufficient (you then have 15 days to amend). If the City rejects the claim, you have 6 months from the mailing date of the rejection notice to file a lawsuit in Superior Court. If the City takes no action for 45 days, the claim is deemed rejected by law, and you have 2 years from the date the cause of action accrued to file suit. (Gov. Code §912.4)
+
+CALIFORNIA SMALL CLAIMS COURT
+-------------------------------
+
+California Small Claims Court is a division of the Superior Court designed to resolve disputes quickly, informally, and without requiring attorney representation for most parties.
+
+DOLLAR LIMITS:
+- Individual plaintiffs: Up to $12,500 per claim
+- Business plaintiffs (corporations, LLCs, partnerships): Up to $6,250 per claim
+- Note: An individual may not file more than two Small Claims cases per calendar year exceeding $2,500.
+
+WHERE TO FILE IN LOS ANGELES: Los Angeles Superior Court Small Claims Division operates at multiple locations throughout the county. The Stanley Mosk Courthouse at 111 N. Hill Street, Los Angeles, CA 90012 is the central courthouse. Other branch courthouses handle cases by geographic area. Find your appropriate courthouse at lacourt.org.
+
+FILING FEES:
+- Claims up to $1,500: approximately $30-$35
+- Claims $1,501 to $5,000: approximately $50-$55
+- Claims $5,001 to $10,000: approximately $75
+- Fees are subject to change; check lacourt.org for current rates
+
+ATTORNEY REPRESENTATION IN SMALL CLAIMS: California Small Claims Court has a unique rule: attorneys are NOT allowed to represent parties in the hearing itself (California Code of Civil Procedure §116.540). However, parties may consult an attorney before the hearing for advice and preparation. Corporations must appear through an officer, director, or authorized employee — not an attorney.
+
+PROCEDURE: File a claim (Plaintiff's Claim, form SC-100) at the courthouse or online. Pay the filing fee. The court will serve the defendant by mail or you must arrange service. The hearing is scheduled approximately 30-70 days after filing. Both parties appear before the judge. Present your evidence (contracts, receipts, photos, correspondence). The judge usually decides on the day of the hearing or within a short time thereafter. Appeal: either party may appeal to the Superior Court within 30 days of judgment.
+
+COMMON USES FOR LA BUSINESSES: Recovering unpaid invoices, contractor payment disputes, security deposit returns, product defect compensation, damage claims from neighboring businesses, breach of contract with vendors.
+
+COMMERCIAL TENANT RIGHTS IN LOS ANGELES
+-----------------------------------------
+
+COMMERCIAL LEASES IN LA: Commercial tenants in Los Angeles rent space under terms governed by the lease agreement itself and California common law, not by tenant protection ordinances designed for residential renters.
+
+LA RENT STABILIZATION ORDINANCE (RSO): The Los Angeles Rent Stabilization Ordinance (LAMC §§151.00 et seq.) applies exclusively to residential rental units in the City of Los Angeles — specifically, rental units in buildings constructed before October 1, 1978. The RSO does NOT apply to commercial properties. Commercial rents are entirely market-driven and subject to lease terms.
+
+COMMERCIAL HABITABILITY: While commercial tenants lack the implied warranty of habitability that protects residential tenants, California law implies a covenant of quiet enjoyment in commercial leases. Under California Civil Code §1927, the landlord must not interfere with the tenant's use and enjoyment of the premises. Significant interference — such as deliberately cutting off utilities, flooding the space with nuisance activities, or allowing severe structural deterioration — can give rise to a constructive eviction claim.
+
+LAHD COMMERCIAL COMPLAINTS: The Los Angeles Housing Department (LAHD) primarily handles residential housing complaints. For commercial habitability complaints (e.g., a commercial landlord allowing a building to deteriorate to the point of being unusable), the tenant should:
+1. Send a certified letter to the landlord specifying the defective conditions with reference to any lease provision requiring the landlord to repair them
+2. Contact the Los Angeles Department of Building and Safety (LADBS) at ladbs.org or 311 to report code violations in commercial buildings
+3. Consult a California commercial real estate attorney about breach of lease remedies
+
+PROHIBITION ON SELF-HELP EVICTION: California law prohibits a landlord from using "self-help" to remove a commercial tenant. Under California Code of Civil Procedure §1160 et seq., a landlord who wishes to recover possession of commercial premises must initiate an unlawful detainer (eviction) lawsuit in Superior Court. Changing locks, removing the tenant's property, or physically blocking access without a court order is unlawful and can result in the landlord being liable for damages including the tenant's lost profits.
+
+SECURITY DEPOSITS FOR COMMERCIAL TENANTS: Unlike residential deposits, commercial security deposits are governed by lease terms. California Civil Code §1950.7 covers commercial security deposits and provides that a landlord may claim only amounts that are "reasonably necessary" to remedy defaults in the lease, including unpaid rent. Disputes over commercial security deposits are resolved by filing a civil action in Superior Court (or Small Claims Court if under $6,250 for businesses) or through binding arbitration if the lease requires it.
+
+LOS ANGELES BUSINESS PREMISES LIABILITY
+-----------------------------------------
+
+DUTY TO MAINTAIN SAFE PREMISES: Under California law (California Civil Code §1714), property owners and businesses that invite customers, clients, or other members of the public onto their premises owe those visitors a duty of reasonable care to maintain the property in a safe condition. This duty applies to:
+- All surfaces customers walk on (floors, parking lots, sidewalks under the property owner's control)
+- Adequate lighting in areas where customers may walk, especially at night
+- Stairways, ramps, and elevated surfaces
+- Wet or slippery floors (must post warning signs immediately and remedy promptly)
+- Broken fixtures, furniture, or equipment accessible to customers
+- Known hazards from third-party criminal activity if foreseeable
+
+SLIP-AND-FALL INCIDENTS: If a customer or visitor is injured on your business premises due to a dangerous condition that you knew about or should have known about, they can sue you for negligence. California follows a "comparative fault" system (California Civil Code §1431.2 — "pure comparative fault"), meaning the plaintiff's recovery is reduced by their own percentage of fault, but they can still recover even if mostly at fault.
+
+INSURANCE: LA businesses are strongly advised to carry commercial general liability (CGL) insurance covering premises liability. Many commercial leases require tenants to maintain at least $1,000,000 to $2,000,000 per occurrence in CGL coverage.
+
+DOCUMENTING INCIDENTS: If someone is injured on your premises:
+1. Call 911 if there is any serious injury
+2. Complete an incident report immediately while details are fresh
+3. Preserve any surveillance video footage — set video to prevent automatic overwriting
+4. Photograph the scene, including the hazard, the victim's position, and any warning signs (or lack thereof)
+5. Collect witness names and contact information
+6. Notify your insurance company within 24-48 hours
+
+INSURANCE CLAIMS PROCESS: After a premises liability incident, file a claim with your commercial general liability insurer. The insurer assigns an adjuster, who investigates and handles settlement negotiations. Never admit fault or offer to pay damages outside the insurance process.
+
+KEY CONTACTS FOR LA BUSINESSES
+-------------------------------
+
+- MyLA311 (infrastructure service requests): 311 | lacity.gov/myla311
+- LA Bureau of Street Services: 311 | lacity.gov/bss
+- LA Department of Building and Safety (LADBS): ladbs.org | 311
+- City Clerk (Government Claims): 213-978-1133 | cityclerk.lacity.org
+- LA Superior Court Small Claims: lacourt.org | 213-830-0803
+- LA Housing Department (LAHD): lahd.lacity.org | 866-557-7368
+- CA Dept of Consumer Affairs: dca.ca.gov | 800-952-5210
+- CA Attorney General Consumer Protection: oag.ca.gov
+
+This document is provided for general informational purposes only. California commercial law and LA municipal ordinances change frequently. Consult a licensed California attorney for advice specific to your situation.

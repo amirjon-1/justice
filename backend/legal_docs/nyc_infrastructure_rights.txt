@@ -1,0 +1,113 @@
+NYC INFRASTRUCTURE RIGHTS AND MUNICIPAL LIABILITY
+==================================================
+
+NYC ADMIN CODE §7-210: SIDEWALK LIABILITY FOR ADJACENT PROPERTY OWNERS
+-----------------------------------------------------------------------
+
+Prior to 2003, New York City was responsible for maintaining and repairing all public sidewalks within city limits. The Sidewalk Law, enacted as part of Local Law 49 of 2003 and codified at New York City Administrative Code §7-210, fundamentally shifted this responsibility. Since the law's effective date of September 14, 2003, the burden of maintaining, repairing, and replacing sidewalk flags adjacent to private property has fallen upon the owners of that property — not the City.
+
+Under §7-210, property owners are liable in civil damages for any personal injury proximately caused by their failure to maintain the sidewalk in a reasonably safe condition. This means that if a pedestrian trips on a cracked, raised, or otherwise defective sidewalk flag directly adjacent to a privately owned property, the property owner — not the City of New York — is the proper defendant in a personal injury lawsuit.
+
+RESIDENTIAL vs. COMMERCIAL DISTINCTIONS:
+
+The law carves out a partial exemption for certain residential property owners. Owners of one-, two-, or three-family residential dwellings who use such property exclusively for residential purposes are exempt from the strict liability provision of §7-210, provided that: (1) they are the owner of record; and (2) the property is owner-occupied. If the residential property owner is also a landlord who rents out units but does not reside there, the exemption does not apply and full liability attaches.
+
+For commercial property owners — including owners of retail spaces, office buildings, mixed-use properties, and multi-family dwellings (four or more units) — there is no exemption. Such owners bear the full burden of maintaining adjacent sidewalks and can be held liable in tort for injuries resulting from defective conditions. Courts have awarded substantial damages in such cases, including compensation for medical bills, lost wages, and pain and suffering.
+
+Importantly, the NYC Department of Transportation (DOT) can still issue violations and order repairs from property owners under §19-152 of the Administrative Code. Owners who fail to comply with DOT repair orders may face the City completing repairs and imposing the cost as a lien on the property.
+
+FILING A 311 INFRASTRUCTURE HAZARD COMPLAINT
+---------------------------------------------
+
+New York City's 311 system is the primary mechanism for reporting non-emergency infrastructure hazards including broken sidewalks, potholes, flooding, damaged curb cuts, collapsed catch basins, and broken street lights. Residents may file complaints through three channels:
+
+1. Online at nyc.gov/311: Navigate to "Report a Problem" and select the appropriate category (e.g., "Sidewalk Condition," "Pothole," "Street Light Condition," "Sewer/Catch Basin").
+2. By phone at 311 (available 24 hours a day, 7 days a week, 365 days a year): Representatives assist with complaint filing in over 170 languages.
+3. Via the NYC 311 mobile app (available for iOS and Android): Allows photo upload and GPS tagging of reported conditions.
+
+Upon filing a complaint, the 311 system generates a unique Service Request (SR) number. This SR number is critical — it creates an official record that the City received notice of the hazardous condition. Residents should retain their SR number. Service request status can be tracked online at nyc.gov/311 or through the app. Response timeframes vary by category: pothole complaints on City-maintained streets are typically assigned within 5 business days; sidewalk inspections may take up to 30 days. The City's obligation to respond is tied to the nature and severity of the reported hazard.
+
+Filing a 311 complaint is legally significant because it establishes "constructive notice" — meaning the City cannot later claim it was unaware of the hazard. This is essential for any subsequent claim against the City.
+
+NOTICE OF CLAIM AGAINST NEW YORK CITY: NYC GENERAL MUNICIPAL LAW §50-e
+-----------------------------------------------------------------------
+
+Any person who intends to bring a lawsuit against New York City, any of its agencies (including NYC DOT, NYC DEP, NYC Housing Authority, NYPD), or any officer, appointee, or employee for personal injury, property damage, or wrongful death must first file a Notice of Claim. This requirement is imposed by New York General Municipal Law (GML) §50-e and is strictly enforced by New York courts.
+
+TIME LIMIT: The Notice of Claim must be filed within 90 days of the date the claim arose (i.e., the date of the injury or property damage). This 90-day deadline is absolute. Courts have very limited discretion to grant late filings, and late filing generally bars the lawsuit entirely. Do not delay.
+
+REQUIRED CONTENTS: Under GML §50-e(2), the Notice of Claim must contain:
+- The claimant's name and post office address
+- The name and post office address of the claimant's attorney, if any
+- The nature of the claim
+- The time when, the place where, and the manner in which the claim arose
+- The items of damage or injuries claimed to have been sustained, so far as then practicable
+
+WHERE TO FILE: Notices of Claim against the City of New York are filed with the Comptroller of the City of New York, Office of the Comptroller, Claims Unit, One Centre Street, New York, NY 10007. Claims can be filed in person, by mail (certified, return receipt recommended), or through certain online portals. Filing by regular mail is not advisable — use certified mail with proof of delivery.
+
+AFTER FILING: The City has the right to conduct a §50-h hearing (also called a "50-h examination") within 90 days of the Notice of Claim filing. This is essentially a deposition of the claimant taken under oath. You are required to attend. Following this process, the City will either offer a settlement or decline to settle, after which you may file a lawsuit. The lawsuit itself must be filed within one year and 90 days of the date the cause of action accrued (CPLR §217-a for most City tort claims).
+
+NYC DOT OBLIGATIONS AND POTHOLE REPAIR
+---------------------------------------
+
+The New York City Department of Transportation (NYC DOT) is responsible for maintaining the public roadways, bridges, tunnels, traffic signals, street markings, and street lights within the five boroughs. NYC DOT's obligations include the repair of potholes, dangerous surface defects, failing pavement, and other hazardous road conditions on City-owned streets.
+
+Under New York law, the City incurs liability for dangerous road conditions once it has "actual or constructive notice" of the defect and fails to repair it within a reasonable time. A 311 service request creates constructive notice of a road defect. Once that notice exists, the City has an obligation to repair the condition within a time period commensurate with the nature of the hazard — an immediate safety risk (such as a large pothole that causes car damage or pedestrian injury) requires faster response than a minor surface imperfection.
+
+Residents and businesses may also report dangerous street conditions directly via NYC DOT's online portal at dot.nyc.gov or via 311. DOT's pothole repair program is called "Pothole Blitz" and the department commits to repairing reported potholes within 30 days, often much faster. If DOT fails to respond after a 311 complaint is on record and someone is injured, this creates a basis for municipal liability.
+
+SLIP-AND-FALL MUNICIPAL LIABILITY AND COMPARATIVE NEGLIGENCE
+-------------------------------------------------------------
+
+Slip-and-fall cases on city streets involve careful analysis of whether the condition occurred on city-owned property (making the City a potential defendant) or on privately maintained property subject to §7-210 (making the property owner the defendant).
+
+Key distinctions:
+- Public roadway or City-owned sidewalk: Must file Notice of Claim within 90 days against the City. Must establish the City had actual or constructive notice of the defect.
+- Private property sidewalk (under §7-210): Sue the adjacent property owner directly. Notice of Claim not required (City is not defendant). Standard negligence rules apply.
+
+New York follows a "pure comparative negligence" standard under CPLR Article 14-A. This means that even if a plaintiff is partially at fault (e.g., not watching where they walked, wearing improper footwear), they can still recover damages — but their recovery is reduced by their percentage of fault. For example, a plaintiff found 30% at fault in a $100,000 case would recover $70,000.
+
+ADA ACCESSIBILITY VIOLATIONS AND PEDESTRIAN PATHWAYS
+-----------------------------------------------------
+
+Title II of the Americans with Disabilities Act (ADA), 42 USC §12131 et seq., requires all state and local government entities — including New York City — to ensure that their programs, services, and activities are accessible to persons with disabilities. This includes maintaining accessible pedestrian pathways, curb cuts, accessible pedestrian signals (APS), tactile paving, accessible ramps, and compliant crosswalk configurations.
+
+Under a 2017 settlement agreement with the DOJ and disability advocacy groups, NYC DOT committed to a comprehensive curb cut and accessibility improvement program. NYC must maintain existing accessible features in operable condition and cannot allow them to fall into disrepair.
+
+Filing ADA Complaints:
+- NYC Commission on Human Rights: File at nyc.gov/cchr or call 212-416-0197. Covers discrimination in public accommodations under the NYC Human Rights Law, which is broader than the ADA.
+- U.S. Department of Justice Civil Rights Division: File online at civilrights.justice.gov. Federal ADA complaints.
+- Federal Highway Administration (FHWA): For ADA violations on federally funded roadways, contact the FHWA New York Division Office at 518-431-4127.
+
+EXAMPLES OF ADA VIOLATIONS: Broken curb cut ramps that leave wheelchair users stranded in the street; failure to maintain functioning accessible pedestrian signals at intersections; sidewalk obstruction that blocks the accessible path of travel; failure to provide snow-clearing access to curb cuts within a reasonable time.
+
+NYC DEP WATER/SEWER COMPLAINT RIGHTS AND INFRASTRUCTURE LIABILITY
+-----------------------------------------------------------------
+
+The New York City Department of Environmental Protection (NYC DEP) is responsible for the City's water supply system, sewer infrastructure, and stormwater management. DEP operates approximately 6,800 miles of water mains and 7,400 miles of sewer lines throughout the five boroughs.
+
+DEP RESPONSIBILITIES AND COMPLAINT FILING:
+- Water main breaks: DEP handles emergency water main breaks. Call 311 immediately for active water main breaks. DEP maintains a 24-hour emergency response unit and is required to respond to reported water main breaks within 2 hours for emergencies.
+- Sewer backups: If sewage is backing up from a city sewer into a residential or commercial property, file a 311 complaint immediately. DEP's Bureau of Sewer Operations will investigate.
+- Flooding from city infrastructure: Flooding caused by a clogged catch basin, failed storm drain, or defective sewer line is a DEP responsibility. File 311; document flooding with timestamped photos.
+- Street cave-ins: Sinkholes or cave-ins that may be related to sewer or water main failures — report via 311 and NYC DOT.
+
+PROPERTY DAMAGE CLAIMS FROM DEP INFRASTRUCTURE FAILURES:
+If your property sustains damage as a direct result of a DEP infrastructure failure (e.g., a burst water main floods your basement, a sewer backup damages your first-floor unit), you have the right to file a claim for property damage. However, you must first file a Notice of Claim with the NYC Comptroller's Office within 90 days of the date the damage occurred (GML §50-e). Failure to file within 90 days will bar your right to sue.
+
+Document all damages thoroughly: take photographs and video, retain all repair receipts, keep records of displaced inventory or belongings, and obtain written estimates from licensed contractors for repair costs. If DEP denies responsibility, you may still pursue the matter through civil litigation, using your 311 service request records as evidence of constructive notice and DEP's failure to act.
+
+SUMMARY OF KEY DEADLINES AND CONTACT INFORMATION
+-------------------------------------------------
+
+- Notice of Claim (personal injury or property damage against NYC): 90 days from date of injury/damage
+- Notice of Claim filing location: NYC Comptroller's Office, One Centre Street, New York, NY 10007
+- Lawsuit filing deadline (City tort claims): 1 year and 90 days from the date the cause of action accrued
+- 311 (infrastructure complaints): Call 311 or visit nyc.gov/311 or use the NYC 311 app
+- NYC DOT: dot.nyc.gov | 311
+- NYC DEP: nyc.gov/dep | 311 for emergencies
+- NYC Commission on Human Rights (ADA): 212-416-0197 | nyc.gov/cchr
+- DOJ ADA Complaints: civilrights.justice.gov
+- FHWA New York Division: 518-431-4127
+
+This document is for general informational purposes. For advice specific to your situation, consult a licensed New York attorney. Many attorneys handle slip-and-fall and municipal liability cases on contingency and charge no upfront fee.

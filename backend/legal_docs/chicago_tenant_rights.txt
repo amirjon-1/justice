@@ -1,0 +1,317 @@
+CHICAGO RESIDENTIAL LANDLORD AND TENANT ORDINANCE (RLTO)
+Chicago Municipal Code Chapter 5-12
+Source: City of Chicago Department of Housing
+Last Updated: 2024
+
+================================================================================
+OVERVIEW AND SCOPE
+================================================================================
+
+The Chicago Residential Landlord and Tenant Ordinance (RLTO), codified at
+Chicago Municipal Code Chapter 5-12, is one of the strongest tenant protection
+laws in the United States. It was enacted in 1986 and has been strengthened
+multiple times since.
+
+COVERAGE — RLTO APPLIES TO:
+- Most rental residential properties within City of Chicago limits
+- Buildings with any number of units (with limited exceptions below)
+
+EXCEPTIONS — RLTO DOES NOT APPLY TO:
+- Owner-occupied buildings with 6 or fewer units (most provisions)
+- Units in hotels, motels, rooming houses (unless occupied for 32+ days)
+- School dormitories
+- Public housing managed by Chicago Housing Authority (CHA)
+- Units occupied under purchase contracts
+
+================================================================================
+SECTION 5-12-110: TENANT'S REMEDIES FOR FAILURE TO MAINTAIN PREMISES
+================================================================================
+
+If your landlord materially fails to comply with the rental agreement or with
+applicable building codes that materially affect health and safety, you have
+the following statutory remedies:
+
+PRECONDITION — WRITTEN NOTICE REQUIREMENT:
+Before exercising most remedies, you MUST give written notice to the landlord.
+The notice must:
+1. State the address and unit number
+2. Describe the condition requiring repair with reasonable specificity
+3. State which remedy you intend to exercise if repairs are not made
+4. Be delivered to the landlord by:
+   - Personal delivery (get a signed receipt)
+   - First class mail (effective upon mailing, but allow delivery time)
+   - Email if landlord has previously agreed to email notices in writing
+
+NOTICE PERIODS:
+- Life-threatening emergencies (no heat in extreme cold): 24 hours notice
+- Serious health/safety violations (heat below legal minimum): 14 days notice
+- Standard code violations: 14 days notice
+- Minor defects: 30 days notice
+
+================================================================================
+HEAT REQUIREMENTS — Chicago Municipal Code §13-196-410
+================================================================================
+
+MANDATORY MINIMUM TEMPERATURES:
+- Heating Season: September 15 through June 1
+- Required indoor temperature: Minimum 68°F (20°C) at all times during
+  the heating season
+- Measurement taken in all rooms used for living purposes
+- The 68°F requirement applies 24 hours a day throughout heating season
+
+HOT WATER REQUIREMENTS:
+- Hot water must be provided at all times
+- Minimum temperature: 120°F at the tap
+- Water heater must be properly maintained and functional
+
+CONSEQUENCES FOR HEAT VIOLATIONS:
+- Building code violation subject to $500–$1,000 fine per day
+- Tenant remedies (detailed below) activate after 14-day notice
+- Severe cases may result in building being declared uninhabitable
+- City may place building in receivership if landlord is non-responsive
+
+================================================================================
+REMEDY 1: REPAIR AND DEDUCT — §5-12-110(a)
+================================================================================
+
+After giving proper written notice and the landlord fails to repair within the
+required time period:
+
+WHAT YOU CAN DO:
+- Hire a licensed contractor to fix the defect
+- Deduct the cost from your next rent payment
+- No court approval required in advance
+
+LIMITS:
+- Maximum deduction: The LESSER of $500 OR one-half (1/2) of your monthly rent
+- Example 1: Monthly rent = $1,200 → Maximum = $500 (lesser)
+- Example 2: Monthly rent = $800 → Maximum = $400 (1/2 of $800)
+- Example 3: Monthly rent = $600 → Maximum = $300 (1/2 of $600)
+
+REQUIREMENTS:
+- Must use a licensed and bonded contractor (not do-it-yourself)
+- Keep ALL receipts and contractor invoices
+- Provide copies of receipts to landlord when deducting
+- Attach written notice to rent payment explaining the deduction
+- Only for repairs, not for recurring conditions requiring ongoing remedy
+
+================================================================================
+REMEDY 2: WITHHOLD RENT — §5-12-110(b)
+================================================================================
+
+After giving proper 14-day written notice and landlord fails to repair:
+
+WHAT YOU CAN DO:
+- Withhold from rent an amount that "reasonably reflects the diminution in value
+  of the dwelling unit due to the material noncompliance"
+- Must be proportional to the severity of the defect
+
+IMPORTANT RULES:
+1. You must have been current on rent at the time you sent the notice
+2. You cannot withhold rent for conditions you or your guests caused
+3. Keep detailed records of all communications with landlord
+4. Save copies of all notices (photos of postmarked envelopes are useful)
+5. Document the condition with photos, videos, and written records
+
+RECOMMENDED (NOT REQUIRED): Place withheld amounts in a separate escrow account.
+While the RLTO does not require escrow, keeping funds separate proves good faith
+and protects you if the matter goes to court.
+
+HOW MUCH TO WITHHOLD:
+Courts look at the percentage by which habitability is impaired.
+Typical amounts (not legally binding, used as guidance):
+- No heat in winter: 50–100% rent withholding appropriate
+- Serious infestation: 20–40%
+- Minor code violations: 5–15%
+
+================================================================================
+REMEDY 3: TERMINATE LEASE — §5-12-110(c)
+================================================================================
+
+For conditions that pose an immediate danger to health or safety, or when
+landlord fails to correct within the required notice period:
+
+WHEN YOU CAN TERMINATE:
+- Condition is so severe it poses immediate danger to health or safety, OR
+- Material noncompliance with the lease or building code, and 14 days notice
+  has expired without correction
+
+HOW TO TERMINATE:
+1. Send written notice stating you are terminating the lease
+2. State the date of termination (must be at least 14 days after notice)
+3. State the specific condition causing termination
+4. Move out by the stated termination date
+
+EFFECT OF TERMINATION:
+- Released from all further rent obligations from move-out date
+- May sue for: security deposit return, prepaid rent, moving costs, and
+  damages related to the landlord's failure
+- Landlord cannot charge you for early termination
+
+================================================================================
+REMEDY 4: SEEK COURT RELIEF — §5-12-110(d)
+================================================================================
+
+At any time (you do not need to use the other remedies first), you may file
+suit in Circuit Court of Cook County to:
+- Compel landlord to make specific repairs (injunction)
+- Recover actual damages suffered due to the condition
+- Recover attorneys' fees if you prevail
+- In cases of willful landlord conduct, seek punitive damages
+
+Small Claims: Claims up to $10,000 may be filed in Small Claims Court without
+an attorney (filing fee approximately $75–$200 depending on claim amount).
+
+================================================================================
+SECTION 5-12-130: RETALIATION PROTECTIONS
+================================================================================
+
+PROTECTED ACTIVITIES:
+Your landlord CANNOT retaliate against you for:
+- Filing a complaint with any city or government agency (311, Building Dept.)
+- Exercising any right under the RLTO
+- Joining, organizing, or participating in a tenants' union or organization
+- Testifying in any legal proceeding related to your tenancy
+- Complaining to the landlord about conditions (written or verbal)
+
+PROHIBITED RETALIATORY ACTIONS:
+- Eviction or threat of eviction
+- Rent increase (except already-scheduled increases)
+- Reduction of services or amenities
+- Refusal to renew the lease
+- Interference with your quiet enjoyment
+
+PRESUMPTION OF RETALIATION:
+If the landlord takes adverse action within 12 MONTHS of protected activity,
+the law PRESUMES the action is retaliatory. The landlord must prove the
+action had a legitimate, non-retaliatory basis.
+
+REMEDY FOR RETALIATION:
+Greater of:
+(a) Two months' rent, OR
+(b) Actual damages suffered
+PLUS attorneys' fees and costs in either case.
+
+================================================================================
+SECURITY DEPOSIT PROTECTIONS — §5-12-080 through §5-12-082
+================================================================================
+
+HOLDING REQUIREMENTS:
+- Must be held in a federally insured interest-bearing savings account
+- Must be kept separate from landlord's personal or business funds
+- Landlord must provide written receipt within 2 business days of receipt
+- Receipt must include: bank name, account number, interest rate
+
+INTEREST:
+- Tenant entitled to interest on security deposit held more than 6 months
+- Interest at the rate paid by the bank (must disclose the rate)
+- Interest must be returned with deposit or paid annually
+
+RETURN OF DEPOSIT:
+- Must return within 30 days of lease termination if no deductions
+- Must return within 45 days if itemizing deductions (with receipts)
+- Itemized list of deductions required in writing
+
+PENALTY FOR NON-COMPLIANCE:
+If landlord fails to comply with security deposit rules:
+- Tenant entitled to TWICE the security deposit amount as damages
+- Plus attorneys' fees and costs
+
+================================================================================
+REQUIRED LANDLORD DISCLOSURES — §5-12-100
+================================================================================
+
+Chicago landlords must disclose to tenants at lease signing:
+1. Summary of Chicago RLTO rights (city-published document)
+2. Any pending building code violations on record with the City
+3. Known mold conditions in the unit
+4. Whether the building is in a flood plain
+5. Name, address, and telephone number of the owner
+6. Name, address, and telephone number of the property manager
+7. Whether any common area utilities are included in rent and how allocated
+
+FAILURE TO DISCLOSE:
+If landlord fails to provide required disclosures, tenant may terminate the
+lease within 30 days of signing and recover one month's rent in damages.
+
+================================================================================
+ILLEGAL LOCKOUT AND SELF-HELP EVICTION — §5-12-160
+================================================================================
+
+It is ILLEGAL for a landlord to evict you without a court order.
+Prohibited actions include:
+- Changing the locks
+- Removing or damaging your personal property
+- Removing doors or windows
+- Shutting off utilities (electricity, gas, water)
+- Using threats, intimidation, or violence
+- Removing your belongings from the unit
+
+REMEDY FOR ILLEGAL LOCKOUT:
+- Immediate: Call Chicago Police (312) 744-5000 or 911
+- Civil remedy: Sue for actual damages PLUS two months' rent
+- Court can also order immediate restoration of possession
+
+EVICTION PROCESS IN CHICAGO (Legal Process):
+1. Landlord gives proper written notice (5 days for non-payment, 10 days
+   for lease violation, 30 days for month-to-month lease termination)
+2. If tenant does not comply: Landlord files eviction lawsuit in Circuit Court
+3. Court hearing scheduled
+4. If landlord wins: Sheriff executes eviction (no sooner than 5 days after order)
+NEVER leave just because a landlord tells you to. Wait for a court order.
+
+================================================================================
+FILING A COMPLAINT WITH THE CITY OF CHICAGO
+================================================================================
+
+311 SERVICE REQUESTS:
+- Call: 311 (from Chicago) or (312) 744-5000 (outside Chicago)
+- Online: 311.chicago.gov
+- App: Chicago 311 mobile app
+- Available 24/7; multilingual service available
+
+COMPLAINT TYPES TO FILE:
+- "Heat Complaint" — for heating season violations
+- "Building Code Violation" — for code violations
+- "Rodent/Pest Complaint" — for infestation
+- "Illegal Dumping" — for unsafe conditions on property
+
+DEPARTMENT OF BUILDINGS:
+- (312) 744-5000
+- chicago.gov/dob
+- Conducts inspections for building code violations
+- Issues citations and fines to non-compliant landlords
+
+================================================================================
+FREE LEGAL RESOURCES IN CHICAGO
+================================================================================
+
+METROPOLITAN TENANTS ORGANIZATION (MTO):
+- (773) 292-4988
+- metrotenants.org
+- Tenant counseling, education, and organizing assistance
+
+LAWYERS' COMMITTEE FOR BETTER HOUSING (LCBH):
+- (312) 347-7600
+- lcbh.org
+- Free legal representation for low-income Chicago tenants
+
+LEGAL AID CHICAGO:
+- (312) 341-1070
+- legalaidchicago.org
+- Free civil legal services for low-income individuals
+
+COOK COUNTY LEGAL AID FOR HOUSING AND DEBT:
+- cooklegalaiddept.org
+- (312) 603-1623
+- Free legal assistance for Cook County residents
+
+CHICAGO BAR ASSOCIATION LAWYER REFERRAL SERVICE:
+- (312) 554-2001
+- chicagobar.org
+- Referrals to attorneys who handle landlord-tenant cases
+
+CIRCUIT COURT OF COOK COUNTY (Eviction Court):
+- Richard J. Daley Center, 50 W. Washington Street, Chicago
+- Civil Courthouse: 69 W. Washington Street, Chicago
+- Self-help center available for unrepresented tenants
