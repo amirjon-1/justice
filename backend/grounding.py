@@ -12,12 +12,19 @@ import logging
 import re
 
 import numpy as np
-from sentence_transformers import SentenceTransformer, util
 
 logger = logging.getLogger(__name__)
 
 THRESHOLD = 0.70
-_model = SentenceTransformer("all-MiniLM-L6-v2")
+_model = None
+
+
+def _get_model():
+    global _model
+    if _model is None:
+        from sentence_transformers import SentenceTransformer
+        _model = SentenceTransformer("all-MiniLM-L6-v2")
+    return _model
 
 
 def _split_sentences(text: str) -> list[str]:
@@ -60,8 +67,10 @@ def compute_grounding_score(
             "statute_scores": {},
         }
 
-    claim_embeddings = _model.encode(claims, convert_to_tensor=True, show_progress_bar=False)
-    chunk_embeddings = _model.encode(source_chunks, convert_to_tensor=True, show_progress_bar=False)
+    from sentence_transformers import util
+    model = _get_model()
+    claim_embeddings = model.encode(claims, convert_to_tensor=True, show_progress_bar=False)
+    chunk_embeddings = model.encode(source_chunks, convert_to_tensor=True, show_progress_bar=False)
 
     claim_scores = []
     raw_scores = []
@@ -112,8 +121,10 @@ def score_statutes(statutes: list[dict], source_chunks: list[str]) -> dict[str, 
         f"{s.get('name', '')} {s.get('section', '')} {s.get('excerpt', '')}".strip()
         for s in statutes
     ]
-    excerpt_embeddings = _model.encode(excerpts, convert_to_tensor=True, show_progress_bar=False)
-    chunk_embeddings = _model.encode(source_chunks, convert_to_tensor=True, show_progress_bar=False)
+    from sentence_transformers import util
+    model = _get_model()
+    excerpt_embeddings = model.encode(excerpts, convert_to_tensor=True, show_progress_bar=False)
+    chunk_embeddings = model.encode(source_chunks, convert_to_tensor=True, show_progress_bar=False)
 
     scores: dict[str, float] = {}
     for statute, emb in zip(statutes, excerpt_embeddings):
