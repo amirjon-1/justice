@@ -288,5 +288,8 @@ async def analyze(request: AnalyzeRequest):
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
+        import traceback
+        print(f"ANALYZE ERROR: {str(e)}", flush=True)
+        print(traceback.format_exc(), flush=True)
         logger.exception(f"Pipeline error: {e}")
-        raise HTTPException(status_code=500, detail="Analysis failed. Please try again.")
+        raise HTTPException(status_code=500, detail=str(e))
