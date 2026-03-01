@@ -23,3 +23,16 @@ frontend/yarn-error.log*
 .vscode/
 .idea/
 *.swp
+
+# Claude Code
+.claude/
+
+# Environment files (all locations)
+.env
+.env.*
+!.env.example
+
+# Start script (contains local paths / dev-only setup)
+start.sh
+
+
