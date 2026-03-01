@@ -16,7 +16,6 @@ Run frontend: cd frontend && npm install && npm start
 """
 
 import logging
-import os
 import re
 import time
 from concurrent.futures import ThreadPoolExecutor  # still used for RAG+Wolfram parallel step
@@ -76,16 +75,10 @@ app = FastAPI(
     version="2.0.0",
 )
 
-_raw_origins = os.getenv(
-    "ALLOWED_ORIGINS",
-    "http://localhost:3000,http://localhost:3001,http://127.0.0.1:3000",
-)
-_allowed_origins = [o.strip() for o in _raw_origins.split(",") if o.strip()]
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=_allowed_origins,
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
