@@ -209,10 +209,16 @@ Only include statutes actually present in the excerpts. Max 5 statutes."""
     system_with_lang = RESEARCH_SYSTEM + _language_instruction(language)
     try:
         result = _call_groq(system_with_lang, prompt, max_tokens=1024, temperature=0.2)
-        result.setdefault("relevant_statutes", [])
+        # Drop statutes the model itself scored below 0.5 — these are hallucinated
+        # citations picked from tangentially related chunks.
+        statutes = [
+            s for s in result.get("relevant_statutes", [])
+            if float(s.get("applicability_score", 0)) >= 0.5
+        ]
+        result["relevant_statutes"] = statutes
         result.setdefault("precedents", [])
         result.setdefault("jurisdiction_notes", "")
-        logger.info(f"  found {len(result['relevant_statutes'])} relevant statutes")
+        logger.info(f"  found {len(result['relevant_statutes'])} relevant statutes (after score filter)")
         return result
     except Exception as e:
         logger.error(f"ResearchAgent failed: {e}")

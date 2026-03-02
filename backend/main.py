@@ -236,10 +236,12 @@ async def analyze(request: AnalyzeRequest):
             for s in research.get("relevant_statutes", [])
         ]
 
-        # Derive verified/unverified from grounding statute scores
+        # Derive verified/unverified from grounding statute scores.
+        # TF-IDF cosine similarity tops out ~0.3-0.6 for paraphrased text;
+        # 0.30 is the calibrated threshold for "statute is grounded in source docs".
         statute_scores = grounding_results.get("statute_scores", {})
-        verified_citations = [k for k, v in statute_scores.items() if v >= 0.70]
-        unverified_citations = [k for k, v in statute_scores.items() if v < 0.70]
+        verified_citations = [k for k, v in statute_scores.items() if v >= 0.30]
+        unverified_citations = [k for k, v in statute_scores.items() if v < 0.30]
 
         total = time.perf_counter() - t0
         logger.info(f"◀ Done in {total:.1f}s — severity={severity}")
