@@ -64,9 +64,14 @@ def retrieve_relevant_laws(
 
     city_tag = CITY_TAG_MAP.get(city)
 
-    # Build candidate list (city-filtered if applicable)
+    # Always include general docs + city-specific docs.
+    # Restricting to city-only missed federal/constitutional law (police, civil rights)
+    # which is tagged "general" but applies to every city.
     if city_tag is not None:
-        indices = [i for i, m in enumerate(_metadatas) if m.get("city") == city_tag]
+        indices = [
+            i for i, m in enumerate(_metadatas)
+            if m.get("city") == city_tag or m.get("city") == "general"
+        ]
         if not indices:
             logger.info(f"No docs for city_tag={city_tag!r}; falling back to all docs")
             indices = list(range(len(_documents)))

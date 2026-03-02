@@ -1,17 +1,17 @@
 """
-seed_legal_docs.py — Index legal documents into ChromaDB.
+seed_legal_docs.py — Index legal documents into vector_db/data.json.
 
-Reads all .txt files from legal_docs/ (and legal_docs/scraped/ if it exists),
-chunks them into overlapping ~500-character segments, and stores with
-ONNXMiniLM_L6_V2 embeddings (no PyTorch required).
+Reads all .txt files from legal_docs/, chunks them into overlapping ~500-character
+segments, and writes documents + metadata to vector_db/data.json for rag.py.
 
 Run once before starting the server:
     python seed_legal_docs.py
 
-Re-run to refresh the index (will delete and recreate the collection).
+Re-run to refresh the index.
 """
 
 import glob
+import json
 import logging
 import os
 import re
@@ -24,12 +24,10 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 VECTOR_STORE_PATH = os.getenv("VECTOR_STORE_PATH", "./vector_db")
-COLLECTION_NAME = "legal_docs"
 LEGAL_DOCS_PATH = "./legal_docs"
 SCRAPED_DOCS_PATH = "./legal_docs/scraped"
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 100
-BATCH_SIZE = 64
 
 CITY_TAG_MAP = {
     "nyc": "nyc",
@@ -153,29 +151,9 @@ def collect_doc_files() -> list[str]:
 
 
 def seed_database():
-    import chromadb
-    from chromadb.utils.embedding_functions import ONNXMiniLM_L6_V2
-
     logger.info("=" * 60)
-    logger.info("JusticeMap Legal Document Seeder (ChromaDB)")
+    logger.info("JusticeMap Legal Document Seeder (data.json)")
     logger.info("=" * 60)
-
-    ef = ONNXMiniLM_L6_V2()
-    client = chromadb.PersistentClient(path=VECTOR_STORE_PATH)
-
-    # Delete existing collection if present
-    try:
-        client.delete_collection(name=COLLECTION_NAME)
-        logger.info(f"Deleted existing collection '{COLLECTION_NAME}'")
-    except Exception:
-        pass
-
-    collection = client.create_collection(
-        name=COLLECTION_NAME,
-        embedding_function=ef,
-        metadata={"hnsw:space": "cosine"},
-    )
-    logger.info(f"Created collection '{COLLECTION_NAME}' at '{VECTOR_STORE_PATH}'")
 
     doc_files = collect_doc_files()
     if not doc_files:
@@ -186,7 +164,8 @@ def seed_database():
     for f in doc_files:
         logger.info(f"  {f}")
 
-    total_chunks = 0
+    all_documents: list[str] = []
+    all_metadatas: list[dict] = []
 
     for filepath in doc_files:
         try:
@@ -198,35 +177,27 @@ def seed_database():
 
         metadata = infer_metadata(filepath)
         chunks = chunk_text(text)
-        source_name = metadata["source"]
 
         logger.info(
             f"  {os.path.basename(filepath)}: {len(chunks)} chunks "
             f"(city={metadata['city']}, topic={metadata['topic']})"
         )
 
-        if not chunks:
-            continue
+        for chunk in chunks:
+            all_documents.append(chunk)
+            all_metadatas.append(metadata.copy())
 
-        for batch_start in range(0, len(chunks), BATCH_SIZE):
-            batch_chunks = chunks[batch_start : batch_start + BATCH_SIZE]
-            ids = [f"{source_name}_chunk_{batch_start + j}" for j in range(len(batch_chunks))]
-            metadatas_batch = [metadata.copy() for _ in batch_chunks]
-            collection.add(
-                ids=ids,
-                documents=batch_chunks,
-                metadatas=metadatas_batch,
-            )
-
-        total_chunks += len(chunks)
+    os.makedirs(VECTOR_STORE_PATH, exist_ok=True)
+    output_path = os.path.join(VECTOR_STORE_PATH, "data.json")
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump({"documents": all_documents, "metadatas": all_metadatas}, f)
 
     logger.info("=" * 60)
     logger.info("Seeding complete!")
     logger.info(f"  Documents indexed: {len(doc_files)}")
-    logger.info(f"  Total chunks stored: {total_chunks}")
-    logger.info(f"  Vector store path: {os.path.abspath(VECTOR_STORE_PATH)}")
+    logger.info(f"  Total chunks stored: {len(all_documents)}")
+    logger.info(f"  Output: {os.path.abspath(output_path)}")
     logger.info("=" * 60)
-    logger.info("You can now start the server: uvicorn main:app --reload --port 8000")
 
 
 if __name__ == "__main__":
